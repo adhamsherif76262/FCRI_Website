@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -23,4 +25,292 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ✅ This loads Tailwind completely in v4 */
+/* @import "@tailwindcss/postcss"; */
+
+/* You can safely define your own theme variables here */
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/** Academic NavBar**/
+
+/* @layer utilities {
+  @keyframes fade-down {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-left {
+    from {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-right {
+    from {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-fade-down {
+    animation: fade-down 0.6s ease-out forwards;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.6s ease-out forwards;
+  }
+
+  .animate-fade-left {
+    animation: fade-left 0.6s ease-out forwards;
+  }
+
+  .animate-fade-right {
+    animation: fade-right 0.6s ease-out forwards;
+  }
+} */
+
+
+/** Scientific Navbar **/
+
+/* @layer utilities {
+  @keyframes slide-top {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-left {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-right {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-top {
+    animation: slide-top 0.6s ease-out forwards;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.6s ease-out forwards;
+  }
+
+  .animate-fade-left {
+    animation: fade-left 0.6s ease-out forwards;
+  }
+
+  .animate-fade-right {
+    animation: fade-right 0.6s ease-out forwards;
+  }
+}
+
+ */
+
+
+ /** Futuristic Navbar **/
+
+ @layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .rotate-y-12:hover {
+    transform: rotateY(45deg);
+    transform-style: preserve-3d;
+  }
+}
+
+@layer utilities {
+  @keyframes ripple-fade-in {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.25);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .animate-ripple-fade-in {
+    animation: ripple-fade-in 3s ease-out forwards;
+  }
+
+  @keyframes staggered-link {
+    0% {
+      opacity: 0;
+      transform: translateY(100px) scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1.25);
+    }
+  }
+
+  .animate-staggered-link {
+    animation: staggered-link 2.5s ease-out forwards;
+  }
+}
+
+
+@layer utilities {
+  .glitch-hover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background: inherit;
+    z-index: -1;
+    opacity: 0;
+    filter: blur(4px);
+    transition: all 0.4s ease;
+  }
+
+   .glitch-hover::after {
+    opacity: 0.4;
+    transform: translate(4px, 4px);
+  }
+}
+
+
+@layer utilities {
+  @keyframes border-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-border-spin {
+    animation: border-spin 2.5s linear infinite;
+  }
+}
+
+  /* Tailwind 3.4.3 doesn't allow group-hover:animate-none directly, so we force it */
+  .group-hover\:\!animate-none:hover {
+    animation: none !important;
+  }
+
+
+@layer utilities {
+  @keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    direction: rtl !important;
+    animation: spin 3s linear infinite;
+    transform-origin: center !important;
+  }
+}
+
+@layer utilities {
+  .en-collapse {
+    @apply hidden;
+  }
+
+  .ar-collapse {
+    @apply hidden;
+  }
+
+  @media (max-width: 1000px) {
+    .en-collapse {
+      @apply flex; /* Or block/grid based on design */
+    }
+  }
+
+  @media (max-width: 700px) {
+    .ar-collapse {
+      @apply flex; /* Or block/grid */
+    }
+  }
+}
+
+@media screen and (max-width : 500px){
+  #FCRI_Logo{
+        transform: scale(0.75);
+  }
 }
