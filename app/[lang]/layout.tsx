@@ -17,6 +17,7 @@ import { Tajawal } from 'next/font/google';
 import { Amiri } from 'next/font/google';
 import { Metadata } from 'next';
 import MobileNavbar from '@/components/MobileNavbar';
+import FuturisticFooter from '@/components/FuturisticFooter';
 
 const metadataMap = {
   en: {
@@ -117,7 +118,8 @@ export default async function RootLayout({
         <main className="flex-grow">
           <Container>{children}</Container>
         </main>
-        <Footer />
+        {/* <Footer /> */}
+        <FuturisticFooter />
       </body>
     </html>
   );

@@ -43,11 +43,24 @@ export default function MobileNavbar() {
     setMounted(true);
   }, []);
 
+  // Prevent scrolling when menu is open
+useEffect(() => {
+  if (isOpen) {
+    document.body.classList.add('overflow-hidden');
+  } else {
+    document.body.classList.remove('overflow-hidden');
+  }
+
+  return () => {
+    document.body.classList.remove('overflow-hidden'); // Clean up on unmount
+  };
+}, [isOpen]);
+
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     mounted && (
-      <div className="md:hidden fixed top-0 left-0 w-full z-50">
+      <div className="md:hidden sticky top-0 left-0 w-full z-50">
         
         {/* Top bar */}
         <div className="flex justify-between items-center px-4 py-3 bg-zinc-950 border-b border-zinc-800 shadow-lg">

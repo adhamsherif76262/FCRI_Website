@@ -11,7 +11,7 @@ export default function FuturisticHeading({ children, rtl = false, center = true
     <h1
       dir={rtl ? 'rtl' : 'ltr'}
       className={`
-        text-3xl  font-black tracking-wide xxxs:mt-36 md:mt-10
+        text-3xl  font-black tracking-wide xxxs:mt-6
         ${center ? 'text-center' : 'text-start'}
         ${rtl ? "xxxs:text-4xl sm:text-5xl lg:text-6xl" : "xxxs:text-2xl xxs:text-3xl md:text-4xl xl:text-5xl"}
         px-2 sm:px-4 py-4 break-words
