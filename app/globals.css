@@ -302,6 +302,15 @@ body {
     }
   }
 
+  @layer utilities{
+    .min-width{
+      min-width: 85rem !important;
+    }
+    .Line-Height{
+      line-height: 4rem;
+    }
+  }
+
   @media (max-width: 700px) {
     .ar-collapse {
       @apply flex; /* Or block/grid */

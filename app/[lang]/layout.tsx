@@ -25,14 +25,14 @@ const metadataMap = {
       departments: 'Departments',
       production: 'Production',
       research: 'Research',
-      direction: 'Direction',
+      direction: 'Extension',
     },
     description: {
       home: 'Welcome to the Field Crops Research Institute.',
       departments: 'Learn about the departments of FCRI.',
       production: 'Explore FCRI’s agricultural production.',
       research: 'Discover FCRI’s research programs.',
-      direction: 'Meet the direction and management team.',
+      direction: 'Meet the Extension and management team.',
     },
   },
   ar: {
@@ -41,14 +41,14 @@ const metadataMap = {
       departments: 'الأقسام',
       production: 'الإنتاج',
       research: 'البحوث',
-      direction: 'الإدارة',
+      direction: 'الارشاد',
     },
     description: {
       home: 'مرحبًا بكم في معهد بحوث المحاصيل الحقلية.',
       departments: 'تعرف على أقسام المعهد.',
       production: 'اكتشف إنتاج المعهد الزراعي.',
       research: 'تعرف على برامج البحوث بالمعهد.',
-      direction: 'تعرف على الإدارة وفريق العمل.',
+      direction: 'تعرف على الارشاد وفريق العمل.',
     },
   },
 };
@@ -107,8 +107,7 @@ export default async function RootLayout({
         )}>
         {/* <Header /> */}
         {/* <Navbar></Navbar> */}
-        {/* <NavbarAcademic></NavbarAcademic> */}
-        {/* <NavbarScientific></NavbarScientific> */}
+        
         <div className="hidden md:block">
           <NavbarFuturistic></NavbarFuturistic>
         </div>

@@ -14,14 +14,14 @@ const navLabels = {
     departments: 'Departments',
     production: 'Production',
     research: 'Research',
-    direction: 'Direction',
+    direction: 'Extension',
   },
   ar: {
     home: 'الرئيسية',
     departments: 'الأقسام',
     production: 'الإنتاج',
     research: 'البحوث',
-    direction: 'الإدارة',
+    direction: 'الارشاد',
   },
 };
 
