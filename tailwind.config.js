@@ -45,7 +45,12 @@ module.exports = {
   //   }
   // },
   animation: {
-  glow: 'hue 6s ease-in-out infinite, pulseGlow 3s ease-in-out infinite',
+        glow: 'hue 6s ease-in-out infinite, pulseGlow 3s ease-in-out infinite',
+        slideFadeLeft: 'slideFadeLeft 1s ease-out forwards',
+        slideFadeRight: 'slideFadeRight 1s ease-out forwards',
+  // marquee: 'marquee linear infinite',
+  // marquee: 'marquee 25s linear infinite',
+  // marquee2: 'marquee2 25s linear infinite',
 },
 keyframes: {
   hue: {
@@ -55,7 +60,27 @@ keyframes: {
   pulseGlow: {
     '0%, 100%': { opacity: 1 },
     '50%': { opacity: 0.85 }
-  }
+  },
+  slideFadeLeft: {
+    '0%': { opacity: 0, transform: 'translateX(-60px)' },
+    '100%': { opacity: 1, transform: 'translateX(0)' },
+  },
+  slideFadeRight: {
+    '0%': { opacity: 0, transform: 'translateX(60px)' },
+    '100%': { opacity: 1, transform: 'translateX(0)' },
+  },
+  // marquee: {
+  //   '0%': { transform: 'translateX(0)' },
+  //   '100%': { transform: 'translateX(-50%)' },
+  // },
+  // marquee: {
+  //   '0%': { transform: 'translateX(0%)' },
+  //   '100%': { transform: 'translateX(-100%)' },
+  // },
+  // marquee2: {
+  //   '0%': { transform: 'translateX(100%)' },
+  //   '100%': { transform: 'translateX(0%)' },
+  // },
 },
       screens: {
         xxxs: '300px',

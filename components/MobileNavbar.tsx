@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import LangSwitcher from './LangSwitcher';
-import ThemeSwitcher from './ThemeSwitcher';
+// import ThemeSwitcher from './ThemeSwitcher';
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
 const navLabels = {
@@ -25,13 +25,15 @@ const navLabels = {
   },
 };
 
+type NavKey = 'home' | 'departments' | 'production' | 'research' | 'direction';
+
 export default function MobileNavbar() {
   const pathname = usePathname();
   const currentLang = pathname?.split('/')[1] === 'ar' ? 'ar' : 'en';
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  const navLinks = [
+  const navLinks: { href: string; key: NavKey }[] = [
     { href: `/${currentLang}`, key: 'home' },
     { href: `/${currentLang}/departments`, key: 'departments' },
     { href: `/${currentLang}/production`, key: 'production' },
@@ -63,11 +65,11 @@ useEffect(() => {
       <div className="md:hidden sticky top-0 left-0 w-full z-50">
         
         {/* Top bar */}
-        <div className="flex justify-between items-center px-4 py-3 bg-zinc-950 border-b border-zinc-800 shadow-lg">
+        <div className="flex justify-between items-center px-4 py-3 bg_Beige border-b border-green-300 shadow-lg">
             
           <button
             onClick={toggleMenu}
-            className="text-cyan-400 xs:text-5xl focus:outline-none z-50 xxs:text-3xl xxxs:text-3xl"
+            className="text-black xs:text-5xl focus:outline-none z-50 xxs:text-3xl xxxs:text-3xl"
             aria-label="Toggle menu"
           >
             {isOpen ? '✖' : '☰'}
@@ -78,7 +80,7 @@ useEffect(() => {
                 "relative group w-[100px] h-[100px] cursor-pointer",
                 currentLang === "ar" ? "xs:mr-10 xxs:mr-10 xxxs:mr-10" : "sm:ml-24 xs:ml-12 xxs:ml-10 xxxs:ml-10",
             )}>
-                  <div className="relative w-full h-full rounded-full ring-4 ring-black group-hover:ring-cyan-400 dark:invert shadow-md transition-all duration-700 group-hover:ring-[12px] group-hover:shadow-cyan-500/40 animate-ripple-fade-in">
+                  <div className="relative w-full h-full rounded-full ring-4 ring-black group-hover:ring-black dark:invert shadow-md transition-all duration-700 group-hover:ring-[12px] group-hover:shadow-cyan-500/40 animate-ripple-fade-in">
                     <Image
                       src="/images/logos/FCRI_Logo.jpg"
                       alt="FCRI Logo"
@@ -90,7 +92,7 @@ useEffect(() => {
         
                       )}
                     />
-                    <span className="absolute -inset-[12px] rounded-full border-[6px] border-transparent border-t-cyan-400 opacity-100 group-hover:opacity-0 animate-border-spin transition-opacity duration-300 pointer-events-none" />
+                    <span className="absolute -inset-[12px] rounded-full border-[6px] border-transparent border-t-black opacity-100 group-hover:opacity-0 animate-border-spin transition-opacity duration-300 pointer-events-none" />
                   </div>
             </div>
         {/* Switchers */}
@@ -111,7 +113,7 @@ useEffect(() => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -500 }}
               transition={{ duration: 1 }}
-              className="fixed inset-0 bg-zinc-950 text-cyan-300 flex flex-col items-center justify-center gap-10 p-6"
+              className="fixed inset-0 bg_Beige text-black flex flex-col items-center justify-center gap-10 p-6"
             >
               {navLinks.map((link, idx) => (
                 <motion.div
@@ -124,10 +126,10 @@ useEffect(() => {
                     href={link.href}
                     onClick={() => setIsOpen(false)}
                     className={clsx(
-                'text-2xl font-bold text-cyan-300 transition-all duration-500 tracking-wide relative',
+                'text-2xl font-black text-black transition-all duration-500 tracking-wide relative',
                 currentLang === 'ar'
-                  ? 'hover:text-white before:absolute before:-bottom-1 before:right-0 before:w-0 before:h-[2px] before:bg-cyan-400 before:transition-all before:duration-500 hover:before:w-full'
-                  : 'hover:text-white before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-[2px] before:bg-cyan-400 before:transition-all before:duration-500 hover:before:w-full'
+                  ? 'text-5xl hover:bg_Gray before:absolute before:-bottom-1 before:right-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-500 hover:before:w-full'
+                  : 'text-3xl hover:bg_Gray before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-500 hover:before:w-full'
               )}
                   >
                     <span className="relative z-10">{navLabels[currentLang][link.key]}</span>

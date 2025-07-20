@@ -285,6 +285,40 @@ body {
     animation: spin 3s linear infinite;
     transform-origin: center !important;
   }
+  @keyframes slide_Fade_Right {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animate_slide_Fade_Right {
+    animation: slide_Fade_Right 1s ease-out forwards;
+}
+@keyframes slide_Fade_Left {
+    0% {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animate-slide_Fade_Left {
+    animation: slide_Fade_Left 1s ease-out forwards;
+}
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
+.animate_pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 }
 
 @layer utilities {
@@ -306,8 +340,20 @@ body {
     .min-width{
       min-width: 85rem !important;
     }
+    .max-width{
+      max-width: 100% !important;
+    }
+    .max-width-lg{
+      max-width: 120% !important;
+    }
+    .min-width-sm{
+      /* min-width: 28rem !important; */
+    }
     .Line-Height{
       line-height: 4rem;
+    }
+    .lineHeight{
+      line-height: 3rem;
     }
     .Grid-Columns{
       /* grid-template-columns: 3fr 3fr 1fr; */
@@ -315,6 +361,40 @@ body {
     }
     .T-Scale{
       /* transform: scale(0.5); */
+    }
+    .bg_Beige{
+      /* background-color: #FAFAF0; */
+      /* background-color: white; */
+      /* background-color: rgb(231, 255, 231);
+      background-color: rgb(175, 255, 175); */
+      /* background: #E7FFE7;
+      background: linear-gradient(79deg, rgba(231, 255, 231, 1) 0%, rgba(87, 199, 133, 1) 100%);
+      background: #E7FFE7;
+      background: linear-gradient(179deg, rgba(231, 255, 231, 1) 0%, rgba(87, 199, 133, 1) 100%);
+      background: #E7FFE7; */
+      background: linear-gradient(1deg, rgb(239, 255, 239) 0%, rgb(146, 241, 186) 100%);
+    }
+    .bg_Beige_Horizontal{
+      background: linear-gradient(275deg, rgb(239, 255, 239) 0%, rgb(146, 241, 186) 100%);
+    }
+    .bg_Green{
+      /* color: darkred; */
+      color: black;
+    }
+    .bg_Gray{
+      color: rgb(0, 0, 137);
+    }
+    .bg_Blue{
+      background-color: rgb(0, 0, 97);
+    }
+    .bg_Body{
+      /* background-color: rgb(0, 0, 0); */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* height: 100vh; */
+      /* width: 100vw; */
+      /* background-image: url('../public/images/Body\ Backgrounds/Body_Bg_1.jpeg'); */
     }
   }
 
