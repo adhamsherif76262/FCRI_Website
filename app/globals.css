@@ -288,7 +288,7 @@ body {
   @keyframes slide_Fade_Right {
     0% {
         opacity: 0;
-        transform: translateX(60px);
+        transform: translateX(200px);
     }
     100% {
         opacity: 1;
@@ -301,14 +301,14 @@ body {
 @keyframes slide_Fade_Left {
     0% {
         opacity: 0;
-        transform: translateX(-60px);
+        transform: translateX(-200px);
     }
     100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
-.animate-slide_Fade_Left {
+.animate_slide_Fade_Left {
     animation: slide_Fade_Left 1s ease-out forwards;
 }
 @keyframes pulse {
@@ -337,8 +337,15 @@ body {
   }
 
   @layer utilities{
+    .OVERFLOW-X{
+      overflow-x: hidden;
+    }
     .min-width{
       min-width: 85rem !important;
+    }
+    .min-width-main{
+      /* margin: auto; */
+      min-width: 100% !important;
     }
     .max-width{
       max-width: 100% !important;

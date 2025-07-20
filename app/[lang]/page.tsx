@@ -41,7 +41,7 @@ export default function Home() {
     const isRTL = currentLang === 'ar';
 
   return (
-    <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 dark:bg-gray-900 transition-colors duration-1000">
+    <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 dark:bg-gray-900 transition-colors duration-1000 xxxs:OVERFLOW-X xl:overflow-x-visible">
 
       <FuturisticHeading rtl={isRTL}>
         {currentLang === 'ar' ? "معهد بحوث المحاصيل الحقلية" : "Field Crops Research Institute"}

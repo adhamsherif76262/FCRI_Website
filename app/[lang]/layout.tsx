@@ -111,7 +111,7 @@ export default async function RootLayout({
 
         geist.variable,                // 👈 Your existing font variable
         params.lang === 'ar' ? 'font-arabic' : 'font-sans',  // 👈 Conditional font class
-        "bg_Body text-black bg-white transition-colors duration-300 "
+        "bg_Body text-black bg-white transition-colors duration-300  overflow-x-hidden"
         )}>
         {/* <Header /> */}
         {/* <Navbar></Navbar> */}

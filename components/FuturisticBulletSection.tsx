@@ -123,7 +123,7 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false , 
       >
         <div className={clsx(
           "absolute inset-0 border-8 border-black opacity-1 group-hover:opacity-100 rounded-3xl pointer-events-none",
-          animation === "pulse" ? "animate-pulse" : rtl ? "animate-slideFadeRight" : "animate-slideFadeLeft"
+          animation === "pulse" ? "animate-pulse" : rtl ? "animate_slide_Fade_Right" : "animate_slide_Fade_Left"
         )} />
         <p className="text-2xl leading-relaxed tracking-wide">{item}</p>
       </li>
