@@ -29,6 +29,7 @@ type Props = {
   rtl?: boolean;
   grid?: boolean; // ✅ NEW
   animation : "slide" | "pulse";
+  // Indexes : number[];
   icon?: 
   'check' 
   |'dot' 
@@ -82,7 +83,10 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false , 
       dir={rtl ? 'rtl' : 'ltr'}
       className="w-full px-4 sm:px-6 lg:px-12 py-12 rounded-3xl shadow-2xl xl:min-width mx-auto bg_Beige font-black"
     >
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-cyan-400 mb-6 tracking-wider text-center bg_Green">
+      <h2 className={clsx(
+        "font-black text-cyan-400 mb-6 tracking-wider text-center bg_Green",
+        rtl ? "md:text-5xl xs:text-4xl xxxs:text-3xl" : "md:text-4xl xs:text-3xl xxxs:text-2xl"
+      )}>
         {title}
       </h2>
 
@@ -125,7 +129,11 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false , 
           "absolute inset-0 border-8 border-black opacity-1 group-hover:opacity-100 rounded-3xl pointer-events-none",
           animation === "pulse" ? "animate-pulse" : rtl ? "animate_slide_Fade_Right" : "animate_slide_Fade_Left"
         )} />
-        <p className="text-2xl leading-relaxed tracking-wide">{item}</p>
+        <p className={clsx(
+          "tracking-wide",
+          rtl ? "xs:text-3xl xxxs:text-xl xs:lineHeight align-middle" : "xs:text-2xl xxxs:text-sm xs:lineHeight align-middle",
+          // Indexes[i] == i ? "whitespace-pre" : ""
+        )}>{item}</p>
       </li>
     );
   })}

@@ -340,6 +340,9 @@ body {
     .OVERFLOW-X{
       overflow-x: hidden;
     }
+    .bg_None{
+      background:  none !important;
+    }
     .min-width{
       min-width: 85rem !important;
     }
@@ -354,7 +357,7 @@ body {
       max-width: 120% !important;
     }
     .min-width-sm{
-      /* min-width: 28rem !important; */
+      min-width: 85rem !important;
     }
     .Line-Height{
       line-height: 4rem;

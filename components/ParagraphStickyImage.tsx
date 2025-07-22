@@ -12,10 +12,10 @@ interface ParagraphStickyImageProps {
 
 const ParagraphStickyImage: React.FC<ParagraphStickyImageProps> = ({ rtl = false, imageSrc, title , paragraphs}) => {
   return (
-    <section dir={rtl ? 'rtl' : 'ltr'} className="p-6 bg_Beige rounded-3xl shadow-2xl border border-cyan-700/40 xxxs:min-width-sm mx-auto">
+    <section dir={rtl ? 'rtl' : 'ltr'} className="p-6 bg_Beige rounded-3xl shadow-2xl border border-cyan-700/40 xl:min-width-sm mx-auto">
       <h2 className={clsx(
         "font-bold mb-6 text-center",
-        rtl ? 'sm:text-4xl xs:text-3xl xxxs:text-2xl' : 'text-3xl'
+        rtl ? 'sm:text-4xl xs:text-3xl xxxs:text-2xl' : 'lg:text-4xl sm:text-3xl xs:text-2xl xxxs:text-xl'
       )}>{title}</h2>
 
       <div className="flex flex-col md:flex-row shadow-2xl items-center md:items-start">

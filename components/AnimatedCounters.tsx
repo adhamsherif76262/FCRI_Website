@@ -193,10 +193,10 @@ function SingleCounter({ title, value, isArabic, direction, startCount }: Single
       const L = value.toString().length
       let stepValue = 1
       if (L > 2 && L <= 4) {
-        stepValue = 10
-        if (value > 5000) stepValue = 25
+        // stepValue = 5
+        if (value > 5000) stepValue = 10
       } else if (L > 4) {
-        stepValue = 100
+        stepValue = 30
       }
       start += stepValue
       setCount(Math.min(start, value))
@@ -210,7 +210,7 @@ function SingleCounter({ title, value, isArabic, direction, startCount }: Single
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: direction === 'left' ? -100 : 100 }}
+      initial={{ opacity: 0, x: direction === 'left' ? -200 : 200 }}
       animate={{ opacity: startCount ? 1 : 0, x: 0 }}
       transition={{ duration: 2, ease: 'easeOut' }}
       className="flex flex-col items-center justify-center md:px-3 xxxs:px-1 py-4 overflow-x-hidden"
@@ -221,7 +221,7 @@ function SingleCounter({ title, value, isArabic, direction, startCount }: Single
       )}>
         {translatedNumber}
       </div>
-      <div className="mt-2 text-center text-blue-900 text-sm md:text-lg font-black">
+      <div className="mt-2 text-center text-white text-sm md:text-lg font-black">
         {title}
       </div>
     </motion.div>
@@ -258,7 +258,10 @@ export default function CounterSection({ counters }: { counters: CounterData[] }
     <section
       key={lang}
       ref={ref}
-      className="mt-10 bg_Beige rounded-3xl shadow-2xl border border-cyan-700/40 w-full xl:min-width mx-auto py-4 px-0 flex flex-wrap justify-center gap-0 md:gap-0"
+      className={clsx(
+        "mt-10 bg-black xxxs:rounded-3xl xxxs:shadow-2xl border border-cyan-700/40 w-full xl:min-width mx-auto py-4 px-0 flex flex-wrap justify-center gap-0",
+        isArabic ? "xl:gap-x-24 lg:gap-x-5 md:gap-x-36 sm:gap-x-3 xs:gap-x-32 xxs:gap-x-9 xxxs:gap-x-12" : "xl:gap-x-8 lg:gap-x-24 md:gap-x-20 sm:gap-x-7 xs:gap-x-20 xxs:gap-x-2 xxxs:gap-x-0"
+      )}
     >
       {[...leftSide.map((counter, i) => (
         <SingleCounter

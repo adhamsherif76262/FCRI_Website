@@ -47,11 +47,11 @@ export default function NavbarFuturistic() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-green-950 border-b border-green-300 bg_Beige shadow-xl backdrop-blur-lg">
+    <header className="sticky top-0 z-50 w-full border-b border-green-300 bg-black shadow-xl backdrop-blur-lg">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="relative group w-[100px] h-[100px] cursor-pointer">
-          <div className="relative w-full h-full rounded-full ring-4 ring-black group-hover:ring-black dark:invert shadow-md transition-all duration-700 group-hover:ring-[12px] group-hover:shadow-cyan-500/40 animate-ripple-fade-in">
+          <div className="relative w-full h-full rounded-full ring-4 ring-green-300 group-hover:ring-green-300 dark:invert shadow-md transition-all duration-700 group-hover:ring-[12px] group-hover:shadow-cyan-500/40 animate-ripple-fade-in">
             <Image
               src="/images/logos/FCRI_Logo.jpg"
               alt="FCRI Logo"
@@ -63,7 +63,7 @@ export default function NavbarFuturistic() {
 
               )}
             />
-            <span className="absolute -inset-[12px] rounded-full border-[6px] border-transparent border-t-black opacity-100 group-hover:opacity-0 animate-border-spin transition-opacity duration-300 pointer-events-none" />
+            <span className="absolute -inset-[12px] rounded-full border-[6px] border-transparent border-t-green-300 opacity-100 group-hover:opacity-0 animate-border-spin transition-opacity duration-300 pointer-events-none" />
           </div>
         </div>
 
@@ -84,8 +84,8 @@ export default function NavbarFuturistic() {
               className={clsx(
                 'relative text-base font-bold tracking-wide transition-all duration-500',
                 currentLang === 'ar'
-                  ? 'text-black lg:text-2xl md:text-xl sm:text-lg hover:bg_Gray before:absolute before:-bottom-1 before:right-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-500 hover:before:w-full'
-                  : 'text-black lg:text-lg md:text-sm sm:text-xs hover:bg_Gray before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-500 hover:before:w-full',
+                  ? 'text-green-300 lg:text-2xl md:text-xl sm:text-lg hover:text-white before:absolute before:-bottom-1 before:right-0 before:w-0 before:h-[2px] before:bg-green-300 before:transition-all before:duration-500 hover:before:w-full'
+                  : 'text-green-300 lg:text-lg md:text-sm sm:text-xs hover:text-white before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-[2px] before:bg-green-300 before:transition-all before:duration-500 hover:before:w-full',
                 'opacity-0 animate-staggered-link'
               )}
 

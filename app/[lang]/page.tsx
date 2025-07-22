@@ -73,7 +73,7 @@ export default function Home() {
               rtl={isRTL}
             />
       </div>
-<div className="min-w-[110%]">
+<div className="xxxs:min-w-[100%]">
   
 <AnimatedCounter counters={myCounters}/>
 </div>
@@ -111,7 +111,7 @@ export default function Home() {
 
 
 
-    <div className="mt-10">
+    <div className="mt-10 xxxs:min-w-[100%]">
       <ParagraphStickyImage
        paragraphs={t.P5}
        imageSrc={"/images/Dr_Alaa/Dr_Alaa_Pic_3_With_NewBg_Enhanced.png"}
@@ -127,6 +127,7 @@ export default function Home() {
                 icon="bookOpen" // or "dot", "star", "bolt", etc.
                 rtl={isRTL}
                 animation="slide"
+                // Indexes ={[3, 9]}
               />
       </div>
 
