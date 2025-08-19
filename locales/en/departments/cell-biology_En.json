@@ -1,0 +1,483 @@
+{
+  "name": "Cell Biology Department",
+  "description": "The Cell Biology Department specializes in studying the structure, function, and behavior of plant cells. It focuses on cellular responses to environmental stimuli, tissue culture technologies, and microscopic analysis to support crop improvement programs.",
+  "image": "/images/departments/cell-biology.jpg",
+  "Director_Image" : "/images/Departments Directors/Cell_Biology_Director.png",
+  "P1_Title": "Prof. Dr. Ehab Mohamed Zayed Department Director's Speech",
+  "P1": [
+    "In the name of Allah, the Most Merciful & Gracious",
+    "Dear esteemed visitors of our website,",
+    "It is my pleasure to welcome you to the official webpage of the Cell Biology Research Department, which encompasses cytology, histology, tissue culture, and plant molecular genetics. This department serves as a bridge between fundamental sciences and modern agricultural applications, employing the latest scientific techniques in cellular and molecular biology to advance plant and crop research.",
+    "Our department is committed to achieving academic and research excellence through:",
+    "Conducting pioneering research to improve crops using tissue culture and genetic engineering techniques.",
+    "Studying the cellular and genetic mechanisms that control plant productivity and resilience to environmental stresses.",
+    "Developing innovative scientific solutions that contribute to enhancing food security and promoting sustainable agriculture.",
+    "We also strive to establish strategic partnerships with local and international research institutions, and to train qualified scientific cadres capable of keeping pace with global advancements in this vital field.",
+    "We firmly believe that the future of agriculture relies on scientific innovation, and we are determined for our department to be a key contributor on this path. We invite you to explore more about our research programs, achievements, and collaboration opportunities through this website."
+  ],
+  "P2": [
+    "The department specializes in plant and crop cytology (cell biology), histology (tissue science), tissue culture, and molecular genetics. It focuses on studying plant cells and tissues and their applications in crop improvement, agricultural research, and plant biotechnology."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "Scientific and Research Achievements",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "1.1",
+          "text": "Publishing groundbreaking research in international scientific journals on:",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "1.1.1",
+              "text": "Cellular and molecular mechanisms of tolerance to stresses (salinity, drought, and heat) in strategic crops.",
+              "level": 3,
+              "parentId": "1.1"
+            },
+            {
+              "id": "1.1.2",
+              "text": "Applying advanced techniques to improve crop traits.",
+              "level": 3,
+              "parentId": "1.1"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Developing innovative tissue culture methods for the propagation of rare or endangered plants.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false
+        },
+        {
+          "id": "1.3",
+          "text": "Discovering new genes linked to plant disease resistance and improved productivity.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Agricultural and Technical Applications",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "2.1",
+          "text": "Transferring tissue culture technologies to farmers and agricultural companies to improve production efficiency.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false
+        },
+        {
+          "id": "2.2",
+          "text": "Establishing a plant tissue laboratory to preserve the genetic resources of important local species.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false
+        },
+        {
+          "id": "2.3",
+          "text": "Transferring tissue culture technologies to farmers and agricultural companies to improve production efficiency.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Projects and Partnerships",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "3.1",
+          "text": "Implementing research projects in collaboration with international research centers and ministries of agriculture.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false
+        },
+        {
+          "id": "3.2",
+          "text": "Securing funding grants to support crop improvement research using molecular biology.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false
+        },
+        {
+          "id": "3.3",
+          "text": "Participating in climate change adaptation programs by developing climate-smart crops.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "Capacity Building and Scientific Training",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "4.1",
+          "text": "Training specialized researchers in plant biotechnology techniques.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false
+        },
+        {
+          "id": "4.2",
+          "text": "Organizing workshops and training courses in the fields of:",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "4.2.1",
+              "text": "Plant tissue culture.",
+              "level": 3,
+              "parentId": "4.2"
+            },
+            {
+              "id": "4.2.2",
+              "text": "Molecular analysis of plant genes.",
+              "level": 3,
+              "parentId": "4.2"
+            },
+            {
+              "id": "4.2.3",
+              "text": "Using artificial intelligence in genetic data analysis.",
+              "level": 3,
+              "parentId": "4.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "Awards and Recognitions",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "2.1",
+          "text": "Receiving local and international scientific awards in the field of agricultural innovation.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false
+        },
+        {
+          "id": "2.2",
+          "text": "Recognition of the department's research as important references in plant biotechnology.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false
+        }
+      ]
+    }
+  ],
+    "Department_Mission_Outer" : [
+  {
+    "id": "1",
+    "title": "Plant Cytology",
+    "description": "",
+    "metric": "Satisfaction Rate",
+    "value": "95%",
+    "date": "2024",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Plant Histology",
+    "description": "",
+    "metric": "Users",
+    "value": "50K+",
+    "date": "2024",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Plant Tissue and Cell Culture",
+    "description": "",
+    "metric": "Ranking",
+    "value": "First Place",
+    "date": "2023",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Plant Molecular Genetics",
+    "description": "",
+    "metric": "Growth",
+    "value": "40%",
+    "date": "2024",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title": "Practical Applications in Botany and Crops",
+    "description": "",
+    "metric": "Growth",
+    "value": "40%",
+    "date": "2024",
+    "category": "excellence"
+  }
+  ],
+      "Department_Mission_Inner" : {
+  "Array_1": [
+    {
+      "id": "1",
+      "title": "Study of plant cell structure and function using microscopy and modern techniques.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Analysis of cell division, cell wall formation, and organelles such as chloroplasts.",
+      "description": "",
+      "category": "community",
+      "connections": ["1", "4"],
+      "strength": 100
+    },
+    {
+      "id": "3",
+      "title": "Diagnosis of plant diseases caused by fungi, bacteria, or viruses through examination of infected cells.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["2", "3"],
+      "strength": 100
+    }
+  ],
+  "Array_2": [
+    {
+      "id": "1",
+      "title": "Analysis of the tissue structure of plant parts (roots, stems, leaves, flowers) using microscopy and special stains.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4", "5"],
+      "strength": 92
+    },
+    {
+      "id": "2",
+      "title": "Study of the effects of environmental factors and stresses (such as drought or salinity) on plant tissues.",
+      "description": "",
+      "category": "support",
+      "connections": ["2", "3", "6"],
+      "strength": 85
+    },
+    {
+      "id": "3",
+      "title": "Diagnosis of tissue abnormalities caused by nutrient deficiencies or pathological infections.",
+      "description": "",
+      "category": "community",
+      "connections": ["2", "3", "6"],
+      "strength": 85
+    }
+  ],
+  "Array_3": [
+    {
+      "id": "1",
+      "title": "Propagation of plants through micropropagation to produce disease-free plants.",
+      "description": "",
+      "category": "support",
+      "connections": ["3", "6"],
+      "strength": 90
+    },
+    {
+      "id": "2",
+      "title": "Development of genetically modified or hybrid plants with improved traits (such as drought resistance or higher productivity).",
+      "description": "",
+      "category": "community",
+      "connections": ["4", "5"],
+      "strength": 87
+    },
+    {
+      "id": "3",
+      "title": "Conservation of genetic resources for rare or endangered plants using plant tissue banks.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["4", "5"],
+      "strength": 87
+    }
+  ],
+  "Array_4": [
+    {
+      "id": "1",
+      "title": "DNA/RNA analysis to study genetic diversity among plant varieties.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 95
+    },
+    {
+      "id": "2",
+      "title": "Use of techniques such as PCR to enhance crop genetic traits.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 88
+    },
+    {
+      "id": "3",
+      "title": "Identification of genes responsible for desirable traits (such as disease resistance, environmental stress tolerance, or crop quality).",
+      "description": "",
+      "category": "support",
+      "connections": ["1", "4"],
+      "strength": 88
+    }
+  ],
+  "Array_5": [
+    {
+      "id": "1",
+      "title": "Crop improvement through the development of high-yield and stress-resistant plant varieties.",
+      "description": "",
+      "category": "community",
+      "connections": ["1", "4", "5"],
+      "strength": 92
+    },
+    {
+      "id": "2",
+      "title": "Control of plant diseases by understanding the molecular mechanisms of pathogens and developing resistance strategies.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3", "6"],
+      "strength": 85
+    },
+    {
+      "id": "3",
+      "title": "Agricultural biotechnology through the use of genetic engineering to enhance the nutritional value of crops.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4", "5"],
+      "strength": 92
+    },
+    {
+      "id": "4",
+      "title": "Biodiversity conservation by storing genetic materials of important plant species.",
+      "description": "",
+      "category": "support",
+      "connections": ["2", "3", "6"],
+      "strength": 85
+    }
+  ]
+  },
+  "Department_Vision" :[
+  {
+    "id": "1",
+    "title": "Core Vision",
+    "Sub_title": "The department contributes to:",
+    "content": "To be pioneers in research and development in the fields of plant cellular and molecular biology, contributing to sustainable agriculture, food security, and the development of crops adapted to climate change through scientific innovation and advanced biotechnologies; and to become a leading scientific reference in the field of plant cellular and molecular biology.",
+    "subItems": [
+      {
+        "text": "Increasing agricultural productivity through sustainable techniques"
+      },
+      {
+        "text": "Addressing climate challenges by developing smart crops"
+      },
+      {
+        "text": "Enhancing food security through innovations in plant improvement"
+      }
+    ],
+    "priority": "high",
+    "category": "Core Vision"
+  },
+  {
+    "id": "2",
+    "title": "Future Vision",
+    "Sub_title": "We aim to strengthen these achievements through:",
+    "content": "These achievements reflect the department’s vision of supporting sustainable agriculture and food security through scientific innovation.",
+    "subItems": [
+      {
+        "text": "Developing smart crops using artificial intelligence and synthetic biology."
+      },
+      {
+        "text": "Establishing advanced laboratories for precision molecular genetics."
+      },
+      {
+        "text": "Strengthening collaboration with the agricultural industry sector to apply research in the field."
+      }
+    ],
+    "priority": "medium",
+    "category": "Future Vision"
+  },
+  {
+    "id": "3",
+    "title": "Strategic Goals of the Vision:",
+    "Sub_title": "",
+    "content": "",
+    "subItems": [
+      {
+        "text": "Research Excellence:",
+        "children": [
+          {
+            "text": "Develop advanced techniques in plant tissue culture to improve the production of strategic crops."
+          },
+          {
+            "text": "Study cellular and molecular mechanisms of tolerance to environmental stresses (such as salinity, drought, and high temperatures)."
+          }
+        ]
+      },
+      {
+        "text": "Innovation in Crop Improvement:",
+        "children": [
+          {
+            "text": "Use genetic modification (e.g., CRISPR) and gene engineering to develop high-yielding, disease-resistant plant varieties."
+          },
+          {
+            "text": "Analyze genetic diversity of crops for use in plant breeding programs."
+          }
+        ]
+      },
+      {
+        "text": "Agricultural Applications and Biotechnology:",
+        "children": [
+          {
+            "text": "Transfer modern technologies (such as tissue culture and molecular markers) from the laboratory to the field to benefit farmers and the agricultural sector."
+          },
+          {
+            "text": "Promote climate-smart agriculture through the development of plants adapted to environmental challenges."
+          }
+        ]
+      },
+      {
+        "text": "Preservation of Genetic Resources:",
+        "children": [
+          {
+            "text": "Establish plant tissue and genetic resource banks to protect endangered and local species from extinction."
+          },
+          {
+            "text": "Document molecular characteristics of rare plants for use in breeding programs."
+          }
+        ]
+      },
+      {
+        "text": "Local and International Collaboration:",
+        "children": [
+          {
+            "text": "Build partnerships with research centers and universities specializing in plant sciences and biotechnologies."
+          },
+          {
+            "text": "Train and qualify scientific staff to keep pace with the latest developments in plant biology."
+          }
+        ]
+      }
+    ],
+    "priority": "low",
+    "category": "Strategic Goals of the Vision"
+  }
+  ],
+  "Department_Mission_Inner_Central" : "Detailed overview of the department’s core missions.",
+  "HR_File_PDF_Path" : "/pdfs/HR Data/HR_Cell_Biology_Department.pdf",
+  "Research_File_PDF_Path" : "/pdfs/Research Data/Research_Cell_Biology.pdf"
+}

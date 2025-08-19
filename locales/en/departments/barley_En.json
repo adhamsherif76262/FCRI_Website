@@ -1,0 +1,169 @@
+{
+  "name": "Barley Research Department",
+  "P1_Title": "Prof. Dr. Heba Gomaa Ali Gomaa Department Director's Speech",
+"P1": [
+  "The Barley Research Department stands as one of the solid pillars of Egypt’s agricultural research system, carrying a noble mission and a national responsibility to develop this strategic crop—one that possesses the resilience and adaptability to be part of the solution in facing today’s climate and economic challenges.",
+  "From this perspective, we dedicate our efforts to advancing this vital crop, which holds promising potential for production in newly reclaimed lands and marginal areas.",
+  "In our department, we work with both mind and heart to develop high-yielding barley varieties that tolerate drought and salinity, and adapt to marginal and border regions. We firmly believe that barley is not merely a crop, but a tool to achieve food security, utilize marginal lands, and enhance farmers’ incomes in disadvantaged areas that represent a national priority.",
+  "We strive tirelessly in experimentation, development, and technology transfer. Our role goes beyond laboratories and research stations—we extend into the fields, working closely with farmers and agricultural extension services to ensure that scientific research translates into real-world application. We also open our doors to researchers and students, giving great importance to training and qualifying scientific and technical cadres, and providing an outstanding learning environment for students and researchers from various institutions.",
+  "We believe that scientific research is a long-term investment, and that the knowledge we sow today will yield tomorrow’s food security and agricultural sustainability.",
+  "Our ambition knows no limits, and our goal is for the Barley Research Department to remain a beacon of science and practice that serves Egyptian agriculture and contributes to the progress of our nation.",
+  "We ask God Almighty for guidance and success, that our work may be sincere, beneficial to people, and fruitful for our blessed land."
+],
+  "Director_Image": "/images/Departments Directors/Barley_Director.png",
+  "description": "The Barley Research Department focuses on the development, improvement, and sustainability of barley cultivation. It conducts field trials, genetic studies, and agronomic evaluations to ensure higher yield and resistance to environmental stresses.",
+  "image": "",
+"P2": [
+  "The Barley Research Department is one of the oldest agricultural research divisions in Egypt, with a long history of contributions and scientific achievements that have advanced the development of this strategic crop. Since its establishment, the department has played a pioneering role in breeding new varieties and improving productivity, in alignment with the needs and environmental challenges of Egyptian agriculture."
+],
+
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "The department began its breeding journey in 1935, during which researchers successfully developed 11 barley varieties between 1935 and 1980. These distinguished varieties remain valuable in breeding programs to this day, as they carry highly desirable genetic traits such as drought tolerance and improved grain quality.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "2",
+    "text": "After 1980, the department witnessed a surge in research activity, leading to the development of 17 new barley varieties by 2025. This contributed to expanding barley cultivation in both old lands and newly reclaimed desert areas.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "3",
+    "text": "In 2025, the department added another milestone by registering two new varieties: Giza 139 and Giza 140. These varieties have shown excellent adaptability to newly reclaimed lands and rain-fed areas, and are expected to play a significant role in supporting agricultural expansion plans and enhancing food security.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "4",
+    "text": "The department has also contributed to industrial transformation and maximizing the added value of barley, through collaboration with malting companies. In 2021, it developed two outstanding industrial varieties, Giza 201 and Giza 202—two-row, high-quality varieties suitable for local malting and export. This achievement strengthens the link between research and industry and supports the direction toward agricultural processing and export.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "5",
+    "text": "Beyond research, the department has actively participated in developmental initiatives targeting desert and border regions. It has helped expand barley cultivation in areas such as North Sinai, Matrouh, and the Western Desert, aiming to improve the livelihoods of local communities, provide fodder and grazing resources, and create job opportunities for Bedouins in those areas.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "6",
+    "text": "The department also plays a vital role in institutional cooperation, establishing partnerships with national and international research institutions. It has supported major national projects such as the 'New Egyptian Countryside' and 'Future of Egypt' projects by integrating barley into modern farming systems within these initiatives.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "7",
+    "text": "Additionally, the department has contributed to several initiatives promoting healthy food and participated in EU-funded projects in collaboration with European countries, enhancing scientific and technical exchange in the field of barley improvement.",
+    "level": 1,
+    "isExpanded": false
+  },
+  {
+    "id": "8",
+    "text": "In the spirit of innovation, the department has introduced modern agricultural practices and technologies that had a direct impact on improving barley productivity and utilization, such as:",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+      {
+        "id": "1.1",
+        "text": "Multi-cut barley cultivation, which provides farmers with repeated green fodder for livestock throughout the season.",
+        "level": 2,
+        "parentId": "8",
+        "isExpanded": false,
+        "children": []
+      },
+      {
+        "id": "1.2",
+        "text": "Hydroponic barley production, an innovative solution to provide high-value green fodder amid limited agricultural land and water resources.",
+        "level": 2,
+        "parentId": "8",
+        "isExpanded": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "text": "These diverse achievements reflect the Barley Research Department’s strong commitment to its scientific and developmental mission. They highlight its vital role in serving Egyptian agriculture—not only through research, but also through real-world applications that meet farmers’ needs, bridging the gap between the field, the factory, and both local and international markets.",
+    "level": 1,
+    "isExpanded": false
+  }
+],
+
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "To advance barley cultivation and production by breeding high-yielding varieties resistant to adverse environmental conditions, improving agricultural practices, and promoting the sustainable use of this strategic crop within Egyptian agriculture.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "To contribute to expanding barley cultivation in marginal and border regions (such as North Sinai, Matrouh, the Eastern Desert, and Upper Egypt), by providing varieties suited to harsh environments, and delivering technical and extension support to farmers in these areas—maximizing the utilization of untapped natural resources.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  }
+],
+
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Leadership",
+    "Sub_title": "Developing the System",
+    "content": "The Barley Research Department aspires to be a leading center in barley research and development, both nationally and regionally, driven by a firm belief in the strategic importance of this crop in supporting food security and agricultural sustainability in Egypt.",
+    "subItems": [
+      {
+        "text": "The department’s vision focuses on advancing the barley production system by developing high-efficiency varieties capable of adapting to climate challenges such as drought and salinity, while fitting into diverse agricultural systems across Egypt’s varied environments."
+      }
+    ],
+    "priority": "high",
+    "category": "Leadership"
+  },
+  {
+    "id": "2",
+    "title": "Enhancing the Role of Barley",
+    "Sub_title": "Supporting the National Economy",
+    "content": "The department gives great importance to enhancing the role of barley in achieving food security by including it in crop rotations and achieving high productivity with minimal resource use—thus improving the efficiency of land and water utilization.",
+    "subItems": [
+      {
+        "text": "The department aims to support the national economy by providing multi-purpose barley varieties suitable for human and animal feed, in addition to use in value-added industries such as malting."
+      }
+    ],
+    "priority": "medium",
+    "category": "Enhancing the Role of Barley"
+  },
+  {
+    "id": "3",
+    "title": "Research Collaboration",
+    "Sub_title": "Knowledge Sharing",
+    "content": "Recognizing the importance of collaborative research, the department actively builds strategic partnerships with universities, research centers, and international institutions to exchange expertise and strengthen research infrastructure.",
+    "subItems": [
+      {
+        "text": "The department is committed to spreading knowledge and innovation through specialized training programs, organizing scientific seminars and workshops targeting researchers and farmers, and publishing scientific and technical bulletins to disseminate research findings and their applications."
+      }
+    ],
+    "priority": "low",
+    "category": "Research Collaboration"
+  },
+  {
+    "id": "4",
+    "title": "Climate Change",
+    "Sub_title": "",
+    "content": "In the context of climate change adaptation, the department plays an active role in supporting climate-smart agriculture by providing innovative solutions to improve water management efficiency and create optimal conditions for barley growth under changing climates.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Climate Change"
+  }
+],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Barley_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Barley.pdf"
+}

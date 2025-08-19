@@ -1,0 +1,77 @@
+{
+  "name": "Food Legumes Research Department",
+  "P1_Title": "Prof. Dr. Adel El-Garhy Mohamed El-Garhy Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Legumes_Director.png",
+  "description": "",
+  "image": "",
+  "P1": [
+    "The Legume Crops Department is one of the most important departments within the Field Crops Research Institute, as it includes crops that are vital for the Egyptian people. Legumes are an essential part of a healthy diet, being rich in protein, fiber, oil, and other essential nutrients. They also contain high levels of iron and zinc.",
+    "Legumes can also be integrated into intercropping systems or cultivated as cover crops to enhance soil fertility, reduce reliance on chemical fertilizers through nitrogen fixation, and improve phosphorus uptake. This contributes to a more sustainable production system. Examples include faba bean and soybean. The department works on developing and breeding new varieties that adapt to climate change and meet the requirements of both the Egyptian and global markets.",
+    "Our varieties have achieved advanced global rankings in average yield per feddan, such as soybean, which ranks third worldwide in average yield per feddan."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "Increasing the productivity of faba bean per feddan from 6.3 ardab/feddan to 10.9 ardab/feddan at present.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "2",
+      "text": "Developing legume crop varieties resistant to environmental stresses, such as diseases and Orobanche infestation, and adapted to climate changes and market requirements at both the national and international levels.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "3",
+      "text": "Expanding the cultivated area of soybean from 3,261 feddans with an average yield of 0.311 tons/feddan for imported varieties, to 133,500 feddans with an average yield of 1.3 tons/feddan for Egyptian varieties, through breeding programs.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "4",
+      "text": "Producing foundation seeds of all legume crop varieties and providing them to the General Authority for Seed Production and producing companies.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    }
+  ],
+  "Department_Mission_Outer": [
+    {
+      "id": "1",
+      "title": "Achieving self-sufficiency in legume crops",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    }
+  ],
+  "Department_Vision": [
+    {
+      "id": "1",
+      "title": "Development of legume crops",
+      "Sub_title": "Through the following:",
+      "content": "Advancing all legume crops in terms of productivity, quality traits, and increasing cultivated areas.",
+      "subItems": [
+        {
+          "text": "Breeding new high-yielding legume crop varieties tolerant to biotic and abiotic stresses through the department’s breeding programs."
+        },
+        {
+          "text": "Issuing technical recommendation packages suitable for all legume crop varieties to ensure achieving maximum productivity."
+        },
+        {
+          "text": "Transferring new expertise and technical recommendations to all beneficiaries (farmers and companies) through the technology transfer program."
+        }
+      ],
+      "priority": "high",
+      "category": "Develpment of legume crops"
+    }
+  ],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_legumes_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_legumes.pdf"
+}

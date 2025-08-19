@@ -1,0 +1,17 @@
+[
+  { "slug": "cell-biology_En", "name": "Cell Biology Research Department", "image": "/images/departments/Cell Biology.png" },
+  { "slug": "seed-technology_En", "name": "Seed Technology Research Department", "image": "/images/departments/Seed_Technology.png" },
+  { "slug": "sorghum_En", "name": "Grain Sorghum Research Department", "image": "/images/departments/Sorghum.png" },
+  { "slug": "forage_En", "name": "Forage Research Department", "image": "/images/departments/forage.jpg" },
+  { "slug": "crop-intensification_En", "name": "Crop Intensification Research Department", "image": "/images/departments/crop-intensification.jpg" },
+  { "slug": "genetic-resources_En", "name": "Genetic Resources Research Department", "image": "/images/departments/genetic-resources.jpg" },
+  { "slug": "onion_En", "name": "Onion Research Department", "image": "/images/departments/onion.jpg" },
+  { "slug": "fibers_En", "name": "Fibers Research Department", "image": "/images/departments/fibers.jpg" },
+  { "slug": "wheat_En", "name": "Wheat Research Department", "image": "/images/departments/wheat.jpg" },
+  { "slug": "legumes_En", "name": "Legumes Research Department", "image": "/images/departments/legumes.jpg" },
+  { "slug": "rice_En", "name": "Rice Research Department", "image": "/images/departments/rice.jpg" },
+  { "slug": "crop-physiology_En", "name": "Crop Physiology Research Department", "image": "/images/departments/crop-physiology.jpg" },
+  { "slug": "oil-crops_En", "name": "Oil Crops Research Department", "image": "/images/departments/oil-crops.jpg" },
+  { "slug": "barley_En", "name": "Barley Research Department", "image": "/images/departments/barley.jpg" },
+  { "slug": "maize_En", "name": "Maize Research Department", "image": "/images/departments/maize.jpg" }
+]

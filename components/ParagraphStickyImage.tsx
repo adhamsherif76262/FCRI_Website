@@ -26,17 +26,17 @@ const ParagraphStickyImage: React.FC<ParagraphStickyImageProps> = ({ rtl = false
             alt="Illustration"
             width={500}
             height={500}
-            className="xxxs:w-96 xl:w-[800px] lg:w-[700px] md:w-[500px] mx-auto rounded border"
+            className="xxxs:w-96 xl:w-[800px] lg:w-[700px] md:w-[500px] mx-auto rounded border max-h-[550px]"
           />
         </div>
 
         {/* Scrollable Paragraph */}
         <div className={clsx(
             "overflow-y-auto max-h-[500px] p-4 text-justify leading-relaxed w-full bg_Gray font-black",
-            rtl ? 'lg:text-3xl md:text-[26px] sm:text-2xl xs:text-xl xxxs:text-lg' : 'lg:text-3xl sm:text-2xl xs:text-xl xxxs:text-lg'
+            rtl ? 'lg:text-3xl md:text-[26px] sm:text-2xl xs:text-xl xxxs:text-lg' : 'sm:text-2xl xs:text-xl xxxs:text-lg'
         )}>
          {paragraphs.map((p,i)=>
-         <p key={i} className='text-center mb-8 sm:leading-[3rem] xs:leading-[2.5rem]'>
+         <p key={i} className='text-center mb-8 sm:leading-snug md:leading-relaxed xs:leading-[2.5rem]'>
             {p}
          </p>
         )}

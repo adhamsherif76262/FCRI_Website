@@ -1,0 +1,248 @@
+{
+  "name": " Research Department",
+  "P1_Title": "Prof. Dr. Magdy Ahmed Abd El-Moula Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Maize_Director.png",
+  "description": "",
+  "image": "",
+  "P1": [
+  "Maize is one of the most important cereal crops worldwide, ranking third after wheat and rice. It holds first place globally in grain trade, with global maize production in 2024 reaching 1,271 million tons.",
+  "Maize has diverse uses beyond being a staple food, especially in developing countries. It is a primary ingredient in animal, poultry, and fish feed, and it plays a key role in industries such as starch and oil production, as well as biofuel manufacturing.",
+  "The Maize Research Department works on breeding new high-yield hybrids adapted to climate change, with the aim of increasing productivity and bridging the wide gap between production and consumption."
+],
+"P2": [
+  "The Maize Research Department is considered one of the most important and largest departments affiliated with the Field Crops Research Institute at the Agricultural Research Center."
+],
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "The department has successfully developed many high-yielding hybrids, including:",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+      {
+        "id": "1.1",
+        "text": "White single-cross hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.1.1",
+            "text": "SC-10, SC-128, SC-130, SC-131, SC-132, SC-133, SC-134, SC-135, SC-136, SC-137",
+            "level": 3,
+            "parentId": "1.1",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.2",
+        "text": "Yellow single-cross hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.2.1",
+            "text": "SC-162, SC-167, SC-168, SC-173, SC-176, SC-178, SC-180, SC-181, SC-182, SC-183, SC-184, SC-185, SC-186, SC-187, SC-188, SC-189",
+            "level": 3,
+            "parentId": "1.2",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.3",
+        "text": "White three-way cross hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.3.1",
+            "text": "TWC-321, TWC-324",
+            "level": 3,
+            "parentId": "1.3",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.4",
+        "text": "Red single-cross hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.4.1",
+            "text": "SC-190",
+            "level": 3,
+            "parentId": "1.4",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.5",
+        "text": "Yellow three-way cross hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.5.1",
+            "text": "TWC-352, TWC-353, TWC-360, TWC-368, TWC-369, TWC-370, TWC-377",
+            "level": 3,
+            "parentId": "1.5",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.6",
+        "text": "Red three-way cross hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.6.1",
+            "text": "TWC-378",
+            "level": 3,
+            "parentId": "1.6",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.7",
+        "text": "Sweet corn hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.7.1",
+            "text": "Single-cross hybrids: Master Sweet 101, Super Sweet 101, 102, 103, 104, 105, and Super Sweet 106",
+            "level": 3,
+            "parentId": "1.7",
+            "isExpanded": false
+          }
+        ]
+      },
+      {
+        "id": "1.8",
+        "text": "Popcorn hybrids:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          {
+            "id": "1.8.1",
+            "text": "Single-cross hybrids: Extra Pop 101, 102, and 103",
+            "level": 3,
+            "parentId": "1.8",
+            "isExpanded": false
+          }
+        ]
+      }
+    ]
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Developing a strategic plan to advance maize production.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Preserving both local and imported genetic resources.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Breeding new hybrids of white, yellow, sweet corn, and popcorn varieties.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Developing hybrids tolerant to environmental stresses and suitable for cultivation in new regions such as East Oweinat, Toshka, the Future of Egypt Project, Wadi Al-Sa’ida, and Aswan.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title": "Defining and applying optimal agricultural practices to maximize maize productivity.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "6",
+    "title": "Multiplying breeder seeds from lines and single-cross hybrids used in commercial hybrid production.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "7",
+    "title": "Producing certified seeds of white, yellow, and red grain hybrids (single and three-way crosses).",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "8",
+    "title": "Establishing demonstration and educational fields to introduce farmers to new hybrids and suitable agricultural practices.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Hybrids Development",
+    "Sub_title": "",
+    "content": "",
+    "subItems": [
+      {
+        "text": "Developing hybrids with key traits such as heat tolerance, low nitrogen fertilizer requirements, and drought resistance."
+      },
+      {
+        "text": "Breeding hybrids rich in protein, amino acids, and oil content."
+      }
+    ],
+    "priority": "high",
+    "category": "Hybrid Development"
+  }
+],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Maize_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Maize.pdf"
+}

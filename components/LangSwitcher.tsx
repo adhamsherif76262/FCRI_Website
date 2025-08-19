@@ -13,14 +13,35 @@ export default function LangSwitcher() {
   const pathname = usePathname();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
-
   const currentLang = pathname?.split('/')[1] || 'en';
 
+  // const handleSwitch = (lang: string) => {
+  //   const segments = pathname.split('/');
+  //   segments[1] = lang;
+  //   startTransition(() => router.push(segments.join('/')+""));
+  // };
+
   const handleSwitch = (lang: string) => {
-    const segments = pathname.split('/');
-    segments[1] = lang;
-    startTransition(() => router.push(segments.join('/')));
-  };
+  const segments = pathname.split('/');
+
+  // Switch the language segment
+  segments[1] = lang;
+
+  // If we are on a department page
+  if (segments[2] === 'departments' && segments[3]) {
+    // Get current slug
+    const currentSlug = segments[3];
+
+    // Swap slug suffix between _En and _Ar
+    if (currentSlug.endsWith('_En')) {
+      segments[3] = currentSlug.replace('_En', '_Ar');
+    } else if (currentSlug.endsWith('_Ar')) {
+      segments[3] = currentSlug.replace('_Ar', '_En');
+    }
+  }
+
+  startTransition(() => router.push(segments.join('/')));
+};
 
   return (
     <div className={clsx(

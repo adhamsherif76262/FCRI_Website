@@ -1,0 +1,83 @@
+{
+  "name": "Crop_Physiology Research Department",
+  "P1_Title": "Prof. Dr. Rania Anwer Ali Khedr Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Crop_Physiology_Director.png",
+  "description": "",
+  "image": "",
+"P1": [
+  "Physiological studies of agricultural crops, and understanding and monitoring the vital processes of plants, are essential to comprehend plant interactions with the surrounding environment and their responses. This knowledge improves agricultural practices and supports the development of new high-yielding varieties under conditions of climate change."
+],
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "Establishment of the Chemical Analysis Unit within the department, which conducts physiological and chemical analyses for all institute departments, as well as other institutes within the center, in addition to universities and other research institutions.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "2",
+    "text": "Collaboration with different departments of the institute in evaluating promising genetic materials and registering new varieties.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "3",
+    "text": "Enhancing crop productivity under various stress conditions and climate change through the use of substances with positive effects on plant physiological processes.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "4",
+    "text": "Conducting numerous experiments on different crops using physiologically active substances to reduce inputs while maintaining high productivity.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Study the biological processes occurring within field crops and how they affect growth and productivity.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Utilize physiological studies to improve crop productivity and quality, and to assist in developing new varieties.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Study how field crops adapt to different environmental conditions (such as water scarcity, salinity, and varying temperatures) and work on enhancing their performance.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Application of Studies",
+    "Sub_title": "",
+    "content": "Applying physiological studies to develop new agricultural practices aimed at increasing the efficiency of resource use (such as water, fertilizers, and diverse environmental conditions), while improving crop productivity. Additionally, conducting physiological evaluations of promising genetic materials of different field crops throughout their growth stages under various stress conditions, to identify and register the best as new varieties.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Application of Studies"
+  }
+],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Crop_Physiology_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Crop_Physiology.pdf"
+}

@@ -1,0 +1,453 @@
+{
+  "name": "Rice Research Department",
+  "P1_Title": "Prof. Dr. Ismail Saad El-Refaee Department Director's Speech",
+  "P1": [
+    "The Rice Research Department is one of the main pillars of the Field Crops Research Institute at the Agricultural Research Center, carrying the responsibility of developing rice cultivation in Egypt as a strategic crop directly tied to the food security of millions of Egyptians.",
+    "Over the past decades, the department has achieved tangible accomplishments in breeding new high-yielding rice varieties that save water and resist pests and diseases, in addition to its contributions in promoting modern agricultural practices and collaborating with international and regional organizations in projects that serve agriculture and farmers.",
+    "Today, in light of growing challenges such as climate change, water scarcity, and population growth, we believe that our role has become more vital than ever. Therefore, we continue to work as a team, relying on scientific research and field experimentation, directing our efforts towards innovation and sustainability.",
+    "We reaffirm our full commitment to serving the agricultural community by providing knowledge and technologies that enhance the efficiency and productivity of rice cultivation in Egypt and across the region, while strengthening cooperation and integration among various research and production institutions.",
+    "May God guide us all to what is best for our country."
+  ],
+  "P2": [
+  "Leadership in developing rice cultivation to achieve food security and the optimal use of water resources through scientific research and innovation, while promoting sustainability in production, adapting to climate change, and establishing the department as a local and regional reference center for rice research and development."
+],
+  "Director_Image": "/images/Departments Directors/Rice_Director.png",
+  "description": "",
+  "image": "",
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "Breeding New Varieties",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Developed more than 15 rice varieties and hybrids over the past decades.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Introduced high-yielding varieties producing over 4 tons per feddan under normal conditions.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "Developed short-duration varieties (120–130 days) to reduce water consumption.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.4",
+          "text": "Developed varieties resistant to major diseases such as blast, brown spot, and grain rot.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Improving Water Use Efficiency",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Developed varieties that consume up to 25% less water compared to traditional ones.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Conducted research on modern irrigation methods such as alternate wetting and drying, and direct dry seeding.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "Contributed to launching the national water-saving rice cultivation strategy in collaboration with the Ministry of Water Resources and Irrigation.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "Technology Transfer and Extension",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Prepared and distributed annual extension bulletins and publications for farmer awareness.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Implemented dozens of extension fields annually in cooperation with farmers across Egypt.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "Trained thousands of agricultural engineers and farmers on modern cultivation techniques and integrated management.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "4",
+    "text": "International and Regional Cooperation",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Implemented successful partnership projects with international organizations such as JICA, IRRI, Africarice, and CNRRI.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Trained hundreds of specialists from African and Asian countries at the department’s training center.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "5",
+    "text": "Advanced Applied Research",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Conducted genetic studies using biotechnology to improve genetic traits.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Evaluated varieties across different agricultural environments.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "Carried out integrative research covering fertilization, plant density, and weed management.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "6",
+    "text": "Contribution to Agricultural Policies",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Played an active role in preparing the annual rice cultivation map in coordination with the Ministry of Agriculture.",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Provided official, research-backed recommendations for rationalizing water use and increasing production.",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Improving and Developing Varieties",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Increasing Productivity per Feddan",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Rationalizing Water Consumption",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Controlling Diseases and Pests",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title": "Supporting Farmers and Agricultural Extension",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "6",
+    "title": "Applied and Experimental Research",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "7",
+    "title": "International Cooperation",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  }
+],
+"Department_Mission_Inner": {
+  "Array_1": [
+    {
+      "id": "1",
+      "title": "Breeding new high-yielding rice varieties and hybrids.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Focusing on short-duration varieties to save water.",
+      "description": "",
+      "category": "community",
+      "connections": ["1", "4"],
+      "strength": 100
+    },
+    {
+      "id": "3",
+      "title": "Breeding varieties resistant to diseases, pests, and harsh environmental conditions (such as salinity and drought).",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_2": [
+    {
+      "id": "1",
+      "title": "Conducting experiments and research to increase productivity per unit area.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Introducing modern cultivation techniques such as dry cultivation and line sowing.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_3": [
+    {
+      "id": "1",
+      "title": "Developing suitable cultivation and irrigation systems for Egypt’s lands, particularly with limited water resources.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Studying the effects of planting dates and different irrigation methods on rice production.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_4": [
+    {
+      "id": "1",
+      "title": "Studying and monitoring the main rice diseases (such as blast and brown spot) and developing integrated control programs.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Coordinating with plant protection departments to reduce reliance on pesticides.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_5": [
+    {
+      "id": "1",
+      "title": "Preparing technical bulletins and guidelines to raise farmers’ awareness of best agricultural practices.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Training agricultural extension officers and farmers on the latest cultivation and production techniques.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_6": [
+    {
+      "id": "1",
+      "title": "Conducting field experiments at research stations and farmers’ fields.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Evaluating new varieties under diverse environmental and climatic conditions to ensure success across different governorates.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_7": [
+    {
+      "id": "1",
+      "title": "Implementing cooperative projects with international organizations to exchange expertise and transfer technology.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title": "Training African and Asian specialists at the Rice Research Department in Egypt.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ]
+},"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Food Security",
+    "Sub_title": "",
+    "content": "Contributing to bridging the food gap in rice as one of Egypt’s staple crops.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Food Security"
+  },
+  {
+    "id": "2",
+    "title": "Water Conservation",
+    "Sub_title": "",
+    "content": "Developing varieties and cultivation systems that help reduce water consumption.",
+    "subItems": [],
+    "priority": "medium",
+    "category": "Water Conservation"
+  },
+  {
+    "id": "3",
+    "title": "Innovation and Research",
+    "Sub_title": "",
+    "content": "Supporting applied scientific research to find innovative solutions to production challenges.",
+    "subItems": [],
+    "priority": "low",
+    "category": "Innovation and Research"
+  },
+  {
+    "id": "4",
+    "title": "Sustainability",
+    "Sub_title": "",
+    "content": "Ensuring the continuity of rice production without harming natural resources.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Sustainability"
+  },
+  {
+    "id": "5",
+    "title": "Climate Change",
+    "Sub_title": "",
+    "content": "Developing rice varieties and cultivation practices that adapt to future climate challenges.",
+    "subItems": [],
+    "priority": "low",
+    "category": "Climate Change"
+  }
+],
+    "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Rice_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Rice.pdf"
+}

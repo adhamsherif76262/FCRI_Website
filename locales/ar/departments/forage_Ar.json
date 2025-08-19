@@ -1,0 +1,306 @@
+{
+  "name": "قسم بحوث العلف",
+  "P1_Title": "كلمة الأستاذ الدكتور حسام الدين عثمان صقر رئيس القسم",
+  "Director_Image": "/images/Departments Directors/Forage_Director.png",
+  "description": "",
+  "image": "",
+  "P1": ["محاصيل العلف الأخضر هو الملاذ الامن للاستثمار الزراعي  والحيواني للحد من التغذية على المركزات العلفية الباهظة  الثمن بالاضافة إلي الاضرار الناجمة  عنها كأمراض جنون البقر والحمى القلاعية وتوفير محاصيل  العلف الاخضر بتكاليف منخفضة تعطي دفعة للمربي الصغير للاستثمار في الانتاج والتربيه  ومن ثم , تقترب الدولة من حالة الاستقرار في الانتاج الزراعي الحيواني مما يساهم في توفير البروتين الحيواني ومنتجات الالبان "],
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "استنباط عدد 7 أصناف من البرسيم المصري",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "هلالي",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "سخا 4 ",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "سرو 1",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.4",
+          "text": "سرو 3",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.5",
+          "text": "جميزة 1",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.6",
+          "text": "جميزة 6",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.7",
+          "text": "سدس 2",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "استنباط صنف من البرسيم الفحل",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "2.1",
+          "text": "جيزة 1",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "استناط عدد 4 اصناف  من البرسيم الحجازي",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "3.1",
+          "text": "اسماعيلية 1",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "3.2",
+          "text": "نوبارية 1",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "3.3",
+          "text": "رماح  1",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "4",
+    "text": "استنباط صنف من الذرة الريانه",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "4.1",
+          "text": "جيزة 4",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "5",
+    "text": "استنباط هجين ريانه للسيلاج",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "5.1",
+          "text": "سخا 101",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "6",
+    "text": "استنباط 3 هجن من السورجم",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "6.1",
+          "text": "سخا 20",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "6.2",
+          "text": "سخا 17",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "6.3",
+          "text": "سدس 105",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "7",
+    "text": "استنباط صنف من الدخن علف",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "7.1",
+          "text": "شندويل 1",
+          "level": 2,
+          "parentId": "7",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "8",
+    "text": "استنباط 2 صنف من لوبيا العلف",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "8.1",
+          "text": "جيزة 18",
+          "level": 2,
+          "parentId": "8",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "8.2",
+          "text": "سدس 19",
+          "level": 2,
+          "parentId": "8",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "8.3",
+          "text": "جــــــــاري التسجـــــيل ",
+          "level": 2,
+          "parentId": "8",
+          "isExpanded": false,
+          "children": [
+            {
+                "id": "8.3.1",
+                "text": "عدد 2 صنف من البرسيم المصري",
+                "level": 3,
+                "parentId": "8.3",
+                "isExpanded": false
+            },
+            {
+                "id": "8.3.2",
+                "text": "عدد 1 صنف من بنجر العل",
+                "level": 3,
+                "parentId": "8.3",
+                "isExpanded": false
+            },
+            {
+                "id": "8.3.3",
+                "text": "عدد 2 صنف من لوبيا العلف",
+                "level": 3,
+                "parentId": "8.3",
+                "isExpanded": false
+            },
+            {
+                "id": "8.3.4",
+                "text": "عدد 2 صنف من الدخن عدد 1 صنف من الذرة الريان",
+                "level": 3,
+                "parentId": "8.3",
+                "isExpanded": false
+            }
+          ]
+        }
+    ]
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "استنباط أصناف من محاصيل العلف  عالية الانتاجية وذات جودة علفية جيدة ومقاومة للامراض وقيمة غذائية عالية كمصدر غذائي طبيعي لحيوانات المزرعة من أبقار وجاموس وأغنام وماعز وإبل.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "إنتاج تقاوي الأساس من الاصناف وتوفيرها للإدارة المركزيىه لإنتاج التقاوي والشركات الخاصة لإكثارها وتوزيعها على مستوي الجمهورية.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "تدريب الإخصائيين الزراعيين والمزارعين المهتمين بمحاصيل الأعلاف على أهم الممار سات الزراعية والإستفادة من وحدة المساحة.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "إستمرار البحوث العلمية",
+    "Sub_title": "",
+    "content": "إستمرار البحوث العلمية الخاصة بتحسين إنتاجية وجودة صفات محاصيل العلف مع إستنباط أصناف تتحمل بعض الظروف البيئية من جفاف وأملاح واليات توافر محاصيل العلف الاخضر على مدار العام مما يحقق إستقرار غذائي لحيوانات المزرعة",
+    "subItems": [],
+    "priority": "high",
+    "category": "إستمرار البحوث العلمية"
+  }
+],
+  "Department_Mission_Inner_Central" : "تفصيل لمهام القسم الرئيسية ",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Forage_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Forage.pdf"
+}

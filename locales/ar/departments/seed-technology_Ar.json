@@ -1,0 +1,150 @@
+{
+  "name": "قسم بحوث تكنولوجيا البذور",
+  "P1_Title": "كلمة الأستاذة الدكتورة امانى محمد سلام محمد رئيس القسم",
+  "Director_Image": "/images/Departments Directors/Seed_Technology_Director.png",
+  "description": "",
+  "image": "",
+  "P1": ["يقوم قسم تكنولوجيا البذور بدور هام فى تقييم جودة التقاوى وتحسينها الخاصة بمعهد المحاصيل الحقلية"],
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "نشر العديد من الابحاث العلمية سنويا ونشرها فى مجلات علمية مرموقة ",
+    "level": 1,
+    "isExpanded": false,
+    "children":[]
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "إجراء التوصيف المورفولوجي، والكيميائي، والبيوكيميائي، والجزيئي للأصناف والسلالات والهجن.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "التحقق من النقاوة الوراثية للسلالات والهجن النباتية.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "إجراء التحليل الكيميائي لمحتوى البذور بهدف الاستفادة منه في برامج التربية.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "تنفيذ دراسات على معاملات البذور قبل الزراعة وبعد الحصاد لتحسين جودتها.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title": "تحديد معدلات التقاوي المناسبة من خلال قياس نسبة الإنبات ووزن الألف حبة.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "6",
+    "title": "دراسة العوامل المؤثرة على جودة التقاوي مثل:",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "7",
+    "title": "إجراء التوصيف المورفولوجي، والكيميائي، والبيوكيميائي، والجزيئي للأصناف والسلالات والهجن.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  }
+],
+"Department_Mission_Inner": {
+    "Array_1": [],
+    "Array_2": [],
+    "Array_3": [],
+    "Array_4": [],
+    "Array_5": [],
+    "Array_6": [
+      {
+        "id": "1",
+        "title": "العوامل البيئية",
+        "description": "",
+        "category": "core",
+        "connections": ["2", "3"],
+        "strength": 100
+      },
+      {
+        "id": "2",
+        "title": "المعاملات التكنولوجية والزراعية للتقاوي",
+        "description": "",
+        "category": "community",
+        "connections": ["1", "4"],
+        "strength": 100
+      },
+      {
+        "id": "3",
+        "title": "صحة وأمراض البذور",
+        "description": "",
+        "category": "innovation",
+        "connections": ["1", "4"],
+        "strength": 100
+      },
+      {
+        "id": "4",
+        "title": "آفات البذور",
+        "description": "",
+        "category": "support",
+        "connections": ["1", "4"],
+        "strength": 100
+      },
+      {
+        "id": "5",
+        "title": "ظروف التخزين",
+        "description": "",
+        "category": "core",
+        "connections": ["1", "4"],
+        "strength": 100
+      }
+    ],
+  "Array_7": []
+},
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "مواكبة التطوير",
+    "Sub_title": "",
+    "content": "",
+    "subItems": [
+        {"text" : "مواكبة التطوير العلمى وكل ما هو جديد فى قطاع التقاوى "},
+        {"text" : "اجراء البحوث العلمية"},
+        {"text" : "التدريبات المعملية للطلاب والباحثين "}
+    ],
+    "priority": "high",
+    "category": "مواكبة التطوير"
+  }
+],
+  "Department_Mission_Inner_Central" : "تفصيل لمهام القسم الرئيسية ",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Seed_Technology_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Seed_Technology.pdf"
+}

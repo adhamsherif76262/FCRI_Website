@@ -1,0 +1,167 @@
+{
+  "name": "Genetic Resources Research Department",
+  "P1_Title": "Prof. Dr. Marwa Mahmoud Mohamed Ghonaim Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Genetic_Origins_Director.png",
+  "description": "",
+  "image": "",
+  "P1": [
+    "Preserving the genetic diversity of agricultural plants is the cornerstone for achieving food security and sustainable agricultural development.",
+    "In our department, we work as a team with a precise scientific methodology, focusing on the collection, characterization, and evaluation of genetic resources, while adopting the latest technologies in conservation and documentation.",
+    "Our responsibility is not limited to conserving this genetic heritage, but also extends to maximizing its use in breeding and genetic improvement programs, thereby contributing to the production of varieties that are more adaptable to climate change and better suited to the needs of the agricultural community.",
+    "We are also keen to cooperate with research centers and international organizations to ensure knowledge integration and to safeguard Egypt’s rights to its genetic resources, based on our belief that these resources are not only agricultural assets, but also a matter of national security and an investment in the future of coming generations.",
+    "We strive for the department to be a national reference platform in this field, and a scientific knowledge hub built on innovation and expertise in the service of Egyptian agriculture."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "Collection and preservation of local genetic resources",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "1.1",
+          "text": "Collected dozens of plant samples from local environments (especially the Nile Delta) for key field crops such as:",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": [
+            { "id": "1.1.1", "text": "Maize", "level": 3, "parentId": "1.1", "isExpanded": false, "children": [] },
+            { "id": "1.1.2", "text": "Wheat", "level": 3, "parentId": "1.1", "isExpanded": false, "children": [] },
+            { "id": "1.1.3", "text": "Clover", "level": 3, "parentId": "1.1", "isExpanded": false, "children": [] },
+            { "id": "1.1.4", "text": "Faba bean", "level": 3, "parentId": "1.1", "isExpanded": false, "children": [] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Preserving these resources within the Genetic Resources Department in an organized manner to ensure their genetic sustainability.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Characterization and evaluation of genetic resources",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "2.1",
+          "text": "Evaluated morphological and physiological traits of hundreds of genetic materials, helping identify promising lines.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "2.2",
+          "text": "Conducted molecular analyses of some genetic resources using DNA marker techniques.",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "Contributed to the development of improved varieties with high productivity potential.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "5",
+      "text": "Local and international scientific and research collaborations",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "5.1",
+          "text": "Collaborated with organizations such as CIMMYT and ICARDA in projects for conserving and evaluating genetic resources.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "Supporting sustainability and food security programs",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "6.1",
+          "text": "Contributed to preserving genetic diversity, which is fundamental for securing food under climate change.",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "Established a mini gene bank at Bahtim Station",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "7.1",
+          "text": "Organized preservation of genetic resources under proper storage conditions with full data documentation.",
+          "level": 2,
+          "parentId": "7",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "Department_Mission_Outer": [
+    {
+      "id": "1",
+      "title": "Conserving the genetic diversity of agricultural crops and their wild relatives through collection, documentation, evaluation, and preservation according to scientific and technical standards, in order to prevent extinction or deterioration and ensure sustainability for future generations.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "2",
+      "title": "The department works on developing techniques for conserving genetic resources, whether through field or seed preservation, or advanced methods such as cryopreservation and tissue culture, in addition to building a comprehensive national database for plant genetic resources.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "3",
+      "title": "The department also collaborates with international and regional organizations specializing in genetic resource conservation, and participates in related international agreements, ensuring Egypt’s sovereign rights over its genetic resources while contributing to sustainable development and improved agricultural productivity.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    }
+  ],
+  "Department_Vision": [
+    {
+      "id": "1",
+      "title": "Core Vision",
+      "Sub_title": "",
+      "content": "To establish the Genetic Resources Research Department as a leading national and regional center for the conservation of plant genetic diversity, and as a key supporter of crop improvement programs by developing and providing high-quality genetic resources. The department contributes to achieving food security, addressing climate challenges, and enhancing sustainable agricultural development, while adhering to international standards and safeguarding national sovereignty over genetic resources.",
+      "subItems": [],
+      "priority": "high",
+      "category": "Core Vision"
+    }
+  ],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Genetic_Resources_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Genetic_Resources.pdf"
+}

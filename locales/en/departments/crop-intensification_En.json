@@ -1,0 +1,90 @@
+{
+  "name": "Crop Intensification Research Department",
+  "P1_Title": "Prof. Dr. Nagwa  Refat Ahmed Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/crop_intensification.png",
+  "description": "",
+  "image": "",
+  "P1": [
+    "One of the most important activities of the department is providing food for humans and animals, which is a leading objective that determines the style of agricultural production in Egypt, especially in recent years. This comes in light of the increasing food gap caused by rapid population growth that is not matched by a parallel increase in agricultural production—particularly in food crops such as cereals, oil crops, sugar crops, and fodder. This is due to the limited area reclaimed annually, along with the high reclamation costs that place a heavy burden on the state budget. In addition, the limited water resources allocated to agriculture, which rely mainly on the Nile River as the primary source, are not expected to increase in the future. This makes reclaiming additional areas relying on Nile water difficult, and poses further challenges in meeting food needs, leading to increased dependence on imports.",
+    "Added to this are the impacts of climate change, which threaten the cultivation of many strategic crops, reduce their productivity, and increase their vulnerability to diseases and pests. Agricultural land is also deteriorating through salinization, pollution, and desertification.",
+    "The department also works on introducing non-traditional crops that can tolerate water stress, salinity, and climate change, such as quinoa and cassava."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "The Crop Intensification Research Department has conducted numerous studies and experiments aimed at increasing agricultural production both quantitatively and qualitatively through non-traditional methods.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "2",
+      "text": "Registration of new varieties: Quinoa Egypt 1, Cassava Egypt 1, and Chia Egypt 1.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "3",
+      "text": "Ongoing acclimatization of some tobacco varieties under Egyptian conditions.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    }
+  ],
+  "Department_Mission_Outer": [
+    {
+      "id": "1",
+      "title": "The Crop Intensification Research Department works on several main approaches, including intercropping in its various forms, crop rotation and cropping patterns, and improved farm management systems—these are non-traditional methods designed to increase agricultural production.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "2",
+      "title": "Increasing the crop intensification rate by cultivating more than two crops per year, combining winter and summer crops, and introducing spring or autumn crops. This raises the crop intensification rate by one-third for field crops, and by even more for vegetable crops.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "3",
+      "title": "These new methods help expand cultivated areas, maximize land productivity, speed up returns, and save water through ridge planting. They also help protect farmers from price fluctuations, enhance climate resilience by providing suitable temperature and humidity for both crops, and reduce pest and disease infections through root secretions (allelopathy), while preserving the dominant cropping patterns of main winter and summer crops.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    },
+    {
+      "id": "4",
+      "title": "Introducing new crops into Egyptian agriculture that can be cultivated in marginal and saline lands and can withstand climate change, such as quinoa and cassava. These crops could serve as alternatives to important strategic crops like wheat, rice, potatoes, maize, and chia, which are considered of high nutritional value. The department also works on tobacco as an additional crop of interest.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "growth"
+    }
+  ],
+  "Department_Vision": [
+    {
+      "id": "1",
+      "title": "Increasing Production",
+      "Sub_title": "These non-traditional approaches include:",
+      "content": "The top priority is to increase production per unit area of field crops, vegetables, medicinal and aromatic plants, and summer fodder crops—without expanding into new reclaimed lands that require additional water resources. Future expansion will increasingly depend on groundwater, which is the only available source but may be depleted over time.",
+      "subItems": [
+        { "text": "Intercropping and increasing the crop intensification rate." },
+        { "text": "Applying new technologies in Egyptian agriculture." }
+      ],
+      "priority": "high",
+      "category": "Increasing Production"
+    }
+  ],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Crop_Intensification_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Crop_Intensification.pdf"
+}

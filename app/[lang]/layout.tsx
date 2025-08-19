@@ -111,8 +111,18 @@ export default async function RootLayout({
 
         geist.variable,                // 👈 Your existing font variable
         params.lang === 'ar' ? 'font-arabic' : 'font-sans',  // 👈 Conditional font class
-        "bg_Body text-black bg-white transition-colors duration-300  overflow-x-hidden"
-        )}>
+        "bg_Body text-black bg-white transition-colors duration-300 overflow-x-hidden"
+        )}
+
+style={{
+  backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.2'%3E%3Cpath d='M30 30l15-15v30l-15-15zm-15 0l15 15v-30l-15 15z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+  backgroundRepeat: 'repeat',
+  backgroundSize: '60px 60px',
+  backgroundPosition: 'top left',
+  backgroundBlendMode: 'multiply',
+}}
+
+        >
         {/* <Header /> */}
         {/* <Navbar></Navbar> */}
         

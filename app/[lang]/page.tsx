@@ -10,6 +10,16 @@ import FuturisticHeading from "@/components/FuturisticHeading";
 import ParagraphStickyImage from "@/components/ParagraphStickyImage";
 import Marquee3D from "@/components/Marquee3D";
 import AnimatedCounter, { CounterData } from "@/components/AnimatedCounters";
+import HexagonalMissionList from "@/components/hexagonal-mission-list";
+import CircularNetworkList from "@/components/circular-network-list";
+import LayeredVisionList from "@/components/layered-vision-list";
+import TimeLineList from "@/components/timeline-list";
+import TreeBranchHirarchyList from "@/components/tree-branch-hierarchy-list";
+// import FlowingAchievementsList from "@/components/flowing-achievements-list";
+// import {Department_Mission_Inner} from "@/locales/ar/departments/cell-biology_Ar.json"
+// import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+// import 'react-pdf/dist/esm/Page/TextLayer.css';
+// import 'pdfjs-dist/web/pdf_viewer.css'; 
 export const countersAR = [
   { id: 1, title: 'الأبحاث العلمية', value: '700' },
   { id: 2, title: 'التجارب الحقلية', value: '300' },
@@ -32,16 +42,32 @@ const myCounters: CounterData[] = [
   { title_en: "General Staff", title_ar: "الكادر العام", value: 670 },
   { title_en: "Specialized Staff", title_ar: "الكادر الخاص", value: 730 },
 ]
-
+// interface NetworkItem {
+//   id: string
+//   title: string
+//   description: string
+//   category: string
+//   // category: "core" | "support" | "innovation" | "community"
+//   connections: string[]
+//   strength: number
+// }
 export default function Home() {
   
     const pathname = usePathname();
     const currentLang = pathname?.split('/')[1] === 'ar' ? 'ar' : 'en';
-    const t = currentLang === 'ar' ? arHome : enHome;
     const isRTL = currentLang === 'ar';
-
+    const t = currentLang === 'ar' ? arHome : enHome;
+    // const Default_Circular_Design_Items : NetworkItem[] = Department_Mission
   return (
     <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 dark:bg-gray-900 transition-colors duration-1000 xxxs:OVERFLOW-X xl:overflow-x-visible">
+
+      
+    <HexagonalMissionList items={[]}></HexagonalMissionList>
+    <CircularNetworkList items={[]} centerTitle="أهداف القسم" lang={currentLang}/>
+    <LayeredVisionList items={[]} />
+    {/* <FlowingAchievementsList items={[]} lang={currentLang === 'ar' ? "ar" : "en"} Tree={true} Circular_Design_CenterTitle="Hello From Home Page Now now" Circular_Design_Items={Department_Mission_Inner}/> */}
+    <TimeLineList items={[]} />
+    <TreeBranchHirarchyList items={[]} />
 
       <FuturisticHeading rtl={isRTL}>
         {currentLang === 'ar' ? "معهد بحوث المحاصيل الحقلية" : "Field Crops Research Institute"}

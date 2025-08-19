@@ -1,0 +1,106 @@
+{
+  "name": "Onion Research Department",
+  "P1_Title": "Prof. Dr. Abdel-megiud Mabrouk Abdel-megiud Department Director's Speech",
+  "P1": [
+  "Onion is one of the most important crops with nutritional, medicinal, and economic value at both the local and international levels.",
+  "Egypt ranks among the top ten countries worldwide in onion production and export, thanks to continuous efforts in breeding, improving, and developing onion varieties that meet the requirements of both local markets and export.",
+  "This is achieved through the collection of genetic resources of onion varieties, the introduction of foreign imports, and the establishment of breeding programs to produce high-yield varieties with superior quality, storability, and resistance to diseases and climate change.",
+  "Additionally, suitable agricultural practices are identified and transferred to stakeholders and those involved in onion cultivation."
+  ],
+  "Director_Image": "/images/Departments Directors/Onion_Director.png",
+  "description": "",
+  "image": "",
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "Development of 5 Egyptian onion varieties",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+        {
+          "id": "1.1",
+          "text": "Two varieties (Giza 20 and Giza Red) for cultivation in Lower Egypt (Delta region).",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Two varieties (Giza 6 Improved and Giza Sebaini) for cultivation in Upper Egypt.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "One variety (Giza White) suitable for industrial use and dehydration.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Currently registering 2 new Egyptian onion varieties.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Developing high-yield Egyptian onion varieties with superior quality and storability to meet local market and export demands, while preserving existing cultivated varieties.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Producing breeder and foundation seeds of the developed varieties and providing them to the Central Administration for Seed Production and private companies for multiplication and nationwide distribution.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Defining suitable agricultural practices and recommendations to achieve high productivity and quality.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Training agricultural specialists, farmers, and stakeholders on best agricultural practices to maximize productivity and optimize land use.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Enhancing Productivity",
+    "Sub_title": "",
+    "content": "Providing scientific research and studies to improve onion crop productivity, ensuring self-sufficiency, maintaining Egypt’s leading position in onion exports, supporting food security, boosting national income through foreign currency, and supplying farmers and stakeholders with newly developed varieties and updated agricultural practices.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Enhancing Productivity"
+  }
+],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Onion_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Onion.pdf"
+}

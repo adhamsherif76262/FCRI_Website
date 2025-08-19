@@ -1,0 +1,112 @@
+{
+  "name": "Fiber_Crops Research Department",
+  "P1_Title": "Prof. Dr. Amany  Mohamed Mohy Elden El-Refaie Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Fiber_Crops_Director.png",
+  "description": "",
+  "image": "",
+  "P1": [
+    "The Fiber Crops Research Department is not merely an administrative or academic entity; it is a heartbeat of innovation and genuine scientific research, dedicated to the future of a vital and pivotal sector in our economy.",
+    "What distinguishes our work is the strategic depth in understanding both the challenges and the opportunities within this field. We do not view fiber crops as just agricultural plants, but as natural treasures that carry immense potential for sustainable industrial and economic development.",
+    "From breeding new varieties to improving fiber quality, through developing disease- and climate-resilient varieties, and finally exploring new and innovative applications of these fibers in various industries — our department demonstrates a comprehensive and integrated vision.",
+    "Our continuous efforts to enhance the productivity and quality of these crops, while expanding the horizons of their applications, directly contribute to strengthening self-sufficiency, creating new economic opportunities, and supporting national supply chains.",
+    "Every research study or experiment conducted within the department is a cornerstone added to the edifice of knowledge, contributing to building a more prosperous future.",
+    "We extend our gratitude to the distinguished research team working under our leadership for their dedication and commitment in serving the nation and society. We wish you continued success in your noble scientific endeavors."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "A new variety, Giza 13 (fiber crop), has been developed with high productivity, and more than 20 newly bred lines are currently being evaluated for registration as new varieties to replace the old local cultivars.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    }
+  ],
+  "Department_Mission_Outer": [
+    {
+      "id": "1",
+      "title": "Breeding new high-yielding varieties resistant to diseases and pests",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "2",
+      "title": "Developing optimal technical recommendations to support the crop, increase productivity, and improve quality",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "3",
+      "title": "Developing varieties tolerant to harsh environmental conditions such as drought, salinity, and extreme temperatures.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    },
+    {
+      "id": "4",
+      "title": "Exploring the genetic diversity of fiber crops and utilizing wild species to improve the available genetic resources.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "growth"
+    },
+    {
+      "id": "5",
+      "title": "Conducting applied research on new uses for fibers and their by-products",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    }
+  ],
+  "Department_Vision": [
+    {
+      "id": "1",
+      "title": "Variety Development",
+      "Sub_title": "",
+      "content": "Breeding high-yielding varieties tolerant to changing environmental conditions",
+      "subItems": [],
+      "priority": "high",
+      "category": "Variety Development"
+    },
+    {
+      "id": "2",
+      "title": "Utilizing Technology",
+      "Sub_title": "",
+      "content": "Applying modern technologies and smart agriculture practices",
+      "subItems": [],
+      "priority": "medium",
+      "category": "Utilizing Technology"
+    },
+    {
+      "id": "3",
+      "title": "Enhancing Research Collaboration",
+      "Sub_title": "",
+      "content": "Strengthening research collaboration and transferring modern technologies to farmers’ fields through building strong networks with universities, research centers, and relevant industries at both local and international levels to exchange knowledge and apply the latest innovations.",
+      "subItems": [],
+      "priority": "low",
+      "category": "Enhancing Research Collaboration"
+    },
+    {
+      "id": "4",
+      "title": "Challenges and Opportunities",
+      "Sub_title": "",
+      "content": "The Fiber Crops Research Department can effectively contribute to achieving food and industrial security, promoting sustainable development, and supporting the national economy by addressing challenges and seizing opportunities.",
+      "subItems": [],
+      "priority": "high",
+      "category": "Challenges and Opportunities"
+    }
+  ],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Fiber_Crops_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Fiber_Crops.pdf"
+}

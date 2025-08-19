@@ -1,0 +1,308 @@
+{
+  "name": "Forage Research Department",
+  "P1_Title": "Prof. Dr. Hossam El-Din Othman Saker Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Forage_Director.png",
+  "description": "",
+  "image": "",
+  "P1": [
+    "Green fodder crops are the safe haven for agricultural and livestock investment, helping to reduce reliance on expensive concentrated feed that often causes harmful diseases such as mad cow disease and foot-and-mouth disease. Providing green fodder crops at low costs gives small-scale farmers the opportunity to invest in production and livestock breeding. As a result, the state moves closer to achieving stability in agricultural and livestock production, contributing to the availability of animal protein and dairy products."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "Breeding 7 varieties of Egyptian clover",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "1.1",
+          "text": "Helaly",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "Sakha 4",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.3",
+          "text": "Serw 1",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.4",
+          "text": "Serw 3",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.5",
+          "text": "Gemmiza 1",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.6",
+          "text": "Gemmiza 6",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.7",
+          "text": "Sids 2",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Breeding one variety of berseem fahl (single-cut clover)",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "2.1",
+          "text": "Giza 1",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Breeding 4 varieties of alfalfa (Medicago sativa)",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "3.1",
+          "text": "Ismailia 1",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "3.2",
+          "text": "Nubaria 1",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "3.3",
+          "text": "Ramah 1",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "Breeding one variety of forage maize",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "4.1",
+          "text": "Giza 4",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "Breeding a forage maize hybrid for silage",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "5.1",
+          "text": "Sakha 101",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "Breeding 3 sorghum hybrids",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "6.1",
+          "text": "Sakha 20",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "6.2",
+          "text": "Sakha 17",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "6.3",
+          "text": "Sids 105",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "Breeding one variety of forage millet",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "7.1",
+          "text": "Shandweel 1",
+          "level": 2,
+          "parentId": "7",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "Breeding 2 varieties of forage cowpea",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "8.1",
+          "text": "Giza 18",
+          "level": 2,
+          "parentId": "8",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "8.2",
+          "text": "Sids 19",
+          "level": 2,
+          "parentId": "8",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "8.3",
+          "text": "Currently under registration",
+          "level": 2,
+          "parentId": "8",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "8.3.1",
+              "text": "2 varieties of Egyptian clover",
+              "level": 3,
+              "parentId": "8.3",
+              "isExpanded": false
+            },
+            {
+              "id": "8.3.2",
+              "text": "1 variety of fodder beet",
+              "level": 3,
+              "parentId": "8.3",
+              "isExpanded": false
+            },
+            {
+              "id": "8.3.3",
+              "text": "2 varieties of forage cowpea",
+              "level": 3,
+              "parentId": "8.3",
+              "isExpanded": false
+            },
+            {
+              "id": "8.3.4",
+              "text": "2 varieties of millet and 1 variety of forage maize",
+              "level": 3,
+              "parentId": "8.3",
+              "isExpanded": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Department_Mission_Outer": [
+    {
+      "id": "1",
+      "title": "Breeding forage crop varieties that are high-yielding, of good feeding quality, resistant to diseases, and with high nutritional value as a natural food source for farm animals including cattle, buffalo, sheep, goats, and camels.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "2",
+      "title": "Producing foundation seeds of these varieties and supplying them to the Central Administration for Seed Production and private companies for multiplication and distribution nationwide.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "3",
+      "title": "Training agricultural specialists and farmers interested in forage crops on the best agricultural practices and how to maximize land use efficiency.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    }
+  ],
+  "Department_Vision": [
+    {
+      "id": "1",
+      "title": "Continuing Scientific Research",
+      "Sub_title": "",
+      "content": "Continuing scientific research to improve the productivity and quality traits of forage crops, while breeding varieties that can tolerate environmental stresses such as drought and salinity. Ensuring year-round availability of green fodder crops provides stability in feed resources for farm animals.",
+      "subItems": [],
+      "priority": "high",
+      "category": "Continuing Scientific Research"
+    }
+  ],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Forage_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Forage.pdf"
+}

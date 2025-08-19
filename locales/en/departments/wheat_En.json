@@ -1,0 +1,119 @@
+{
+  "name": "Wheat Research Department",
+  "P1_Title": "Prof. Dr. Sobhy Mohamed Aly's Speech",
+  "P1": [
+    "Since its establishment in the 1920s, the Wheat Research Department has made tireless efforts through hard work and continuous dedication to achieve self-sufficiency in wheat production — the primary food grain crop on which the Egyptian people rely across all social levels, whether for bread or pasta production. Additionally, wheat straw is used by livestock farmers as a key source of animal feed. Wheat is also the most strategic crop globally, often used as a political tool to exert pressure on nations and governments, making its availability a matter of sovereignty. Therefore, the Wheat Research Department, represented by all its researchers, spares no effort in employing modern scientific methods and breeding techniques to develop high-yield, disease- and pest-resistant wheat varieties that are also tolerant to climate change across Egypt.",
+    
+    "Although the average yield per feddan reached around 19.32 ardab/feddan, and approximately 24 ardab/feddan in demonstration fields in 2024, we continue to strive for even greater progress. Our aim is to increase wheat production both vertically — by consistently developing new, high-yield varieties to raise the national average yield — and horizontally, by encouraging farmers to expand the cultivated area and adopt technical recommendations to boost national wheat output. This would reduce the country's dependency on imports, bridge the food gap, and ease the burden on the national budget. Accordingly, researchers in the department are working in collaboration with all relevant entities and research institutes — each in their area of expertise — to minimize post-harvest wheat losses during harvesting, handling, and storage, in addition to improving traditional storage facilities and constructing modern silos to increase national storage capacity."
+  ],
+ "Director_Image" : "/images/Departments Directors/Wheat_Director.png",
+  "description": "",
+  "image": "",
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "The Wheat Research Department has succeeded in more than doubling the average wheat yield per unit area over the past 30 years, thanks to the varieties developed by the department.",
+      "level": 1,
+      "isExpanded": false
+    },
+    {
+      "id": "2",
+      "text": "The coverage of certified seeds has increased by more than 100% due to the high quality of new varieties and the strong demand from farmers.",
+      "level": 1,
+      "isExpanded": false
+    },
+    {
+      "id": "3",
+      "text": "In the past five years, over 20 high-yield and high-quality varieties of bread and durum wheat have been developed, contributing to an increase in national wheat production to over 9.5 million tons.",
+      "level": 1,
+      "isExpanded": false
+    },
+    {
+      "id": "4",
+      "text": "Through its internationally recognized breeding program, the Wheat Research Department has elevated Egyptian wheat varieties to rank fourth globally in terms of yield per unit area.",
+      "level": 1,
+      "isExpanded": false
+    }
+  ],"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Development of new high-yielding wheat varieties resistant to diseases, especially rusts, tolerant to climate change, and possessing superior quality traits.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Production of breeder and foundation seeds for wheat varieties.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Issuing technical recommendation packages for wheat to achieve maximum productivity and cope with climate change.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Transferring modern technologies to farmers through national campaigns and extension activities.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  }
+  ],"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Continuity",
+    "Sub_title": "",
+    "content": "Continuing the development of new wheat varieties, especially in light of ongoing climate changes, with a focus on breeding varieties suitable for cultivation in Egypt’s national mega projects such as Future of Egypt, the New Delta, Toshka, East Owainat, Sinai, and the New Valley Governorate.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Continuity"
+  },
+  {
+    "id": "2",
+    "title": "Production",
+    "Sub_title": "",
+    "content": "Adopting the latest global trends in wheat production, such as hybrid wheat, and in the field of seed production, continuing to set policies and determine the areas for breeder and foundation seeds, as well as the expected quantities to be produced, in accordance with the varietal policy of the Wheat Research Department and the national wheat cultivation strategy. These seeds are delivered to the Central Administration for Seed Production and seed companies in Egypt for multiplication and distribution to farmers as certified seeds of high quality and genetic purity. The aim is to achieve 100% coverage of wheat cultivation areas in Egypt within three years.",
+    "subItems": [],
+    "priority": "medium",
+    "category": "Production"
+  },
+  {
+    "id": "3",
+    "title": "Focus",
+    "Sub_title": "",
+    "content": "Increasing attention to specialized breeding programs aimed at developing varieties with unique traits suitable for areas with specific conditions such as salinity, drought, and high temperatures. Expanding international cooperation by strengthening partnerships with global organizations and joining international wheat alliances such as KIDIG CIAGE (Australia, CIMMYT, ICARDA) to evaluate genetic materials, in addition to collaboration with FAO, the European Union, ACSAD, the Islamic Organization for Food Security, the Arab Organization for Agricultural Development, and others.",
+    "subItems": [],
+    "priority": "low",
+    "category": "Focus"
+  },
+  {
+    "id": "4",
+    "title": "Activity Modernization",
+    "Sub_title": "Updating extension activities for the national wheat campaigns through:",
+    "content": "",
+    "subItems": [
+      { "text": "Raising farmers’ awareness of the latest methods to cope with climate change." },
+      { "text": "Promoting smart agriculture." },
+      { "text": "Spreading the culture of using natural biofertilizers and reducing the use of pesticides and chemical fertilizers." },
+      { "text": "Building on the existing activities of the national wheat campaign, which include introducing new varieties and promoting raised-bed planting techniques to save water." }
+    ],
+    "priority": "high",
+    "category": "Activity"
+  }
+  ],
+  "HR_File_PDF_Path" : "/pdfs/HR Data/HR_Wheat_Department.pdf",
+  "Research_File_PDF_Path" : "/pdfs/Research Data/Research_Wheat.pdf"
+}

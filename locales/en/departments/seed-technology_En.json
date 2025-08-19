@@ -1,0 +1,152 @@
+{
+  "name": "Seed Technology Research Department",
+  "P1_Title": "Prof. Dr. Amany Mohamed Sallam Mohamed Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Seed_Technology_Director.png",
+  "description": "",
+  "image": "",
+  "P1": [
+    "The Seed Technology Department plays an important role in evaluating and improving the quality of seeds associated with the Field Crops Research Institute."
+  ],
+  "Department_Achieviements": [
+    {
+      "id": "1",
+      "text": "Publishing numerous scientific research studies annually in reputable scientific journals.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    }
+  ],
+  "Department_Mission_Outer": [
+    {
+      "id": "1",
+      "title": "Conduct morphological, chemical, biochemical, and molecular characterization of varieties, lines, and hybrids.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "2",
+      "title": "Verify the genetic purity of plant lines and hybrids.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "3",
+      "title": "Carry out chemical analysis of seed content to support breeding programs.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    },
+    {
+      "id": "4",
+      "title": "Conduct studies on seed treatments before planting and after harvest to improve quality.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "growth"
+    },
+    {
+      "id": "5",
+      "title": "Determine appropriate seeding rates through germination percentage and thousand-kernel weight evaluation.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "6",
+      "title": "Study the factors affecting seed quality, such as:",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "7",
+      "title": "Conduct morphological, chemical, biochemical, and molecular characterization of varieties, lines, and hybrids.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    }
+  ],
+  "Department_Mission_Inner": {
+    "Array_1": [],
+    "Array_2": [],
+    "Array_3": [],
+    "Array_4": [],
+    "Array_5": [],
+    "Array_6": [
+      {
+        "id": "1",
+        "title": "Environmental factors",
+        "description": "",
+        "category": "core",
+        "connections": ["2", "3"],
+        "strength": 100
+      },
+      {
+        "id": "2",
+        "title": "Technological and agricultural practices for seeds",
+        "description": "",
+        "category": "community",
+        "connections": ["1", "4"],
+        "strength": 100
+      },
+      {
+        "id": "3",
+        "title": "Seed health and diseases",
+        "description": "",
+        "category": "innovation",
+        "connections": ["1", "4"],
+        "strength": 100
+      },
+      {
+        "id": "4",
+        "title": "Seed pests",
+        "description": "",
+        "category": "support",
+        "connections": ["1", "4"],
+        "strength": 100
+      },
+      {
+        "id": "5",
+        "title": "Storage conditions",
+        "description": "",
+        "category": "core",
+        "connections": ["1", "4"],
+        "strength": 100
+      }
+    ],
+    "Array_7": []
+  },
+  "Department_Vision": [
+    {
+      "id": "1",
+      "title": "Keeping up with development",
+      "Sub_title": "",
+      "content": "",
+      "subItems": [
+        { "text": "Keeping pace with scientific advancement and all new developments in the seed sector." },
+        { "text": "Conducting scientific research." },
+        { "text": "Providing laboratory training for students and researchers." }
+      ],
+      "priority": "high",
+      "category": "Keeping up with development"
+    }
+  ],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Seed_Technology_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Seed_Technology.pdf"
+}

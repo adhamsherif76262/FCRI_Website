@@ -1,0 +1,168 @@
+{
+  "name": " Research Department",
+  "P1_Title": "Prof. Dr. Wael Mohamed Adel Teilep Department Director's Speech",
+  "Director_Image": "/images/Departments Directors/Oil_Crops_Director.png",
+  "description": "",
+  "image": "",
+"P1": [
+  "Given the high strategic importance of oil crops, and in line with the political leadership’s vision and the Agriculture 2030 strategy to expand the cultivated area of oil crops in order to reduce the gap between production and consumption and lower the import bill, a comprehensive plan has been developed for the Oil Crops Research Department, based on the following pillars:",
+  "First: Expanding the breeding of new varieties and hybrids of oil crops that are high-yielding, resistant to diseases and insects, adaptable to different climatic conditions, and tolerant to salinity and drought, in order to cover the targeted expansion areas, especially in newly established national projects.",
+  "Second: Providing breeder and foundation seeds of the developed varieties to seed production entities to ensure the availability of certified seeds of different oil crops.",
+  "Third: Reviewing and updating extension bulletins and technical recommendations for each crop, and offering technical, practical, and scientific support to farmers across the country."
+],
+"Department_Achieviements": [
+  {
+    "id": "1",
+    "text": "Registration of new varieties of different oil crops:",
+    "level": 1,
+    "isExpanded": false,
+    "children": [
+      {
+        "id": "1.1",
+        "text": "Sesame:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          { "id": "1.1.1", "text": "Sohag 1", "level": 3, "parentId": "1.1", "isExpanded": false },
+          { "id": "1.1.2", "text": "Shandaweel 3", "level": 3, "parentId": "1.1", "isExpanded": false },
+          { "id": "1.1.3", "text": "Giza 32", "level": 3, "parentId": "1.1", "isExpanded": false },
+          { "id": "1.1.4", "text": "Toshka 1", "level": 3, "parentId": "1.1", "isExpanded": false }
+        ]
+      },
+      {
+        "id": "1.2",
+        "text": "Sunflower:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          { "id": "1.2.1", "text": "Sakha 53", "level": 3, "parentId": "1.2", "isExpanded": false },
+          { "id": "1.2.2", "text": "Giza 102", "level": 3, "parentId": "1.2", "isExpanded": false },
+          { "id": "1.2.3", "text": "Giza 120", "level": 3, "parentId": "1.2", "isExpanded": false },
+          { "id": "1.2.4", "text": "Under registration: Sakha 54", "level": 3, "parentId": "1.2", "isExpanded": false },
+          { "id": "1.2.5", "text": "Under registration: Sakha 55", "level": 3, "parentId": "1.2", "isExpanded": false }
+        ]
+      },
+      {
+        "id": "1.3",
+        "text": "Groundnut (Peanut):",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          { "id": "1.3.1", "text": "Giza 6", "level": 3, "parentId": "1.3", "isExpanded": false },
+          { "id": "1.3.2", "text": "Ismailia 1", "level": 3, "parentId": "1.3", "isExpanded": false },
+          { "id": "1.3.3", "text": "Ismailia 2", "level": 3, "parentId": "1.3", "isExpanded": false },
+          { "id": "1.3.4", "text": "Under registration: Ismailia 3", "level": 3, "parentId": "1.3", "isExpanded": false }
+        ]
+      },
+      {
+        "id": "1.4",
+        "text": "Canola:",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": [
+          { "id": "1.4.1", "text": "Serw 4", "level": 3, "parentId": "1.4", "isExpanded": false },
+          { "id": "1.4.2", "text": "Misr 1", "level": 3, "parentId": "1.4", "isExpanded": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Development of best technical recommendations for cultivating oil crops in both old and newly reclaimed lands.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "3",
+    "text": "Conducting numerous extension seminars on oil crops in cooperation with the Central Administration for Agricultural Extension, the Cotton, Fiber & Oil Crops Council, aiming to transfer practical and technical expertise to farmers.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "4",
+    "text": "Production of breeder and foundation seeds of developed varieties, to be delivered to the Central Administration for Seed Production to ensure the supply of certified seeds for the expected cultivated areas in the future.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  }
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Conduct research to breed new oil crop varieties with high productivity, resistance to diseases and pests, and adaptability to changing climatic conditions.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Provide technical recommendations and extension guidance for oil crops to farmers through nationwide extension seminars.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Work on reducing the gap between production and consumption of vegetable oils, focusing on the crops handled by the department.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Cooperate with the Central Administration for Seed Certification to conduct quality tests on imported oil crop seeds and determine their suitability for cultivation.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Variety and Hybrid Development",
+    "Sub_title": "",
+    "content": "Developing new oil crop varieties and hybrids characterized by high productivity, to meet the needs of expanded cultivation areas and reduce the production-consumption gap.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Variety and Hybrid Development"
+  },
+  {
+    "id": "2",
+    "title": "Agricultural Expansion",
+    "Sub_title": "",
+    "content": "",
+    "subItems": [
+      { "text": "Expanding the cultivation of industrial oil crops, especially sunflower and canola, to help reduce the deficit in oil crops." },
+      { "text": "Expanding the cultivation of groundnut, particularly export varieties with the required economic specifications, to generate foreign currency and increase agricultural export revenues." }
+    ],
+    "priority": "medium",
+    "category": "Agricultural Expansion"
+  },
+  {
+    "id": "3",
+    "title": "Expanding Cultivated Areas",
+    "Sub_title": "",
+    "content": "Increasing the cultivated area of sesame to meet local demand and reduce imports.",
+    "subItems": [],
+    "priority": "low",
+    "category": "Expanding Cultivated Areas"
+  }
+],
+  "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
+  "HR_File_PDF_Path": "/pdfs/HR Data/HR_Oil_Crops_Department.pdf",
+  "Research_File_PDF_Path": "/pdfs/Research Data/Research_Oil_Crops.pdf"
+}
