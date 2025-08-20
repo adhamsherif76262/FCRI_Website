@@ -3,31 +3,56 @@
 import {
   Phone, Printer, Mail, MapPin, ArrowUp,
 } from 'lucide-react';
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation';
 import LangSwitcher from './LangSwitcher';
 import clsx from 'clsx';
+import Link from 'next/link'
+import { useState, useEffect } from 'react';
 
-const departmentsEn = [
-  'Wheat', 'Maize', 'Rice', 'Barley', 'Sorghum',
-  'Legumes', 'Fibers','Onion', 'Forage', 'Crop Physiology',
-  'Oil Crops','Cell biology', 'Genetic Resources','Seed Technology', 'Crop Intensification'
-];
+// const departmentsEn = [
+//   'Wheat', 'Maize', 'Rice', 'Barley', 'Sorghum',
+//   'Legumes', 'Fibers','Onion', 'Forage', 'Crop Physiology',
+//   'Oil Crops','Cell biology', 'Genetic Resources','Seed Technology', 'Crop Intensification'
+// ];
 
-const departmentsAr = [
-  'القمح', 'الذرة الشامية', 'الأرز', 'الشعير', 'الذرة الرفيعة',
-  'البقوليات', 'الألياف', 'المحاصيل الزيتية', 'العلف', 'دراسة الخلية',
-  'الأصول الوراثيه', 'البصل', 'فسيولوجيا المحاصيل', 'تكنولوجيا البذور', 'التكثيف المحصولى'
-];
-
+// const departmentsAr = [
+//   'القمح', 'الذرة الشامية', 'الأرز', 'الشعير', 'الذرة الرفيعة',
+//   'البقوليات', 'الألياف', 'المحاصيل الزيتية', 'العلف', 'دراسة الخلية',
+//   'الأصول الوراثيه', 'البصل', 'فسيولوجيا المحاصيل', 'تكنولوجيا البذور', 'التكثيف المحصولى'
+// ];
+// components/FuturisticParagraphSection.tsx
+type Props = {
+  rtl?: boolean;
+};
+interface Department {
+  name: string;
+  slug: string; // ✅ Always in English
+  image: string;
+  footerName: string;
+}
   function Handle_To_Top_Click(){
      window.scrollTo({ top: 0, behavior: 'smooth' })
   }
-export default function FuturisticFooter() {
-    const pathname = usePathname();
-    const currentLang = pathname?.split('/')[1] === 'ar' ? 'ar' : 'en';
-    const departments = currentLang === 'ar' ? departmentsAr : departmentsEn;
 
-  return (
+export default function FuturisticFooter( {rtl} : Props) {
+    // const pathname = usePathname();
+    // const currentLang = pathname?.split('/')[1] === 'ar' ? 'ar' : 'en';
+    // const departments = currentLang === 'ar' ? departmentsAr : departmentsEn;
+    const currentLang =   rtl ? 'ar' : 'en';
+
+      const [departments, setDepartments] = useState<Department[]>([]);
+
+  useEffect(() => {
+    async function fetchDepartments() {
+      const deps: Department[] = await import(
+        `@/locales/${currentLang}/departments_${currentLang === 'ar' ? 'Ar' : 'En'}.json`
+      ).then((mod) => mod.default);
+      setDepartments(deps);
+    }
+    fetchDepartments();
+  }, [currentLang]);
+
+    return (
     <footer
       dir={currentLang === 'ar' ? 'rtl' : 'ltr'}
       className={clsx(
@@ -92,15 +117,21 @@ export default function FuturisticFooter() {
             currentLang === 'ar' ? "xxxs:grid-cols-1 xxs:grid-cols-2 xs:grid-cols-3 gap-5 xxs:gap-x-0 md:gap-x-5":"xxxs:grid-cols-1 xxs:grid-cols-2 xs:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-5 xxs:gap-x-0 md:gap-x-5"
           )}>
             {departments.map((dep, i) => (
+
                 <li
                   key={i}
                   className="xxxs:text-2xl group relative cursor-pointer text-green-300 hover:text-white transition-all duration-300 font-black"
                 >
-                  <span>{dep}</span>
+                  <Link
+                    href={`/${currentLang}/departments/${dep.slug}`}
+                  >
+
+                  <span className='p-auto'>{dep.footerName}</span>
                   <span className={clsx(
                     "absolute -bottom-1 h-0.5 w-0 bg-green-300 transition-all duration-300 group-hover:w-full",
-                    currentLang === 'ar' ? "right-0" : "left-0"
-                  )} />
+                    currentLang === 'ar' ? "right-0" : "left-0 "
+                  )}   />
+                  </Link>
                 </li>
             ))}
           </ul>

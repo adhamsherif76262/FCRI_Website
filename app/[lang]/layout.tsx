@@ -136,7 +136,7 @@ style={{
           <Container>{children}</Container>
         </main>
         {/* <Footer /> */}
-        <FuturisticFooter />
+        <FuturisticFooter rtl={dir === 'rtl' ? true : false}/>
       </body>
     </html>
   );
