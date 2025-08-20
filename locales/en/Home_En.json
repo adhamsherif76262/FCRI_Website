@@ -44,27 +44,132 @@
   ],
   "B3_Title": "Institute Activities",
   "B3": [
-    "Developed and registered over 300 varieties and hybrids.",
-    "Achieved 100% maize cultivation with resistant hybrids.",
-    "Developed export-grade onion and peanut varieties.",
-    "Promoted rust-resistant wheat and Orobanche-resistant faba bean varieties.",
-    "Promoted soybean varieties resistant to cotton leafworm.",
-    "Introduced high-yielding clover varieties.",
-    "Updated and transferred technical recommendations to farmers in cooperation with the Agricultural Extension Service."
-  ],
+  {
+    "id": "1",
+    "title": "Development and registration of more than 300 varieties and hybrids.",
+    "description": "",
+    "priority": "high",
+    "icon": "zap"
+  },
+  {
+    "id": "2",
+    "title": "Achieved 100% coverage of maize cultivation with resistant hybrids.",
+    "description": "",
+    "priority": "medium",
+    "icon": "users"
+  },
+  {
+    "id": "3",
+    "title": "Development of onion and peanut varieties with export-quality traits.",
+    "description": "",
+    "priority": "low",
+    "icon": "award"
+  },
+  {
+    "id": "4",
+    "title": "Dissemination of rust-resistant wheat varieties and broomrape-resistant faba bean.",
+    "description": "",
+    "priority": "low",
+    "icon": "target"
+  },
+  {
+    "id": "5",
+    "title": "Dissemination of soybean varieties resistant to cotton leafworm and replacement with high-yielding clover varieties.",
+    "description": "",
+    "priority": "medium",
+    "icon": "zap"
+  },
+  {
+    "id": "6",
+    "title": "Updating technical recommendations and transferring them to farmers in collaboration with agricultural extension services.",
+    "description": "",
+    "priority": "high",
+    "icon": "users"
+  }
+],
   "B4_Title": "Future Activities",
-  "B4": [
-    "Continue developing high-quality varieties.",
-    "Apply safe biotechnology methods.",
-    "Determine optimal agronomic practices.",
-    "Provide improved seeds to farmers.",
-    "Preserve genetic resources.",
-    "Collaborate with local and international universities.",
-    "Develop new crop structures.",
-    "Offer training and extension programs.",
-    "Strengthen research capacities locally and internationally.",
-    "Implement regional training programs in cooperation with international agricultural centers."
-  ],
+"B4": [
+  {
+    "id": "1",
+    "title": "Continuing the development of high-quality varieties.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "sustainability"
+  },
+  {
+    "id": "2",
+    "title": "Utilizing safe biotechnology applications.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "excellence"
+  },
+  {
+    "id": "3",
+    "title": "Identifying the best agricultural practices.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "innovation"
+  },
+  {
+    "id": "4",
+    "title": "Providing improved seeds to farmers.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "development"
+  },
+  {
+    "id": "5",
+    "title": "Preserving genetic resources.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "support"
+  },
+  {
+    "id": "6",
+    "title": "Collaborating with local and international universities.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": ""
+  },
+  {
+    "id": "7",
+    "title": "Developing new crop combinations.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "development"
+  },
+  {
+    "id": "8",
+    "title": "Delivering training and extension programs.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "sustainability"
+  },
+  {
+    "id": "9",
+    "title": "Supporting research capacities locally and internationally.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "innovation"
+  },
+  {
+    "id": "10",
+    "title": "Implementing regional training programs in collaboration with international agricultural centers.",
+    "description": "",
+    "timeline": "2025+",
+    "impact": "",
+    "theme": "excellence"
+  }
+],
   "P4_Title": "Future Vision",
   "P4": "The Institute aims to continue developing more resilient and efficient crop varieties, applying safe biotechnology in genetic improvement programs, strengthening international and regional cooperation, and intensifying training programs to enhance the capabilities of researchers and agricultural professionals in Egypt, Africa, and Asia.",
   "ctaButton": "Explore Our Research"

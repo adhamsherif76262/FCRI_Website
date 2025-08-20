@@ -28,7 +28,7 @@ type Props = {
   bullets: string[];
   rtl?: boolean;
   grid?: boolean; // ✅ NEW
-  animation : "slide" | "pulse";
+  animation?: "slide" | "pulse";
   // Indexes : number[];
   icon?: 
   'check' 
@@ -75,7 +75,7 @@ type Props = {
 // };
 
 // export default function FuturisticBulletSection({ title, bullets, rtl = false , icon = 'check',grid = false}: Props) {
-export default function FuturisticBulletSection({ title, bullets, rtl = false , animation}: Props) {
+export default function FuturisticBulletSection({ title, bullets, rtl = false}: Props) {
     // const BulletIcon = iconMap[icon];
 
     return (
@@ -85,23 +85,10 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false , 
     >
       <h2 className={clsx(
         "font-black text-cyan-400 mb-6 tracking-wider text-center bg_Green",
-        rtl ? "md:text-5xl xs:text-4xl xxxs:text-3xl" : "md:text-4xl xs:text-3xl xxxs:text-2xl"
+        rtl ? "md:text-5xl xs:text-4xl xxxs:text-3xl" : "xxs:text-3xl xxxs:text-2xl"
       )}>
         {title}
       </h2>
-
-
-{/* <ul className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-  {bullets.map((item, i) => (
-    <li
-      key={i}
-      className=" rounded-3xl shadow-2xl mx-auto bg_Beige bg_Gray border border-cyan-400 relative p-5 hover:shadow-cyan-400 cursor-pointer transition group font-black"
-    >
-      <div className="absolute inset-0 border-8 border-cyan-400 opacity-1 group-hover:opacity-100 animate-pulse rounded-3xl pointer-events-none" />
-      <p className="text-2xl leading-relaxed tracking-wide">{item}</p>
-    </li>
-  ))}
-</ul> */}
 
 <ul className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
   {bullets.map((item, i) => {
@@ -126,31 +113,18 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false , 
         className={`rounded-3xl shadow-2xl mx-auto bg_Beige bg_Gray border border-black relative p-5 hover:shadow-black cursor-pointer transition group font-black ${colSpan}`}
       >
         <div className={clsx(
-          "absolute inset-0 border-8 border-black opacity-1 group-hover:opacity-100 rounded-3xl pointer-events-none",
-          animation === "pulse" ? "animate-pulse" : rtl ? "animate_slide_Fade_Right" : "animate_slide_Fade_Left"
+          "absolute inset-0 border-8 border-black opacity-1 group-hover:opacity-100 rounded-3xl pointer-events-none ",
+          rtl ? "animate_slide_Fade_Right" : "animate_slide_Fade_Left"
         )} />
         <p className={clsx(
           "tracking-wide",
-          rtl ? "xs:text-3xl xxxs:text-xl xs:lineHeight align-middle" : "xs:text-2xl xxxs:text-sm xs:lineHeight align-middle",
+          rtl ? "xxs:text-2xl xxs:leading-relaxed xxxs:text-xl xxxs:leading-relaxed align-middle" : "xxs:text-xl xxxs:text-md align-middle",
           // Indexes[i] == i ? "whitespace-pre" : ""
         )}>{item}</p>
       </li>
     );
   })}
 </ul>
-
-      {/* <ul className={`bg_Gray text-sm sm:text-base md:text-lg leading-loose
-        ${grid
-      ? 'grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-6'
-      : 'space-y-4'}
-      `}>
-        {bullets.map((item, idx) => (
-          <li key={idx} className="flex items-start gap-3 hover:text-black transition-colors xxxs:text-lg xxs:text-xl xs:text-2xl md:text-2xl lg:text-3xl ">
-            {BulletIcon}
-            <span className='sm:Line-Height xxxs:leading-10 font-black'>{item}</span>
-          </li>
-        ))}
-      </ul> */}
     </section>
   );
 }

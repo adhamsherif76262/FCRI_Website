@@ -63,7 +63,7 @@ export default function LangSwitcher() {
       </button>
 
       {/* 🌐 Icon */}
-      <div dir='ltr'  className="px-1 text-green-400 text-base pointer-events-none animate-spin-slow origin-center">🌐</div>
+      <div dir='ltr'  className="px-1 text-green-400 text-base pointer-events-none Animate-Spin-Slow origin-center">🌐</div>
 
 {/* 🌐 Icon */}
 {/* <div dir="ltr" className="w-[40px] h-[40px] flex items-center justify-center">

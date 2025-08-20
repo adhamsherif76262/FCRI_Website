@@ -169,17 +169,17 @@
       "isExpanded": false,
       "children": [
         {
-          "id": "2.1",
+          "id": "5.1",
           "text": "فوز أعضاء القسم بجوائز علمية محلية ودولية في مجال الابتكار الزراعي.",
           "level": 2,
-          "parentId": "2",
+          "parentId": "5",
           "isExpanded": false
         },
         {
-          "id": "2.2",
+          "id": "5.2",
           "text": "الاعتراف بأبحاث القسم كمراجع مهمة في التقنية الحيوية النباتية.",
           "level": 2,
-          "parentId": "2",
+          "parentId": "5",
           "isExpanded": false
         }
       ]

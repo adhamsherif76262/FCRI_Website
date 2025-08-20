@@ -62,7 +62,7 @@
     "isExpanded": false,
     "children": [
         {
-          "id": "1.1",
+          "id": "2.1",
           "text": "Developed varieties that consume up to 25% less water compared to traditional ones.",
           "level": 2,
           "parentId": "2",
@@ -70,7 +70,7 @@
           "children": []
         },
         {
-          "id": "1.2",
+          "id": "2.2",
           "text": "Conducted research on modern irrigation methods such as alternate wetting and drying, and direct dry seeding.",
           "level": 2,
           "parentId": "2",
@@ -78,7 +78,7 @@
           "children": []
         },
         {
-          "id": "1.3",
+          "id": "2.3",
           "text": "Contributed to launching the national water-saving rice cultivation strategy in collaboration with the Ministry of Water Resources and Irrigation.",
           "level": 2,
           "parentId": "2",
@@ -94,7 +94,7 @@
     "isExpanded": false,
     "children": [
         {
-          "id": "1.1",
+          "id": "3.1",
           "text": "Prepared and distributed annual extension bulletins and publications for farmer awareness.",
           "level": 2,
           "parentId": "3",
@@ -102,7 +102,7 @@
           "children": []
         },
         {
-          "id": "1.2",
+          "id": "3.2",
           "text": "Implemented dozens of extension fields annually in cooperation with farmers across Egypt.",
           "level": 2,
           "parentId": "3",
@@ -110,7 +110,7 @@
           "children": []
         },
         {
-          "id": "1.3",
+          "id": "3.3",
           "text": "Trained thousands of agricultural engineers and farmers on modern cultivation techniques and integrated management.",
           "level": 2,
           "parentId": "3",
@@ -126,7 +126,7 @@
     "isExpanded": false,
     "children": [
         {
-          "id": "1.1",
+          "id": "4.1",
           "text": "Implemented successful partnership projects with international organizations such as JICA, IRRI, Africarice, and CNRRI.",
           "level": 2,
           "parentId": "4",
@@ -134,7 +134,7 @@
           "children": []
         },
         {
-          "id": "1.2",
+          "id": "4.2",
           "text": "Trained hundreds of specialists from African and Asian countries at the department’s training center.",
           "level": 2,
           "parentId": "4",
@@ -150,7 +150,7 @@
     "isExpanded": false,
     "children": [
         {
-          "id": "1.1",
+          "id": "5.1",
           "text": "Conducted genetic studies using biotechnology to improve genetic traits.",
           "level": 2,
           "parentId": "5",
@@ -158,7 +158,7 @@
           "children": []
         },
         {
-          "id": "1.2",
+          "id": "5.2",
           "text": "Evaluated varieties across different agricultural environments.",
           "level": 2,
           "parentId": "5",
@@ -166,7 +166,7 @@
           "children": []
         },
         {
-          "id": "1.3",
+          "id": "5.3",
           "text": "Carried out integrative research covering fertilization, plant density, and weed management.",
           "level": 2,
           "parentId": "5",
@@ -182,7 +182,7 @@
     "isExpanded": false,
     "children": [
         {
-          "id": "1.1",
+          "id": "6.1",
           "text": "Played an active role in preparing the annual rice cultivation map in coordination with the Ministry of Agriculture.",
           "level": 2,
           "parentId": "6",
@@ -190,7 +190,7 @@
           "children": []
         },
         {
-          "id": "1.2",
+          "id": "6.2",
           "text": "Provided official, research-backed recommendations for rationalizing water use and increasing production.",
           "level": 2,
           "parentId": "6",
@@ -400,7 +400,8 @@
       "strength": 100
     }
   ]
-},"Department_Vision": [
+},
+"Department_Vision": [
   {
     "id": "1",
     "title": "Food Security",

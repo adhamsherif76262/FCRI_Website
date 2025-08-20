@@ -5,48 +5,73 @@ interface VisionItem {
   title: string
   description: string
   timeline: string
-  impact: "local" | "national" | "global"
-  theme: "innovation" | "growth" | "sustainability" | "excellence"
+  impact: string
+  theme: string
 }
 
 interface LayeredVisionListProps {
   items: VisionItem[]
+  isArabic : boolean
 }
 
-export default function LayeredVisionList({ items = [] }: LayeredVisionListProps) {
+export default function LayeredVisionList({ items , isArabic}: LayeredVisionListProps) {
   const defaultItems: VisionItem[] = [
     {
       id: "1",
-      title: "الريادة في التحول الرقمي",
-      description: "أن نكون الرواد في تطبيق أحدث التقنيات الرقمية وتقديم خدمات مبتكرة تلبي احتياجات المستقبل",
+      title: "",
+      description : "",
       timeline: "2025-2030",
-      impact: "national",
-      theme: "innovation",
+      impact: "",
+      theme: "sustainability",
     },
     {
       id: "2",
-      title: "التميز في الخدمة المجتمعية",
-      description: "تحقيق أعلى معايير الجودة في الخدمات المقدمة للمجتمع وضمان رضا جميع المستفيدين",
+      title: "",
+      description : "",
       timeline: "2024-2027",
-      impact: "local",
+      impact: "",
       theme: "excellence",
     },
     {
       id: "3",
-      title: "الاستدامة والمسؤولية البيئية",
-      description: "تطبيق ممارسات مستدامة في جميع العمليات والمساهمة في حماية البيئة للأجيال القادمة",
+      title: "",
+      description : "",
       timeline: "2024-2035",
-      impact: "global",
-      theme: "sustainability",
+      impact: "",
+      theme: "innovation",
     },
     {
       id: "4",
-      title: "النمو والتوسع الاستراتيجي",
-      description: "توسيع نطاق الخدمات وتطوير قدرات المؤسسة لتحقيق نمو مستدام ومتوازن",
+      title: "",
+      description : "",
       timeline: "2025-2028",
-      impact: "national",
+      impact: "",
+      theme: "development",
+    },
+    {
+      id: "5",
+      title: "",
+      description : "",
+      timeline: "2025-2028",
+      impact: "",
+      theme: "support",
+    },
+    {
+      id: "6",
+      title: "",
+      description : "",
+      timeline: "2025-2028",
+      impact: "",
       theme: "growth",
     },
+    {
+      id: "7",
+      title: "",
+      description : "",
+      timeline: "2025-2028",
+      impact: "",
+      theme: "",
+    }
   ]
 
   const displayItems = items.length > 0 ? items : defaultItems
@@ -61,6 +86,10 @@ export default function LayeredVisionList({ items = [] }: LayeredVisionListProps
         return <Globe className="h-6 w-6" />
       case "excellence":
         return <Eye className="h-6 w-6" />
+      case "development":
+        return <Rocket className="h-6 w-6" />
+      case "support":
+        return <Globe className="h-6 w-6" />
       default:
         return <Eye className="h-6 w-6" />
     }
@@ -96,6 +125,20 @@ export default function LayeredVisionList({ items = [] }: LayeredVisionListProps
           accent: "text-purple-700",
           border: "border-purple-200",
         }
+      case "development":
+        return {
+          primary: "from-red-500 to-black",
+          secondary: "bg-red-100",
+          accent: "text-red-700",
+          border: "border-red-200",
+        }
+      case "support":
+        return {
+          primary: "from-blue-800 to-yellow-400",
+          secondary: "bg-blue-100",
+          accent: "text-blue-700",
+          border: "border-red-200",
+        }
       default:
         return {
           primary: "from-gray-500 to-gray-600",
@@ -106,21 +149,21 @@ export default function LayeredVisionList({ items = [] }: LayeredVisionListProps
     }
   }
 
-  const getImpactSize = (impact: string) => {
-    switch (impact) {
-      case "local":
-        return "text-xl"
-      case "national":
-        return "text-2xl"
-      case "global":
-        return "text-3xl"
-      default:
-        return "text-2xl"
-    }
-  }
+  // const getImpactSize = (impact: string) => {
+  //   switch (impact) {
+  //     case "local":
+  //       return "text-xl"
+  //     case "national":
+  //       return "text-2xl"
+  //     case "global":
+  //       return "text-3xl"
+  //     default:
+  //       return "text-2xl"
+  //   }
+  // }
 
   return (
-    <div className="relative py-12 px-4" dir="rtl">
+    <div className="relative py-12 px-4" dir={isArabic ? "rtl" : "ltr"}>
       <div className="max-w-6xl mx-auto">
         {/* Fixed Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -159,15 +202,16 @@ export default function LayeredVisionList({ items = [] }: LayeredVisionListProps
 
                         <div className="text-left">
                           <div
-                            className={`inline-block px-3 py-1 ${colors.secondary} ${colors.accent} rounded-full text-xs font-semibold`}
+                            className={`inline-block px-3 py-1 ${colors.secondary} ${colors.accent} rounded-full text-lg font-black`}
                           >
-                            {item.impact === "local" ? "محلي" : item.impact === "national" ? "وطني" : "عالمي"}
+                            {/* {item.impact === "local" ? "محلي" : item.impact === "national" ? "وطني" : "عالمي"} */}
+                            {item.id}
                           </div>
                         </div>
                       </div>
 
                       {/* Title */}
-                      <h3 className={`font-bold mb-4 ${colors.accent} ${getImpactSize(item.impact)}`}>{item.title}</h3>
+                      <h3 className={`font-black mb-4 ${colors.accent} ${isArabic ? "xxxs:text-2xl xxxs:leading-relaxed sm:text-3xl sm:leading-relaxed" : "xxxs:text-lg xxs:text-xl sm:text-2xl md:text-xl lg:text-2xl"}`}>{item.title}</h3>
 
                       {/* Description */}
                       <p className="text-gray-700 leading-relaxed mb-6 text-base">{item.description}</p>
@@ -175,7 +219,8 @@ export default function LayeredVisionList({ items = [] }: LayeredVisionListProps
                       {/* Timeline */}
                       <div className="flex items-center justify-between">
                         <div
-                          className={`px-4 py-2 bg-gradient-to-r ${colors.primary} text-white rounded-full text-sm font-semibold`}
+                          dir="ltr"
+                          className={`px-4 py-2 bg-gradient-to-r ${colors.primary} text-white rounded-full text-md font-black`}
                         >
                           {item.timeline}
                         </div>

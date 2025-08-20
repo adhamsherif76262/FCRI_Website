@@ -9,14 +9,14 @@ import clsx from 'clsx';
 
 const departmentsEn = [
   'Wheat', 'Maize', 'Rice', 'Barley', 'Sorghum',
-  'Legumes', 'Fiber Crops', 'Oil Crops', 'Forages', 'Millets',
-  'Quinoa', 'Sugar Crops', 'Fodder', 'Breeding', 'Crop Protection'
+  'Legumes', 'Fibers','Onion', 'Forage', 'Crop Physiology',
+  'Oil Crops','Cell biology', 'Genetic Resources','Seed Technology', 'Crop Intensification'
 ];
 
 const departmentsAr = [
   'القمح', 'الذرة الشامية', 'الأرز', 'الشعير', 'الذرة الرفيعة',
-  'البقوليات', 'محاصيل الألياف', 'محاصيل الزيت', 'محاصيل العلف', 'الدخن',
-  'الكينوا', 'محاصيل السكر', 'مراعي العلف', 'التربية', 'وقاية المحاصيل'
+  'البقوليات', 'الألياف', 'المحاصيل الزيتية', 'العلف', 'دراسة الخلية',
+  'الأصول الوراثيه', 'البصل', 'فسيولوجيا المحاصيل', 'تكنولوجيا البذور', 'التكثيف المحصولى'
 ];
 
   function Handle_To_Top_Click(){
@@ -38,7 +38,7 @@ export default function FuturisticFooter() {
       <div className=" max-w-7xl mx-auto grid grid-cols-1 md:Grid-Columns gap-8">
         {/* Contact Info */}
         <div className=''>
-          <h3 className=" text-green-300 xxxs:text-3xl md:T-Scale md:ml-10 xxxs:ml-0  mb-10">📡 {currentLang === 'ar' ? 'معلومات الاتصال' : 'Contact Info'}</h3>
+          <h3 className=" text-green-300 xxxs:text-2xl md:T-Scale md:ml-10 xxxs:ml-0  mb-10">📡 {currentLang === 'ar' ? 'معلومات الاتصال' : 'Contact Info'}</h3>
           <ul className="space-y-2 xxxs:text-xl xxxs:mx-auto xxxs:w-fit md:mx-0">
             <li className="flex items-center xxxs:justify-center md:justify-start gap-3">
               <Phone className="animate-bounce text-green-300 w-6 h-6 mt-1" />
@@ -48,12 +48,12 @@ export default function FuturisticFooter() {
               <Printer className="animate-bounce text-green-300 w-6 h-6 mt-1" />
               <span>{currentLang === 'ar' ? "٣٥٧٣٨٤٢٥ / ٣٧٧٤٣٢٥٦ (٢٠٢)" : "(202) 37743256 / 35738425"}</span>
             </li>
-            <li className="flex items-center xxxs:justify-center md:justify-start  gap-3">
-              <MapPin className="animate-bounce text-green-300 w-6 h-6 mt-1" />
-              <span>
+            <li className="flex items-center xxxs:justify-center md:justify-start gap-3">
+              <MapPin className="animate-bounce text-green-300 min-w-6 min-h-6 mt-1" />
+              <span className=''>
                 {currentLang === 'ar'
                   ? '٩ شارع جامعة القاهرة، الجيزة ١٢٦١٩'
-                  : '9, Cairo University Road (Gamaa Street), Giza 12619'}
+                  : '9, Cairo University Road, Giza 12619'}
               </span>
             </li>
             <li className="flex items-center xxxs:justify-center md:justify-start gap-3 xxxs:text-2xl">
@@ -84,7 +84,7 @@ export default function FuturisticFooter() {
         {/* Departments */}
         <div>
           <h3 className={clsx(
-            "text-green-300 xxxs:text-3xl mb-10 text-center  xxxs:ml-0",
+            "text-green-300 xxxs:text-2xl mb-10 text-center  xxxs:ml-0",
             currentLang === 'ar' ? "lg:ml-44 md:ml-32":"lg:mr-60s xl:mr-14 lg:-ml-52 md:-ml-40"
           )}>🧬 {currentLang === 'ar' ? 'الأقسام' : 'Departments'}</h3>
           <ul className={clsx(
@@ -120,7 +120,7 @@ export default function FuturisticFooter() {
           </div>
         </div>
       </div>
-      <p className="text-3xl xxxs:mt-0 md:mt-10 mb-0 pb-0 text-green-300 xxxs:text-center hover:text-white">
+      <p className="text-2xl xxxs:mt-0 md:mt-10 mb-0 pb-0 text-green-300 xxxs:text-center hover:text-white">
             &copy; {new Date().getFullYear()} {currentLang === 'ar' ? 'معــهد بــحوث المحــاصيل الحقلية' : 'Field Crops Research Institute'}
       </p>
     </footer>
