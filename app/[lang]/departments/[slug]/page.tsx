@@ -594,6 +594,8 @@
 
 
 
+// app/[lang]/departments/[slug]/page.tsx
+export const runtime = 'nodejs'; // ensure Node runtime, not Edge
 
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
@@ -609,8 +611,6 @@ import SpiralGalaxyList from '@/components/spiral-galaxy-list';
 import ConstellationMobileList from '@/components/constellation-mobile-list';
 import { getPdfMetaSync } from '@/lib/pdf-meta';
 
-// app/[lang]/departments/[slug]/page.tsx
-export const runtime = 'nodejs'; // ensure Node runtime, not Edge
 
 // Define the expected resolved type of params
 interface PageParams {
