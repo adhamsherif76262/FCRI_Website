@@ -14,6 +14,8 @@ import HexagonalMissionList from "@/components/hexagonal-mission-list";
 // import CircularNetworkList from "@/components/circular-network-list";
 import LayeredVisionList from "@/components/layered-vision-list";
 // import TimeLineList from "@/components/timeline-list";
+// import OrganicPlantList from "@/components/organic-plant-list";
+import clsx from "clsx";
 // import TreeBranchHirarchyList from "@/components/tree-branch-hierarchy-list";
 // import FlowingAchievementsList from "@/components/flowing-achievements-list";
 // import {Department_Mission_Inner} from "@/locales/ar/departments/cell-biology_Ar.json"
@@ -37,7 +39,7 @@ export const  countersEN= [
 const myCounters: CounterData[] = [
   { title_en: "Years of Experience", title_ar: "سنوات الخبرة", value: 52 },
   { title_en: "Number of Varieties", title_ar: "عدد الاصناف", value: 350 },
-  { title_en: "Guidance Fields (2025)", title_ar: "حقول ارشادية(٢٠٢٥)", value: 21000 },
+  { title_en: "Guidance Fields", title_ar: "حقول ارشادية(في العقد الأخير)", value: 100000 },
   { title_en: "National Campaigns", title_ar: "حملات قومية", value: 6 },
   { title_en: "General Staff", title_ar: "الكادر العام", value: 670 },
   { title_en: "Specialized Staff", title_ar: "الكادر الخاص", value: 730 },
@@ -56,6 +58,7 @@ export default function Home() {
       
     {/* <CircularNetworkList items={[]} centerTitle="أهداف القسم" lang={currentLang}/> */}
     {/* <FlowingAchievementsList items={[]} lang={currentLang === 'ar' ? "ar" : "en"} Tree={true} Circular_Design_CenterTitle="Hello From Home Page Now now" Circular_Design_Items={Department_Mission_Inner}/> */}
+    {/* <OrganicPlantList language={currentLang}/> */}
     {/* <TimeLineList items={[]} /> */}
     {/* <TreeBranchHirarchyList items={[]} /> */}
 
@@ -82,30 +85,63 @@ export default function Home() {
               />
       </div>
       
-      <div className="mt-8">
+          <FuturisticHeading rtl={isRTL}>
+            {t.B6_Title}
+          </FuturisticHeading>
+          <LayeredVisionList isArabic={isRTL} items={t.B6} />
+
+      {/* <div className="mt-8">
 
             <FuturisticParagraphSection
               title={t.P2_Title}
               paragraphs={[t.P2]}
               rtl={isRTL}
             />
-      </div>
+      </div> */}
 
-      
+
+      <FuturisticHeading rtl={isRTL}>
+        {t.B5_Title}
+      </FuturisticHeading>
+        <div className="font-black w-full mt-12 rounded-3xl shadow-2xl border border-cyan-700/40 xl:min-width bg_Beige">
+          <h3 className={clsx(
+            "xxxs:py-4 sm:py-8 text-center",
+            isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
+          )}>{isRTL ? "تخصصات المحاصيل" : "تخصصات المحاصيل"}</h3>
+          <ol className="grid md:grid-cols-6  xxxs:grid-cols-2 gap-2">
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الحبوب" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البقول" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الزيوت" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الالياف" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• العلف" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البصل" : ""}</li>
+          </ol>
+          <h3 className={clsx(
+            "xxxs:py-4 sm:py-8 text-center",
+            isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
+          )}>{isRTL ? "التخصصات الفنية " : ""}</h3>
+          <ol className="grid lg:grid-cols-4 xxs:grid-cols-2 xxxs:grid-cols-1 gap-y-2 sm:gap-x-8 xs:gap-x-1 xxs:gap-x-0 mb-10">
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• دراسة الخلية" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• فسسولوجيا المحاصيل" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• تكنولوجيا البذور" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الاصول الوراثيه" : ""}</li>
+          </ol>
+        </div>
+        
       <FuturisticHeading rtl={isRTL}>
         {t.B3_Title}
       </FuturisticHeading>
 
     <HexagonalMissionList isArabic={isRTL} items={t.B3}></HexagonalMissionList>
 
-      <div className="mt-8">
+      {/* <div className="mt-8">
 
             <FuturisticParagraphSection
               title={t.P3_Title}
               paragraphs={[t.P3]}
               rtl={isRTL}
             />
-      </div>
+      </div> */}
 <div className="xxxs:min-w-[100%]">
   
 <AnimatedCounter counters={myCounters}/>
@@ -156,17 +192,18 @@ export default function Home() {
       <FuturisticHeading rtl={isRTL}>
         {t.B4_Title}
       </FuturisticHeading>
+
     <LayeredVisionList isArabic={isRTL} items={t.B4} />
 
 
-      <div className="mt-8">
+      {/* <div className="mt-8">
 
             <FuturisticParagraphSection
               title={t.P4_Title}
               paragraphs={[t.P4]}
               rtl={isRTL}
             />
-      </div>
+      </div> */}
     </main>
   );
 }

@@ -195,8 +195,8 @@ function SingleCounter({ title, value, isArabic, direction, startCount }: Single
       if (L > 2 && L <= 4) {
         // stepValue = 5
         if (value > 5000) stepValue = 10
-      } else if (L > 4) {
-        stepValue = 30
+      } else if (L >= 5) {
+        stepValue = 50
       }
       start += stepValue
       setCount(Math.min(start, value))

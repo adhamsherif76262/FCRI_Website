@@ -99,18 +99,18 @@ export default async function RootLayout({
 {
     // ✅ Await anything (Next.js now considers params "safe")
   await Promise.resolve();
-  const dir = params.lang === 'ar' ? 'rtl' : 'ltr';
+  const dir = (await params).lang === 'ar' ? 'rtl' : 'ltr';
 
   return (
     // <html lang={params.lang} dir={dir}>
-    <html lang={params.lang} dir={dir}>
+    <html lang={(await params).lang} dir={dir}>
       <body  className={clsx(
         // cairo.variable,                // 👈 Arabic font variable
         // tajawal.variable,         // 👈 Arabic font
         amiri.variable,         // 👈 Arabic font
 
         geist.variable,                // 👈 Your existing font variable
-        params.lang === 'ar' ? 'font-arabic' : 'font-sans',  // 👈 Conditional font class
+        (await params).lang === 'ar' ? 'font-arabic' : 'font-sans',  // 👈 Conditional font class
         "bg_Body text-black bg-white transition-colors duration-300 overflow-x-hidden"
         )}
 
@@ -148,14 +148,14 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(  {params,}: {params: { lang: string };
 }): Promise<Metadata> {
-  const lang = params.lang === 'ar' ? 'ar' : 'en';
+  const lang = (await params).lang === 'ar' ? 'ar' : 'en';
   // const path = typeof window !== 'undefined'
     //  ? window.location.pathname.split('/')[2] || 'home'
   //   : 'home' ; 
     const path = 'home'; // You can customize based on route segment if needed
 
     {
-    console.log('[Metadata] lang:', params.lang); // 🔍 confirm it's running
+    console.log('[Metadata] lang:', (await params).lang); // 🔍 confirm it's running
 
   return {
     title: metadataMap[lang].title[path as keyof typeof metadataMap['en']['title']],

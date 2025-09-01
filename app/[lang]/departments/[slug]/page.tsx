@@ -527,12 +527,6 @@ export default async function DepartmentPage({ params: { lang, slug } }: Params)
       className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 dark:bg-gray-900 transition-colors duration-1000"
     >
 
-      <div className='hidden 2xl:block'>
-        <SpiralGalaxyList isRTL={isArabic} items={departmentData.Department_Vision}></SpiralGalaxyList>
-      </div>
-
-      <ConstellationMobileList isRTL={isArabic} items={departmentData.Department_Vision}></ConstellationMobileList>
-
       <FuturisticHeading rtl={isArabic}>{departmentMeta.name}</FuturisticHeading>
 
       <div className="mt-10 xxxs:min-w-[100%]">
@@ -543,6 +537,12 @@ export default async function DepartmentPage({ params: { lang, slug } }: Params)
           rtl={isArabic}
         />
       </div>
+
+      <div className='hidden 2xl:block'>
+        <SpiralGalaxyList isRTL={isArabic} items={departmentData.Department_Vision}></SpiralGalaxyList>
+      </div>
+
+      <ConstellationMobileList isRTL={isArabic} items={departmentData.Department_Vision}></ConstellationMobileList>
 
       <FuturisticHeading rtl={isArabic}>{isArabic ? "مهمة القسم" : "Department Mission"}</FuturisticHeading>
       
@@ -565,11 +565,11 @@ export default async function DepartmentPage({ params: { lang, slug } }: Params)
       </div>
 
       <div className="space-y-10 py-6 xxxs:overflow-hidden xxs:overflow-visible">
-        <ClientPDFSection title={isArabic ? "ملف الموارد البشرية" : "Human Resources File"} pdf={departmentData.HR_File_PDF_Path} isArabic={isArabic} animation='animate-bounceIn'/>
+        <ClientPDFSection title={isArabic ? "ملف الأبحاث" : "Researches File"} pdf={departmentData.Research_File_PDF_Path} isArabic={isArabic} animation='rotate-in-blur'/>
       </div>
 
       <div className="space-y-10 py-6 xxxs:overflow-hidden xxs:overflow-visible">
-        <ClientPDFSection title={isArabic ? "ملف الأبحاث" : "Researches File"} pdf={departmentData.Research_File_PDF_Path} isArabic={isArabic} animation='rotate-in-blur'/>
+        <ClientPDFSection title={isArabic ? "ملف الموارد البشرية" : "Human Resources File"} pdf={departmentData.HR_File_PDF_Path} isArabic={isArabic} animation='animate-bounceIn'/>
       </div>
 
     </section>

@@ -181,7 +181,7 @@ export default function SpiralGalaxyList({
 
   return (
     <div
-      className={`${expandedItem ? 'lg:min-w-[400px] xl:min-w-[700px] lg:h-[700px]' : ''} duration-1000 xl:min-w-[1360px] lg:min-w-[1000px] relative w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 rounded-3xl ${className}`}
+      className={`${expandedItem ? 'lg:min-w-[400px] xl:min-w-[700px] lg:h-[700px]' : ''} duration-1000 xl:min-w-[1360px] lg:min-w-[1000px] mt-12 relative w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 rounded-3xl ${className}`}
       style={{
         maxHeight: containerHeight,
         maxWidth: "500px",

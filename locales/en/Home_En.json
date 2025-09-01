@@ -1,6 +1,6 @@
 {
   "Home_Title": "Field Crops Research Institute",
-  "P1_Title": "Significance and Historical Foundation",
+  "P1_Title": "Historical Foundation",
   "P1": "The Field Crops Research Institute (FCRI) is a cornerstone of Egypt’s agricultural scientific research system. It has played a pivotal role in enhancing food security by developing high-yielding varieties and improving the productivity of key crops. Initial research efforts in this field began in 1903 under the name 'Plant Breeding Section,' and the structure evolved until the official establishment of the Institute in 1973 as a specialized entity within the Agricultural Research Center, responsible for all aspects of field crop research.",
   "P2_Title": "Research Specializations",
   "P2": "The Institute comprises 15 specialized departments covering all strategic field crops important to Egypt, including rice, wheat, maize (yellow and white), legumes, oilseed crops, barley, onions, forage crops, fiber crops, and crop physiology. It also includes departments for genetic engineering and crop intensification.",
@@ -42,7 +42,7 @@
     "Offer training for peers from African and Asian countries.",
     "Support regional and international cooperation."
   ],
-  "B3_Title": "Institute Activities",
+  "B3_Title": "Institute Achievements",
   "B3": [
   {
     "id": "1",
@@ -87,7 +87,7 @@
     "icon": "users"
   }
 ],
-  "B4_Title": "Future Activities",
+  "B4_Title": "Future Vision",
 "B4": [
   {
     "id": "1",
@@ -170,6 +170,42 @@
     "theme": "excellence"
   }
 ],
+  "B5_Title": "Institute Specializations",
+  "B6_Title": "Institute Role",
+  "B6": [
+    {
+      "id": "1",
+      "title":".",
+      "description" : "",
+      "timeline": "1901-2025+",
+      "impact": "",
+      "theme": "sustainability"
+    },
+    {
+      "id": "2",
+      "title":".",
+      "description" : "",
+      "timeline": "1901-2025+",
+      "impact": "",
+      "theme": "excellence"
+    },
+    {
+      "id": "3",
+      "title":".",
+      "description" : "",
+      "timeline": "1901-2025+",
+      "impact": "",
+      "theme": "innovation"
+    },
+    {
+      "id": "4",
+      "title":".",
+      "description" : "",
+      "timeline": "1901-2025+",
+      "impact": "",
+      "theme": "development"
+    }
+  ],
   "P4_Title": "Future Vision",
   "P4": "The Institute aims to continue developing more resilient and efficient crop varieties, applying safe biotechnology in genetic improvement programs, strengthening international and regional cooperation, and intensifying training programs to enhance the capabilities of researchers and agricultural professionals in Egypt, Africa, and Asia.",
   "ctaButton": "Explore Our Research"

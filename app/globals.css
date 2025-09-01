@@ -182,6 +182,204 @@ body {
 
  */
 
+ /* Tailwind v3.4.3 Compatible CSS for Organic Plant List */
+
+/* Custom animations for organic plant list */
+@keyframes plant-grow {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes leaf-unfold {
+  0% {
+    opacity: 0;
+    transform: rotateY(-90deg) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+  }
+}
+
+@keyframes leaf-fold {
+  0% {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+    max-height: 200px;
+  }
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg) scale(0.5);
+    max-height: 0;
+  }
+}
+
+@keyframes branch-extend {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-stagger {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slide-out-stagger {
+  0% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.8);
+  }
+}
+
+@keyframes modal-appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Animation utility classes */
+.animate-plant-grow {
+  animation: plant-grow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.animate-leaf-unfold {
+  animation: leaf-unfold 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.animate-leaf-fold {
+  animation: leaf-fold 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) forwards;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.animate-branch-extend {
+  animation: branch-extend 0.5s ease-out forwards;
+}
+
+.animate-slide-in-stagger {
+  animation: slide-in-stagger 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  opacity: 0;
+}
+
+.animate-slide-out-stagger {
+  animation: slide-out-stagger 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) forwards;
+  opacity: 1;
+}
+
+.animate-modal-appear {
+  animation: modal-appear 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+/* Custom color utilities for Tailwind v3.4.3 */
+.bg-plant-primary {
+  background-color: #4a8d3a;
+}
+
+.bg-plant-secondary {
+  background-color: #ffcc00;
+}
+
+.text-plant-primary {
+  color: #4a8d3a;
+}
+
+.text-plant-secondary {
+  color: #ffcc00;
+}
+
+.border-plant-primary {
+  border-color: #4a8d3a;
+}
+
+/* Custom gradient backgrounds for each list item */
+.bg-plant-gradient-1 {
+  background: linear-gradient(135deg, #059669, #10b981);
+}
+
+.bg-plant-gradient-2 {
+  background: linear-gradient(135deg, #0d9488, #14b8a6);
+}
+
+.bg-plant-gradient-3 {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+.bg-plant-gradient-4 {
+  background: linear-gradient(135deg, #65a30d, #84cc16);
+}
+
+.bg-plant-gradient-5 {
+  background: linear-gradient(135deg, #0891b2, #06b6d4);
+}
+
+/* Hover effects */
+.plant-item-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.plant-detail-hover:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+/* Responsive utilities for very small screens */
+@media (max-width: 320px) {
+  .plant-container {
+    padding: 0.75rem;
+  }
+
+  .plant-item {
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+
+  .plant-modal {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+}
+
+
 
  /** Futuristic Navbar **/
 

@@ -199,7 +199,7 @@ export default function ConstellationMobileList({
 
   return (
     <div
-      className={`2xl:hidden relative w-full mt-10 mx-auto bg-gradient-to-br from-slate-900 via-red-900 to-slate-800 rounded-3xl overflow-hidden ${className}`}
+      className={`2xl:hidden relative w-full mt-12 mx-auto bg-gradient-to-br from-slate-900 via-red-900 to-slate-800 rounded-3xl overflow-hidden ${className}`}
       dir={isRTL ? "rtl" : "ltr"}
     >
       {/* Animated background stars */}
@@ -280,8 +280,8 @@ export default function ConstellationMobileList({
 
                   {index < displayItems.length - 1 && (
                     <div
-                      className="absolute top-full left-1/2 transform -translate-x-1/2 w-0.5 bg-gradient-to-b from-emerald-400 to-transparent opacity-30 animate-pulse"
-                      style={{ height: screenSize === "mobile" ? "2rem" : "3rem" }}
+                      className="absolute top-full left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-emerald-400 to-transparent opacity-100 animate-pulse"
+                      style={{ height: "3rem" }}
                     ></div>
                   )}
                 </div>

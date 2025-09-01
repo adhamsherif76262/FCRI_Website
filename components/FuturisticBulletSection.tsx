@@ -90,10 +90,10 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false}: 
         {title}
       </h2>
 
-<ul className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+<ul className="grid gap-6 sm:grid-cols-2 md:grid-cols-2">
   {bullets.map((item, i) => {
     const totalItems = bullets.length;
-    const columns = 3; // md:grid-cols-3
+    const columns = 2; // md:grid-cols-3
     const fullRows = Math.floor(totalItems / columns);
     const isInLastRow = i >= fullRows * columns;
     const itemsInLastRow = totalItems % columns;

@@ -281,7 +281,7 @@ export default function HexagonalMissionList({ items = [] , isArabic}: Hexagonal
                   {/* Title */}
                   <h3 className={clsx(
                     "font-black px-8 mb-2 sm:mb-3 group-hover:scale-105 transition-transform duration-1000",
-                    isArabic ? "text-2xl" : "sm:text-lg xxxs:text-md"
+                    isArabic ? "xxxs:text-xl sm:text-2xl" : "sm:text-lg xxxs:text-md"
                   )}>
                     {item.title}
                   </h3>
