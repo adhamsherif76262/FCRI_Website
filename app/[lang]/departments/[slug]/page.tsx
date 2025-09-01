@@ -602,7 +602,7 @@ import departmentsAr from '@/locales/ar/departments_Ar.json';
 import FuturisticHeading from '@/components/FuturisticHeading';
 import ParagraphStickyImage from '@/components/ParagraphStickyImage';
 import TreeBranchHirarchyList from '@/components/tree-branch-hierarchy-list';
-// import ClientPDFSection from '@/components/ClientPDFSection';
+import ClientPDFSection from '@/components/ClientPDFSection';
 import FlowingAchievementsList from '@/components/flowing-achievements-list';
 import FuturisticParagraphSection from '@/components/FuturisticParagraphSection';
 import SpiralGalaxyList from '@/components/spiral-galaxy-list';
@@ -825,7 +825,7 @@ export default async function DepartmentPage({params} : PageProps) {
         <TreeBranchHirarchyList items={departmentData.Department_Achieviements} />
       </div>
 
-      {/* <div className="space-y-10 py-6 xxxs:overflow-hidden xxs:overflow-visible">
+      <div className="space-y-10 py-6 xxxs:overflow-hidden xxs:overflow-visible">
         <ClientPDFSection
           title={isArabic ? 'ملف الأبحاث' : 'Researches File'}
           pdf={departmentData.Research_File_PDF_Path}
@@ -841,7 +841,7 @@ export default async function DepartmentPage({params} : PageProps) {
           isArabic={isArabic}
           animation="animate-bounceIn"
         />
-      </div> */}
+      </div>
     </section>
   );
 }
