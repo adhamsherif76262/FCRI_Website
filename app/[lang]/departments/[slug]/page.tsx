@@ -738,17 +738,17 @@ export async function generateMetadata(
 
 
 
-export async function generateStaticParams() {
-  const langs = ["en", "ar"];
-  const slugs = ["dep1_En", "dep2_En", "dep1_Ar", "dep2_Ar"]; // adjust to your slugs
+// export async function generateStaticParams() {
+//   const langs = ["en", "ar"];
+//   const slugs = ["dep1_En", "dep2_En", "dep1_Ar", "dep2_Ar"]; // adjust to your slugs
 
-  return langs.flatMap((lang) =>
-    slugs.map((slug) => ({
-      lang,
-      slug,
-    }))
-  );
-}
+//   return langs.flatMap((lang) =>
+//     slugs.map((slug) => ({
+//       lang,
+//       slug,
+//     }))
+//   );
+// }
 
 
 
