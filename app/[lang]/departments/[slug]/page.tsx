@@ -607,6 +607,10 @@ import FlowingAchievementsList from '@/components/flowing-achievements-list';
 import FuturisticParagraphSection from '@/components/FuturisticParagraphSection';
 import SpiralGalaxyList from '@/components/spiral-galaxy-list';
 import ConstellationMobileList from '@/components/constellation-mobile-list';
+import { getPdfMetaSync } from '@/lib/pdf-meta';
+
+// app/[lang]/departments/[slug]/page.tsx
+export const runtime = 'nodejs'; // ensure Node runtime, not Edge
 
 // Define the expected resolved type of params
 interface PageParams {
@@ -758,7 +762,7 @@ export default async function DepartmentPage({params} : PageProps) {
 
   const { lang, slug } = resolvedParams;
   const isArabic = lang === 'ar';
-
+  
   const departments: DepartmentMeta[] = await import(
     `@/locales/${lang}/departments_${isArabic ? 'Ar' : 'En'}.json`
   ).then((mod) => mod.default);
@@ -772,6 +776,10 @@ export default async function DepartmentPage({params} : PageProps) {
   const departmentData: DepartmentContent = await import(
     `@/locales/${lang}/departments/${newSlug}${isArabic ? 'Ar' : 'En'}.json`
   ).then((mod) => mod.default);
+
+
+  const researchMeta = getPdfMetaSync(departmentData.Research_File_PDF_Path);
+const hrMeta = getPdfMetaSync(departmentData.HR_File_PDF_Path);
 
   return (
     <section
@@ -831,6 +839,7 @@ export default async function DepartmentPage({params} : PageProps) {
           pdf={departmentData.Research_File_PDF_Path}
           isArabic={isArabic}
           animation="rotate-in-blur"
+          preMeta={researchMeta}
         />
       </div>
 
@@ -840,6 +849,7 @@ export default async function DepartmentPage({params} : PageProps) {
           pdf={departmentData.HR_File_PDF_Path}
           isArabic={isArabic}
           animation="animate-bounceIn"
+          preMeta={hrMeta}
         />
       </div>
     </section>
