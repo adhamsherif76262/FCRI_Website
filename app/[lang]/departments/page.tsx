@@ -71,23 +71,31 @@ interface Department {
   image: string;
 }
 
-interface Props {
-  params: { lang: string };
+// Define the expected resolved type of params
+interface PageParams {
+  lang: 'en' | 'ar';
+  slug: string;
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { lang: string };
-}): Promise<Metadata> {
-  const isArabic = params.lang === 'ar';
+// Update the type of params in your component props
+interface PageProps {
+  params: Promise<PageParams>; // params is now a Promise
+}
+
+
+export async function generateMetadata({params,}: PageProps): Promise<Metadata> {
+    const resolvedParams = await params;
+  const { lang } = resolvedParams;
+  const isArabic = lang === 'ar';
 
   return {
     title: isArabic ? 'الأقسام البحثية' : 'Research Departments',
   };
 }
 
-export default async function DepartmentsPage({ params: { lang } }: Props) {
+export default async function DepartmentsPage({ params}: PageProps) {
+  const resolvedParams = await params;
+  const { lang } = resolvedParams;
   const isArabic = lang === 'ar';
 
   const departments: Department[] = await import(

@@ -1,8 +1,8 @@
-// components/pdf/PdfViewerWrapper.tsx
-'use client';
+// // components/pdf/PdfViewerWrapper.tsx
+// 'use client';
 
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 
-const PdfViewer = dynamic(() => import('./PdfViewer'), { ssr: false });
+// const PdfViewer = dynamic(() => import('./PdfViewer'), { ssr: false });
 
-export default PdfViewer;
+// export default PdfViewer;

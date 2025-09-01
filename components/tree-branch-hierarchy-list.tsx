@@ -177,7 +177,7 @@ export default function TreeBranchHierarchyList({ items = [] }: TreeBranchHierar
     }
   }
 
-  const getLevelIcon = (level: number, hasChildren: boolean) => {
+  const getLevelIcon = (level: number) => {
     if (level === 1) return <TreePine className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
     if (level === 2) return <Sprout className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5" />
     return <Leaf className="h-2 w-2 sm:h-3 sm:w-3 lg:h-4 lg:w-4" />
@@ -218,7 +218,7 @@ export default function TreeBranchHierarchyList({ items = [] }: TreeBranchHierar
   const pathname = usePathname();
   const currentLang = pathname?.split('/')[1] === 'ar' ? 'ar' : 'en';
 
-  const renderItem = (item: HierarchyItem, index: number, isLast = false) => {
+  const renderItem = (item: HierarchyItem) => {
     const colors = getLevelColors(item.level)
     const hasChildren = item.children && item.children.length > 0
     const isExpanded = expandedItems.has(item.id)
@@ -267,7 +267,7 @@ export default function TreeBranchHierarchyList({ items = [] }: TreeBranchHierar
               <div className="flex items-center space-x-3 space-x-reverse">
                 {/* Level Icon */}
                 <div className="flex-shrink-0 p-2 sm:p-2.5 lg:p-3 bg-white/20 rounded-full backdrop-blur-sm">
-                  {getLevelIcon(item.level, hasChildren || false)}
+                  {getLevelIcon(item.level)}
                 </div>
 
                 {/* Text Content */}
@@ -330,8 +330,8 @@ export default function TreeBranchHierarchyList({ items = [] }: TreeBranchHierar
                 currentAnimation ? currentAnimation : ""
               }`}
             >
-              {item.children?.map((child, childIndex) =>
-                renderItem(child, childIndex, childIndex === (item.children?.length || 0) - 1),
+              {item.children?.map((child) =>
+                renderItem(child),
               )}
             </div>
           )}
@@ -356,7 +356,7 @@ export default function TreeBranchHierarchyList({ items = [] }: TreeBranchHierar
       <div className="relative max-w-4xl mx-auto">
         {/* Tree Structure */}
         <div className="space-y-4 sm:space-y-6 lg:space-y-8">
-          {displayItems.map((item, index) => renderItem(item, index, index === displayItems.length - 1))}
+          {displayItems.map((item) => renderItem(item))}
         </div>
       </div>
 

@@ -22,19 +22,19 @@ import clsx from "clsx";
 // import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 // import 'react-pdf/dist/esm/Page/TextLayer.css';
 // import 'pdfjs-dist/web/pdf_viewer.css'; 
-export const countersAR = [
-  { id: 1, title: 'الأبحاث العلمية', value: '700' },
-  { id: 2, title: 'التجارب الحقلية', value: '300' },
-  { id: 3, title: 'براءات الاختراع', value: '1500' },
-  { id: 4, title: 'التعاونات', value: '20' },
-];
+// export const countersAR = [
+//   { id: 1, title: 'الأبحاث العلمية', value: '700' },
+//   { id: 2, title: 'التجارب الحقلية', value: '300' },
+//   { id: 3, title: 'براءات الاختراع', value: '1500' },
+//   { id: 4, title: 'التعاونات', value: '20' },
+// ];
 
-export const  countersEN= [
-  { id: 1, title: 'Research Papers', value: '200' },
-  { id: 2, title: 'Field Trials', value: '90' },
-  { id: 3, title: 'Patents', value: '12' },
-  { id: 4, title: 'Collaborations', value: '40' },
-];
+// export const  countersEN= [
+//   { id: 1, title: 'Research Papers', value: '200' },
+//   { id: 2, title: 'Field Trials', value: '90' },
+//   { id: 3, title: 'Patents', value: '12' },
+//   { id: 4, title: 'Collaborations', value: '40' },
+// ];
 
 const myCounters: CounterData[] = [
   { title_en: "Years of Experience", title_ar: "سنوات الخبرة", value: 52 },

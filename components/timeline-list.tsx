@@ -82,7 +82,7 @@ export default function TimelineList({ items = [] }: TimelineListProps) {
       <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gray-200"></div>
 
       <div className="space-y-6">
-        {displayItems.map((item, index) => (
+        {displayItems.map((item) => (
           <div key={item.id} className="relative flex items-start space-x-4">
             {/* Timeline dot */}
             <div
