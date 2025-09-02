@@ -113,7 +113,7 @@ export default async function DepartmentsPage({ params}: PageProps) {
     </FuturisticHeading>
       </div>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12 xl:mx-28 mx-5">
         {departments.map((dept, index) => (
           <Link
             key={index}

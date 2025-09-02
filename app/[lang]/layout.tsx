@@ -126,7 +126,7 @@ style={{
         >
         {/* <Header /> */}
         {/* <Navbar></Navbar> */}
-        
+
         <div className="hidden md:block">
           <NavbarFuturistic></NavbarFuturistic>
         </div>

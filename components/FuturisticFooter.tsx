@@ -56,7 +56,7 @@ export default function FuturisticFooter( {rtl} : Props) {
     <footer
       dir={currentLang === 'ar' ? 'rtl' : 'ltr'}
       className={clsx(
-        "font-black mt-16 xxxs:text-center w-full px-4 sm:px-6 lg:px-12 py-6 bg-black text-green-300 border-t border-green-300/40",
+        "font-black mt-0 xxxs:text-center w-full px-4 sm:px-6 lg:px-12 py-6 bg-black text-green-300 border-t border-green-300/40",
         currentLang === 'ar' ? "md:text-right" : "md:text-left"
       )}
     >
