@@ -1,42 +1,100 @@
 {
   "name": "Food Legumes Research Department",
-  "P1_Title": "Prof. Dr. Adel El-Garhy Mohamed El-Garhy Department Director's Speech",
+  "P1_Title": "Prof. Dr. Adel El-Garhy Mohamed El-Garhy Department Head's Speech",
   "Director_Image": "/images/Departments Directors/Legumes_Director.png",
   "description": "",
   "image": "",
   "P1": [
-    "The Legume Crops Department is one of the most important departments within the Field Crops Research Institute, as it includes crops that are vital for the Egyptian people. Legumes are an essential part of a healthy diet, being rich in protein, fiber, oil, and other essential nutrients. They also contain high levels of iron and zinc.",
-    "Legumes can also be integrated into intercropping systems or cultivated as cover crops to enhance soil fertility, reduce reliance on chemical fertilizers through nitrogen fixation, and improve phosphorus uptake. This contributes to a more sustainable production system. Examples include faba bean and soybean. The department works on developing and breeding new varieties that adapt to climate change and meet the requirements of both the Egyptian and global markets.",
-    "Our varieties have achieved advanced global rankings in average yield per feddan, such as soybean, which ranks third worldwide in average yield per feddan."
+    "The Legume Crops Department is one of the most important divisions at the Field Crops Research Institute, as it covers crops that are vital for the Egyptian people. Legumes form a key component of a healthy diet due to their high content of protein, fiber, oil, and other essential nutrients. They are also rich in iron and zinc.",
+    "Legumes can be integrated into intercropping systems or cultivated as cover crops to enhance soil fertility, reduce dependency on chemical fertilizers by fixing nitrogen and facilitating phosphorus absorption, thereby contributing to more sustainable production systems. Crops such as faba beans and soybeans are prime examples. The department is continuously working on renewing and developing new varieties that adapt to climate change and meet both local and global market demands.",
+    "Our varieties have achieved advanced global rankings in average yield per acre. For instance, Egyptian soybean ranks third worldwide in average yield per acre.",
+    "Over decades, the department has made significant contributions by developing high-yielding legume varieties resistant to diseases, Orobanche infestation, and tolerant to water shortages.",
+    "The Legume Crops Research Department continues its work despite the challenges facing agriculture in general, and legumes in particular, including climate change, water scarcity, and competition with other strategic crops such as wheat and clover in the winter season, and maize and rice in the summer season. The goal is to increase the cultivated areas of different legumes, reduce imports, and close the gap between production and consumption.",
+    "The department also focuses on expanding the area under legumes by intercropping them with other crops such as sugarcane, tomato, maize, and fruit trees."
   ],
   "Department_Achieviements": [
     {
       "id": "1",
-      "text": "Increasing the productivity of faba bean per feddan from 6.3 ardab/feddan to 10.9 ardab/feddan at present.",
+      "text": "Increased the productivity of faba beans from 6.3 ardab/feddan to 10.9 ardab/feddan.",
       "level": 1,
       "isExpanded": false,
       "children": []
     },
     {
       "id": "2",
-      "text": "Developing legume crop varieties resistant to environmental stresses, such as diseases and Orobanche infestation, and adapted to climate changes and market requirements at both the national and international levels.",
+      "text": "Developed varieties of different legume crops resistant to environmental stresses such as diseases, Orobanche infestation, and adaptable to climate change and market demands locally and globally.",
       "level": 1,
       "isExpanded": false,
       "children": []
     },
     {
       "id": "3",
-      "text": "Expanding the cultivated area of soybean from 3,261 feddans with an average yield of 0.311 tons/feddan for imported varieties, to 133,500 feddans with an average yield of 1.3 tons/feddan for Egyptian varieties, through breeding programs.",
+      "text": "Increased soybean cultivation area from 3,261 feddans (average yield of 0.311 tons/feddan for imported varieties) to 133,500 feddans (average yield of 1.3 tons/feddan for Egyptian varieties) through breeding programs.",
       "level": 1,
       "isExpanded": false,
       "children": []
     },
     {
       "id": "4",
-      "text": "Producing foundation seeds of all legume crop varieties and providing them to the General Authority for Seed Production and producing companies.",
+      "text": "Produced breeder and foundation seeds for all legume varieties and supplied them to the General Administration for Seed Production and other seed-producing companies.",
       "level": 1,
       "isExpanded": false,
       "children": []
+    },
+    {
+      "id": "5",
+      "text": "Established numerous demonstration fields nationwide to raise awareness about new varieties and the latest technical recommendations through the department’s extension program, collaboration with other departments such as Crop Intensification, or through national campaigns.",
+      "level": 1,
+      "isExpanded": false,
+      "children": []
+    },
+    {
+      "id": "6",
+      "text": "In the past five years, the department has registered several new legume crop varieties.",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "6.1",
+          "text": "Two high-yielding faba bean varieties resistant to Orobanche have been registered:",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": [
+            { "id": "6.1.1", "text": "Sids 1", "level": 3, "parentId": "6.1" },
+            { "id": "6.1.2", "text": "Sakha 5", "level": 3, "parentId": "6.1" }
+          ]
+        },
+        {
+          "id": "6.2",
+          "text": "Two high-yielding soybean varieties resistant to cotton leafworm have been registered:",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": [
+            { "id": "6.2.1", "text": "Egypt 6", "level": 3, "parentId": "6.2" },
+            { "id": "6.2.2", "text": "Egypt 10", "level": 3, "parentId": "6.2" }
+          ]
+        },
+        {
+          "id": "6.3",
+          "text": "A large-seeded chickpea variety has been registered:",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": [
+            { "id": "6.3.1", "text": "Sids 101", "level": 3, "parentId": "6.3" }
+          ]
+        },
+        {
+          "id": "6.4",
+          "text": "Several other varieties are currently under registration.",
+          "level": 2,
+          "parentId": "6",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
     }
   ],
   "Department_Mission_Outer": [
@@ -48,27 +106,71 @@
       "value": "",
       "date": "",
       "category": "excellence"
+    },
+    {
+      "id": "2",
+      "title": "Developing new high-yielding legume varieties tolerant to biotic and abiotic stresses through breeding programs.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
+    },
+    {
+      "id": "3",
+      "title": "Issuing technical packages tailored for all legume varieties to ensure maximum productivity.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "recognition"
+    },
+    {
+      "id": "4",
+      "title": "Transferring expertise and new technical recommendations to all stakeholders (farmers, companies, and summer trainees preparing for the job market) through the Technology Transfer Program.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "growth"
+    },
+    {
+      "id": "5",
+      "title": "Producing breeder and foundation seeds for all legume varieties according to varietal policy and providing them to the General Administration for Seed Production, seed companies, and international companies interested in exporting Egyptian legume seeds.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "excellence"
+    },
+    {
+      "id": "6",
+      "title": "Enhancing the capacity of department researchers through local and international training programs and keeping them up to date with the latest advancements in scientific research.",
+      "description": "",
+      "metric": "",
+      "value": "",
+      "date": "",
+      "category": "innovation"
     }
   ],
   "Department_Vision": [
     {
       "id": "1",
-      "title": "Development of legume crops",
+      "title": "Advancing Legume Crops",
       "Sub_title": "Through the following:",
-      "content": "Advancing all legume crops in terms of productivity, quality traits, and increasing cultivated areas.",
+      "content": "Improving all legume crops in terms of productivity, quality traits, and increasing the cultivated areas of various legumes such as faba beans, chickpeas, lentils, lupins, and cowpeas as winter crops, and soybeans and mung beans as summer crops.",
       "subItems": [
-        {
-          "text": "Breeding new high-yielding legume crop varieties tolerant to biotic and abiotic stresses through the department’s breeding programs."
-        },
-        {
-          "text": "Issuing technical recommendation packages suitable for all legume crop varieties to ensure achieving maximum productivity."
-        },
-        {
-          "text": "Transferring new expertise and technical recommendations to all beneficiaries (farmers and companies) through the technology transfer program."
-        }
+        { "text": "Developing new high-yielding legume varieties tolerant to biotic and abiotic stresses through breeding programs." },
+        { "text": "Issuing technical packages suited to all legume varieties to ensure maximum productivity." },
+        { "text": "Transferring new expertise and technical recommendations to all stakeholders (farmers – companies) through the Technology Transfer Program." },
+        { "text": "Continuing to develop legume varieties that adapt to climate change." },
+        { "text": "Updating technical packages to cope with changing conditions." },
+        { "text": "Expanding collaboration with international organizations concerned with legumes such as ICARDA, ACSAD, and other international and local research centers to support the department’s research programs through genetic material exchange and joint training programs." },
+        { "text": "Incorporating modern technologies such as advanced cultivation methods, irrigation and fertilization techniques, nanotechnology, and biotechnology into the national program." },
+        { "text": "Ensuring the quality of the department’s research and its contribution to improving productivity and quality, as well as the applicability of results. Publishing in top-ranked international scientific journals to elevate the ranking of the Legume Crops Department, the Field Crops Research Institute, and the Agricultural Research Center." }
       ],
       "priority": "high",
-      "category": "Develpment of legume crops"
+      "category": "Legume Crops Development"
     }
   ],
   "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
