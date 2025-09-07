@@ -1,51 +1,91 @@
 {
   "name": "Onion Research Department",
   "P1_Title": "Prof. Dr. Abdel-megiud Mabrouk Abdel-megiud Department Head's Speech",
-  "P1": [
-  "Onion is one of the most important crops with nutritional, medicinal, and economic value at both the local and international levels.",
-  "Egypt ranks among the top ten countries worldwide in onion production and export, thanks to continuous efforts in breeding, improving, and developing onion varieties that meet the requirements of both local markets and export.",
-  "This is achieved through the collection of genetic resources of onion varieties, the introduction of foreign imports, and the establishment of breeding programs to produce high-yield varieties with superior quality, storability, and resistance to diseases and climate change.",
-  "Additionally, suitable agricultural practices are identified and transferred to stakeholders and those involved in onion cultivation."
-  ],
   "Director_Image": "/images/Departments Directors/Onion_Director.png",
   "description": "",
   "image": "",
+"P1": [
+  "Onion is one of the most important strategic crops in Egypt, achieving self-sufficiency despite the steady population increase. The surplus is exported annually, placing Egypt among the top ten countries worldwide in terms of production, exports, and average productivity since the 1960s until today, thanks to the high storage value and quality traits of Egyptian onion.",
+  "The Onion Research Department at the Field Crops Research Institute started in the 1950s and has since been working on breeding varieties. Initially, this was achieved by collecting local genetic resources and developing the varieties: Giza 6 Improved for Upper Egypt, Giza 20 and Giza Red for the Delta, and Giza White for dehydration. Most recently, Giza Seba’ini (early maturing) was developed for export during February and March. Through both breeding new varieties and improving agricultural practices, productivity has doubled by 100% (from 8 tons/feddan in the 1980s to 15 tons/feddan in 2024), while exports and self-sufficiency also increased, ensuring year-round operation of dehydration factories."
+],
 "Department_Achieviements": [
   {
     "id": "1",
-    "text": "Development of 5 Egyptian onion varieties",
+    "text": "Breeding of 5 Egyptian onion varieties",
     "level": 1,
     "isExpanded": false,
     "children": [
-        {
-          "id": "1.1",
-          "text": "Two varieties (Giza 20 and Giza Red) for cultivation in Lower Egypt (Delta region).",
-          "level": 2,
-          "parentId": "1",
-          "isExpanded": false,
-          "children": []
-        },
-        {
-          "id": "1.2",
-          "text": "Two varieties (Giza 6 Improved and Giza Sebaini) for cultivation in Upper Egypt.",
-          "level": 2,
-          "parentId": "1",
-          "isExpanded": false,
-          "children": []
-        },
-        {
-          "id": "1.3",
-          "text": "One variety (Giza White) suitable for industrial use and dehydration.",
-          "level": 2,
-          "parentId": "1",
-          "isExpanded": false,
-          "children": []
-        }
+      {
+        "id": "1.1",
+        "text": "Two varieties (Giza 20 and Giza Red) for cultivation in the Delta",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": []
+      },
+      {
+        "id": "1.2",
+        "text": "Two varieties (Giza 6 Improved and Giza Seba’ini) for cultivation in Upper Egypt",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": []
+      },
+      {
+        "id": "1.3",
+        "text": "One variety (Giza White) suitable for industrial purposes and dehydration",
+        "level": 2,
+        "parentId": "1",
+        "isExpanded": false,
+        "children": []
+      }
     ]
   },
   {
     "id": "2",
-    "text": "Currently registering 2 new Egyptian onion varieties.",
+    "text": "Two new Egyptian onion varieties are currently under registration",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "3",
+    "text": "Doubling productivity per unit area by 100%, from 6.5–8 tons/feddan (1982) to 15 tons/feddan in 2024",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "4",
+    "text": "The breeding program has more than 20 promising hybrid combinations derived from crosses with foreign varieties",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "5",
+    "text": "More than 25 imported foreign varieties have been improved for yield and storage traits to adapt to Egyptian conditions",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "6",
+    "text": "The department maintains sterile lines and ensures sterility maintenance for hybrid onion seed production",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "7",
+    "text": "Providing the central administration and both national and private companies with foundation seeds of onion varieties annually",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "8",
+    "text": "Supporting investors, farmers, exporters, and stakeholders with technical recommendations and continuous communication to provide solutions to problems faced during the onion-growing season",
     "level": 1,
     "isExpanded": false,
     "children": []
@@ -54,7 +94,7 @@
 "Department_Mission_Outer": [
   {
     "id": "1",
-    "title": "Developing high-yield Egyptian onion varieties with superior quality and storability to meet local market and export demands, while preserving existing cultivated varieties.",
+    "title": "Breeding high-yield Egyptian onion varieties with high quality and storage capacity that meet local market and export needs, while preserving existing varieties",
     "description": "",
     "metric": "",
     "value": "",
@@ -63,7 +103,7 @@
   },
   {
     "id": "2",
-    "title": "Producing breeder and foundation seeds of the developed varieties and providing them to the Central Administration for Seed Production and private companies for multiplication and nationwide distribution.",
+    "title": "Producing foundation seeds of developed varieties and providing them to the Central Seed Administration and private companies for multiplication and distribution nationwide",
     "description": "",
     "metric": "",
     "value": "",
@@ -72,7 +112,7 @@
   },
   {
     "id": "3",
-    "title": "Defining suitable agricultural practices and recommendations to achieve high productivity and quality.",
+    "title": "Defining suitable agricultural practices and recommendations to achieve high yield and quality",
     "description": "",
     "metric": "",
     "value": "",
@@ -81,23 +121,77 @@
   },
   {
     "id": "4",
-    "title": "Training agricultural specialists, farmers, and stakeholders on best agricultural practices to maximize productivity and optimize land use.",
+    "title": "Training agricultural specialists, farmers, and stakeholders on best agricultural practices to maximize productivity and land use efficiency",
     "description": "",
     "metric": "",
     "value": "",
     "date": "",
     "category": "growth"
+  },
+  {
+    "id": "1",
+    "title": "Conducting research on cultivation practices, including selecting suitable varieties, planting dates, methods, plant density, irrigation, fertilization, pre- and post-harvest treatments, and climate adaptation for all developed varieties, and providing technical recommendations for each variety and region",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Issuing technical packages and agricultural practices for onion to achieve maximum yield, quality, and export value under climate change, in the form of extension bulletins updated annually",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Transferring modern technology, research findings, and applied studies to farmers through extension bulletins, campaigns, brochures, booklets, and media channels",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
   }
 ],
 "Department_Vision": [
   {
     "id": "1",
-    "title": "Enhancing Productivity",
+    "title": "Productivity Development",
     "Sub_title": "",
-    "content": "Providing scientific research and studies to improve onion crop productivity, ensuring self-sufficiency, maintaining Egypt’s leading position in onion exports, supporting food security, boosting national income through foreign currency, and supplying farmers and stakeholders with newly developed varieties and updated agricultural practices.",
+    "content": "Providing scientific research and studies to improve onion productivity to maintain self-sufficiency, secure a leading position in onion exports, contribute to food security, support national income through foreign currency, and provide farmers and stakeholders with developed varieties and updated agricultural practices.",
     "subItems": [],
     "priority": "high",
-    "category": "Enhancing Productivity"
+    "category": "Productivity Development"
+  },
+  {
+    "id": "2",
+    "title": "Continuity and Focus",
+    "Sub_title": "",
+    "content": "Continuing the development of new onion varieties with good export traits and focusing on varieties resistant to diseases and adaptable to climate change",
+    "subItems": [],
+    "priority": "medium",
+    "category": "Continuity and Focus"
+  },
+  {
+    "id": "3",
+    "title": "Attention",
+    "Sub_title": "",
+    "content": "Increasing focus on breeding varieties suitable for new land reclamation areas, compatible with mechanized cultivation and harvesting to reduce costs, as well as emphasizing white varieties with high solid and dry matter content for dehydration, and early-maturing varieties for export",
+    "subItems": [],
+    "priority": "low",
+    "category": "Attention"
+  },
+  {
+    "id": "4",
+    "title": "Hybrid Production",
+    "Sub_title": "",
+    "content": "Producing high-yielding hybrids tolerant to climate change and both biotic and abiotic stresses, suitable for local, export, and industrial market demands",
+    "subItems": [],
+    "priority": "high",
+    "category": "Hybrid Production"
   }
 ],
   "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",

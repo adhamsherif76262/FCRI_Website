@@ -100,6 +100,7 @@ export default async function RootLayout({
     // ✅ Await anything (Next.js now considers params "safe")
   // await Promise.resolve();
   // const dir = (await params).lang === 'ar' ? 'rtl' : 'ltr';
+  // const dir =  params.lang === 'ar' ? 'rtl' : 'ltr';
   const dir =  params.lang === 'ar' ? 'rtl' : 'ltr';
 
   return (

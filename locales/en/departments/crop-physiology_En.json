@@ -4,34 +4,60 @@
   "Director_Image": "/images/Departments Directors/Crop_Physiology_Director.png",
   "description": "",
   "image": "",
+"P2": [
+  "The department conducts physiological studies on the behavior of different varieties and genetic compositions of strategic crops under varying environmental conditions such as salinity, heat, water deficit, and nutrient deficiency.",
+  "This is carried out at several levels:"
+],
 "P1": [
-  "Physiological studies of agricultural crops, and understanding and monitoring the vital processes of plants, are essential to comprehend plant interactions with the surrounding environment and their responses. This knowledge improves agricultural practices and supports the development of new high-yielding varieties under conditions of climate change."
+  "In the name of Allah, the Most Gracious, the Most Merciful",
+  "The physiological study of agricultural crops, along with understanding and monitoring the biological processes of plants, is essential to comprehend how plants interact with their surrounding environment and the extent of their response. This enhances agricultural practices and aids in developing new, high-yielding varieties under climate change conditions.",
+  "In this department, we are committed to achieving academic and research excellence through:",
+  "Conducting pioneering research in crop improvement, either through physiological evaluation under different environments or by reducing the negative impacts of various stresses through positive physiological treatments.",
+  "Studying the physiological mechanisms that control plant productivity and their ability to withstand environmental stresses.",
+  "Continuously and diligently working to enhance food security and sustainable agriculture.",
+  "We are also keen to build strategic partnerships with local and international research institutions, and to prepare scientific cadres capable of keeping pace with global advancements in crop physiology.",
+  "I am pleased to welcome you to the Crop Physiology Research Department’s webpage, which serves as a link between academic plant physiology and modern agricultural applications to improve and increase the productivity of various crops under different environmental stresses.",
+  "We believe that the future of agriculture depends on scientific innovation, and we strive to ensure our department is a pioneer in this field."
 ],
 "Department_Achieviements": [
   {
     "id": "1",
-    "text": "Establishment of the Chemical Analysis Unit within the department, which conducts physiological and chemical analyses for all institute departments, as well as other institutes within the center, in addition to universities and other research institutions.",
+    "text": "Establishing a chemical analysis unit within the department, which conducts physiological and chemical analyses for all institute departments, as well as for other research institutes, universities, and research centers.",
     "level": 1,
     "isExpanded": false,
     "children": []
   },
   {
     "id": "2",
-    "text": "Collaboration with different departments of the institute in evaluating promising genetic materials and registering new varieties.",
+    "text": "Collaborating with different institute departments in evaluating promising genetic lines and registering new varieties.",
     "level": 1,
     "isExpanded": false,
     "children": []
   },
   {
     "id": "3",
-    "text": "Enhancing crop productivity under various stress conditions and climate change through the use of substances with positive effects on plant physiological processes.",
+    "text": "Enhancing crop productivity under different stress conditions and climate changes by using substances with positive effects on plant physiological processes.",
     "level": 1,
     "isExpanded": false,
     "children": []
   },
   {
     "id": "4",
-    "text": "Conducting numerous experiments on different crops using physiologically active substances to reduce inputs while maintaining high productivity.",
+    "text": "Conducting numerous experiments on different crops using physiologically active substances to reduce inputs while achieving high productivity.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "5",
+    "text": "Publishing pioneering research in international scientific journals on stress tolerance mechanisms (salinity, drought, and heat) at the physiological level in different strategic crops.",
+    "level": 1,
+    "isExpanded": false,
+    "children": []
+  },
+  {
+    "id": "6",
+    "text": "Recognition of the department’s research as important references in the field of crop physiology.",
     "level": 1,
     "isExpanded": false,
     "children": []
@@ -40,7 +66,7 @@
 "Department_Mission_Outer": [
   {
     "id": "1",
-    "title": "Study the biological processes occurring within field crops and how they affect growth and productivity.",
+    "title": "Studying the biological processes that occur within field crop plants and how they affect growth and productivity",
     "description": "",
     "metric": "",
     "value": "",
@@ -49,7 +75,7 @@
   },
   {
     "id": "2",
-    "title": "Utilize physiological studies to improve crop productivity and quality, and to assist in developing new varieties.",
+    "title": "Using physiological studies to improve crop productivity and quality, and assisting in the development of new varieties",
     "description": "",
     "metric": "",
     "value": "",
@@ -58,23 +84,117 @@
   },
   {
     "id": "3",
-    "title": "Study how field crops adapt to different environmental conditions (such as water scarcity, salinity, and varying temperatures) and work on enhancing their performance.",
+    "title": "Studying how field crops adapt to different environmental conditions (water deficit, salinity, and varying temperatures) and working on improving them.",
     "description": "",
     "metric": "",
     "value": "",
     "date": "",
     "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Field-level plant studies: monitoring various biological processes using specialized equipment to measure transpiration, carbon dioxide emission devices to assess photosynthesis, as well as measuring photosynthetic efficiency during different plant growth stages.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title": "Morphological studies: examining physiological traits from a morphological perspective, such as leaf area, leaf area index, fresh and dry weights of different plant parts, and other morphological characteristics.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "6",
+    "title": "Biochemical studies of plants: examining chemical processes within plants and their response to surrounding conditions through a group of biochemical compounds that serve as clear indicators of plant responses to climate changes and interactions with their environment, such as proline, MDA, enzymes, photosynthetic pigments, and others.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "7",
+    "title": "Crop improvement through the development of high-yield and stress-resistant varieties by adding physiologically positive substances that enhance growth and productivity under different environmental conditions (e.g., Antioxidants, Osmoregulators, Antitranspirants).",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "8",
+    "title": "Continuous physiological evaluation of promising genetic lines to identify the best and most productive under varying environmental conditions such as salinity, heat, and water deficit.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
   }
 ],
 "Department_Vision": [
   {
     "id": "1",
-    "title": "Application of Studies",
+    "title": "Core Vision",
     "Sub_title": "",
-    "content": "Applying physiological studies to develop new agricultural practices aimed at increasing the efficiency of resource use (such as water, fertilizers, and diverse environmental conditions), while improving crop productivity. Additionally, conducting physiological evaluations of promising genetic materials of different field crops throughout their growth stages under various stress conditions, to identify and register the best as new varieties.",
-    "subItems": [],
+    "content": "To be pioneers in research and development in the fields of plant physiology, contributing to sustainable agriculture, food security, and the production of varieties adapted to climate change through physiological evaluation under harsh environmental conditions or by reducing their negative impacts via various physiological treatments. Additionally, the department aims to become a leading scientific reference in crop physiology, contributing to:",
+    "subItems": [
+      {"text": "Increasing agricultural productivity using sustainable techniques."},
+      {"text": "Addressing climate challenges."},
+      {"text": "Enhancing food security by improving crop growth and productivity."}
+    ],
     "priority": "high",
-    "category": "Application of Studies"
+    "category": "Core Vision"
+  },
+  {
+    "id": "2",
+    "title": "Use of Studies",
+    "Sub_title": "",
+    "content": "Utilizing physiological studies to develop new agricultural practices aimed at increasing the efficiency of resource use (such as water, fertilizers, and various environmental conditions) and improving crop productivity. Additionally, conducting physiological evaluations of promising genetic lines of different field crops throughout their growth stages under various stresses to identify the best of these lines and register them as new varieties.",
+    "subItems": [],
+    "priority": "medium",
+    "category": "Use of Studies"
+  },
+  {
+    "id": "3",
+    "title": "Future Vision",
+    "Sub_title": "We seek to strengthen these achievements through:",
+    "content": "These achievements reflect the department’s vision of supporting sustainable agriculture and food security through scientific innovation.",
+    "subItems": [
+      {"text": "Establishing advanced laboratories for physiological studies."},
+      {"text": "Applying the results of physiological research aimed at increasing productivity and integrating them into core agricultural practices for different crops."}
+    ],
+    "priority": "low",
+    "category": "Future Vision"
+  },
+  {
+    "id": "4",
+    "title": "Strategic Vision",
+    "Sub_title": "",
+    "content": "",
+    "subItems": [
+      {
+        "text": "Research Excellence:",
+        "children": [
+          {"text": "Developing advanced techniques in physiological treatments to improve the production of strategic crops."},
+          {"text": "Studying physiological mechanisms of tolerance to environmental stresses (such as salinity, drought, and high temperatures)."}
+        ]
+      },
+      {
+        "text": "Local and International Collaboration:",
+        "children": [
+          {"text": "Building partnerships with research centers and universities specializing in crop physiology."},
+          {"text": "Training and qualifying scientific cadres to keep pace with the latest developments in crop physiology."}
+        ]
+      }
+    ],
+    "priority": "high",
+    "category": "Strategic Vision"
   }
 ],
   "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
