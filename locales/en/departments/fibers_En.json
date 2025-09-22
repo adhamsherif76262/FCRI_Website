@@ -13,14 +13,128 @@
     "We extend our gratitude to the distinguished research team working under our leadership for their dedication and commitment in serving the nation and society. We wish you continued success in your noble scientific endeavors."
   ],
   "Department_Achieviements": [
-    {
-      "id": "1",
-      "text": "A new variety, Giza 13 (fiber crop), has been developed with high productivity, and more than 20 newly bred lines are currently being evaluated for registration as new varieties to replace the old local cultivars.",
-      "level": 1,
-      "isExpanded": false,
-      "children": []
-    }
-  ],
+  {
+    "id": "1",
+    "text": "Development of New Varieties",
+    "level": 1,
+    "isExpanded": false,
+    "children":[
+        {
+          "id": "1.1",
+          "text": "A new variety, Giza 13 (fiber type), high-yielding, has been developed. Currently, more than 20 newly developed lines are under evaluation for registration as new varieties superior to older local cultivars.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "1.2",
+          "text": "The Sakha 3 fiber variety has been re-registered due to its high productivity and strong demand in the local market, outperforming other fiber and imported varieties.",
+          "level": 2,
+          "parentId": "1",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Flax and Environmental Sustainability",
+    "level": 1,
+    "isExpanded": false,
+    "children":[
+        {
+          "id": "2.1",
+          "text": "Through its breeding program, the Fiber Research Department succeeded in developing varieties with higher average productivity per unit area. Flax is considered an exemplary sustainable crop, making it a promising environmental choice. Applied research conducted by the department has led to the development of varieties characterized by:",
+          "level": 2,
+          "parentId": "2",
+          "isExpanded": false,
+          "children": [
+             {
+               "id": "2.1.1",
+               "text": "Low water consumption – flax cultivation is non-intensive in water use and does not require artificial irrigation under suitable climatic conditions.",
+               "level": 3,
+               "parentId": "2.1"
+             },
+             {
+               "id": "2.1.2",
+               "text": "Eco-friendly farming – flax is grown with low fertilizer and pesticide inputs, reducing the environmental impact of cultivation.",
+               "level": 3,
+               "parentId": "2.1"
+             },
+             {
+               "id": "2.1.3",
+               "text": "Full crop utilization – all parts of the flax plant are used, from fibers and seeds to residues employed as animal feed or in the production of fiberboards and insulation materials, making it an almost zero-waste crop.",
+               "level": 3,
+               "parentId": "2.1"
+             },
+             {
+               "id": "2.1.4",
+               "text": "Soil quality improvement – flax is grown as part of crop rotations, helping improve soil quality and reduce diseases and pests affecting other crops.",
+               "level": 3,
+               "parentId": "2.1"
+             }
+          ]
+        }
+    ]
+  },
+  {
+    "id": "3",
+    "text": "Technology Transfer and Extension",
+    "level": 1,
+    "isExpanded": false,
+    "children":[
+        {
+          "id": "3.1",
+          "text": "Preparation of annual bulletins and publications on flax to raise awareness among farmers, especially smallholders, and encourage them to grow flax.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "3.2",
+          "text": "Implementation of extension seminars and training lectures to introduce farmers to the crop.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "3.3",
+          "text": "Establishment of demonstration fields in various governorates to promote local varieties and compare them with imported ones.",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  },
+  {
+    "id": "4",
+    "text": "Applied Research",
+    "level": 1,
+    "isExpanded": false,
+    "children":[
+        {
+          "id": "4.1",
+          "text": "Evaluation of cultivars across different environments.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "4.2",
+          "text": "Conducting research on all agricultural practices and determining the best recommendations for the crop under new climate conditions.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        }
+    ]
+  }
+],
   "Department_Mission_Outer": [
     {
       "id": "1",

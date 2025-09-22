@@ -31,181 +31,94 @@
   ],
   "B2_Title": "Objectives",
   "B2": [
-    "Develop high-yielding, pest-resistant varieties and hybrids.",
-    "Produce breeder and foundation seeds for distribution to seed producers.",
-    "Preserving genetic resources.",
-    "Collaborate with Egyptian and international universities and institutes.",
-    "Formulate technical recommendations tailored to each variety.",
-    "Develop new crop combinations.",
-    "Conduct training programs for extension agents and farmers.",
-    "Enhance researcher skills through training.",
-    "Offer training for peers from African and Asian countries.",
-    "Support regional and international cooperation."
-  ],
+  "Expansion of seed production to cover major projects.",
+  "Addressing climate change.",
+  "Achieving self-sufficiency by reducing the food gap for strategic crops.",
+  "Improving the quality of field crops to meet global market demands."
+],
   "B3_Title": "Institute Achievements",
-  "B3": [
+"B3": [
   {
     "id": "1",
-    "title": "Development and registration of more than 300 varieties and hybrids.",
+    "title": "Development and registration of nearly 360 varieties and hybrids of different field crops.",
     "description": "",
     "priority": "high",
     "icon": "zap"
   },
   {
     "id": "2",
-    "title": "Achieved 100% coverage of maize cultivation with resistant hybrids.",
+    "title": "Production of more than 50,000 tons of foundation seeds with high productivity, disease resistance, and tolerance to climate change.",
     "description": "",
     "priority": "medium",
     "icon": "users"
   },
   {
     "id": "3",
-    "title": "Development of onion and peanut varieties with export-quality traits.",
+    "title": "Implementation of nearly 100,000 demonstration fields and around 3,000 farmer field schools across the country.",
     "description": "",
     "priority": "low",
     "icon": "award"
   },
   {
     "id": "4",
-    "title": "Dissemination of rust-resistant wheat varieties and broomrape-resistant faba bean.",
+    "title": "Organization of field seminars and harvest field days, leading to the spread of new varieties and adoption of modern agricultural practices.",
     "description": "",
     "priority": "low",
     "icon": "target"
   },
   {
     "id": "5",
-    "title": "Dissemination of soybean varieties resistant to cotton leafworm and replacement with high-yielding clover varieties.",
+    "title": "The institute publishes more than 200 international and local research papers annually.",
     "description": "",
     "priority": "medium",
     "icon": "zap"
   },
   {
     "id": "6",
-    "title": "Updating technical recommendations and transferring them to farmers in collaboration with agricultural extension services.",
+    "title": "The institute has implemented nearly 30 academic research projects in collaboration with international and local entities.",
     "description": "",
     "priority": "high",
     "icon": "users"
   }
 ],
   "B4_Title": "Future Vision",
-"B4": [
+  "B4": ["Achieving food security for Egypt through multidisciplinary applied research aimed at increasing productivity, solving production challenges, and maximizing the utilization of land and water resources, in a manner that ensures sustainable development."],
+  "B5_Title": "Institute Specializations",
+  "B6_Title": "Institute Role",
+"B6": [
   {
     "id": "1",
-    "title": "Continuing the development of high-quality varieties.",
+    "title": "Development of new high-yielding varieties tolerant to climate change with superior quality traits.",
     "description": "",
-    "timeline": "2025+",
+    "timeline": "1901 - 2025+",
     "impact": "",
     "theme": "sustainability"
   },
   {
     "id": "2",
-    "title": "Utilizing safe biotechnology applications.",
+    "title": "Production of breeder and foundation seeds for distribution to the Central Administration for Seeds and private companies for certified seed production.",
     "description": "",
-    "timeline": "2025+",
+    "timeline": "1901 - 2025+",
     "impact": "",
     "theme": "excellence"
   },
   {
     "id": "3",
-    "title": "Identifying the best agricultural practices.",
+    "title": "Transfer of modern technologies to farmers through extension activities and national campaigns carried out by the institute in collaboration with the Central Administration of Agricultural Extension.",
     "description": "",
-    "timeline": "2025+",
+    "timeline": "1901 - 2025+",
     "impact": "",
     "theme": "innovation"
   },
   {
     "id": "4",
-    "title": "Providing improved seeds to farmers.",
+    "title": "Development of agricultural practice programs to issue the best technical recommendations for farmers to achieve maximum productivity and address climate change.",
     "description": "",
-    "timeline": "2025+",
+    "timeline": "1901 - 2025+",
     "impact": "",
     "theme": "development"
-  },
-  {
-    "id": "5",
-    "title": "Preserving genetic resources.",
-    "description": "",
-    "timeline": "2025+",
-    "impact": "",
-    "theme": "support"
-  },
-  {
-    "id": "6",
-    "title": "Collaborating with local and international universities.",
-    "description": "",
-    "timeline": "2025+",
-    "impact": "",
-    "theme": ""
-  },
-  {
-    "id": "7",
-    "title": "Developing new crop combinations.",
-    "description": "",
-    "timeline": "2025+",
-    "impact": "",
-    "theme": "development"
-  },
-  {
-    "id": "8",
-    "title": "Delivering training and extension programs.",
-    "description": "",
-    "timeline": "2025+",
-    "impact": "",
-    "theme": "sustainability"
-  },
-  {
-    "id": "9",
-    "title": "Supporting research capacities locally and internationally.",
-    "description": "",
-    "timeline": "2025+",
-    "impact": "",
-    "theme": "innovation"
-  },
-  {
-    "id": "10",
-    "title": "Implementing regional training programs in collaboration with international agricultural centers.",
-    "description": "",
-    "timeline": "2025+",
-    "impact": "",
-    "theme": "excellence"
   }
 ],
-  "B5_Title": "Institute Specializations",
-  "B6_Title": "Institute Role",
-  "B6": [
-    {
-      "id": "1",
-      "title":".",
-      "description" : "",
-      "timeline": "1901-2025+",
-      "impact": "",
-      "theme": "sustainability"
-    },
-    {
-      "id": "2",
-      "title":".",
-      "description" : "",
-      "timeline": "1901-2025+",
-      "impact": "",
-      "theme": "excellence"
-    },
-    {
-      "id": "3",
-      "title":".",
-      "description" : "",
-      "timeline": "1901-2025+",
-      "impact": "",
-      "theme": "innovation"
-    },
-    {
-      "id": "4",
-      "title":".",
-      "description" : "",
-      "timeline": "1901-2025+",
-      "impact": "",
-      "theme": "development"
-    }
-  ],
   "P4_Title": "Future Vision",
   "P4": "The Institute aims to continue developing more resilient and efficient crop varieties, applying safe biotechnology in genetic improvement programs, strengthening international and regional cooperation, and intensifying training programs to enhance the capabilities of researchers and agricultural professionals in Egypt, Africa, and Asia.",
   "ctaButton": "Explore Our Research"

@@ -4,9 +4,6 @@
   "Director_Image": "/images/Departments Directors/Forage_Director.png",
   "description": "",
   "image": "",
-  "P1": [
-    "Green fodder crops are the safe haven for agricultural and livestock investment, helping to reduce reliance on expensive concentrated feed that often causes harmful diseases such as mad cow disease and foot-and-mouth disease. Providing green fodder crops at low costs gives small-scale farmers the opportunity to invest in production and livestock breeding. As a result, the state moves closer to achieving stability in agricultural and livestock production, contributing to the availability of animal protein and dairy products."
-  ],
   "Department_Achieviements": [
     {
       "id": "1",
@@ -262,46 +259,119 @@
       ]
     }
   ],
-  "Department_Mission_Outer": [
-    {
-      "id": "1",
-      "title": "Breeding forage crop varieties that are high-yielding, of good feeding quality, resistant to diseases, and with high nutritional value as a natural food source for farm animals including cattle, buffalo, sheep, goats, and camels.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "excellence"
-    },
-    {
-      "id": "2",
-      "title": "Producing foundation seeds of these varieties and supplying them to the Central Administration for Seed Production and private companies for multiplication and distribution nationwide.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "innovation"
-    },
-    {
-      "id": "3",
-      "title": "Training agricultural specialists and farmers interested in forage crops on the best agricultural practices and how to maximize land use efficiency.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "recognition"
-    }
-  ],
-  "Department_Vision": [
-    {
-      "id": "1",
-      "title": "Continuing Scientific Research",
-      "Sub_title": "",
-      "content": "Continuing scientific research to improve the productivity and quality traits of forage crops, while breeding varieties that can tolerate environmental stresses such as drought and salinity. Ensuring year-round availability of green fodder crops provides stability in feed resources for farm animals.",
-      "subItems": [],
-      "priority": "high",
-      "category": "Continuing Scientific Research"
-    }
-  ],
+  "P1": [
+  "The Forage Crops Research Department has taken serious steps for more than four decades to develop new varieties, introduce forage species, multiply them, and make them accessible to farmers in order to encourage breeders and large investors to increase livestock production, which benefits society with prosperity and growth.",
+  "Green forage crops are the safe haven for agricultural and livestock investment, helping to reduce dependence on expensive concentrated feed, which also causes negative effects such as mad cow disease and foot-and-mouth disease. Providing low-cost green forage crops gives small breeders a push to invest in production and farming, thereby bringing the state closer to stability in agricultural and livestock production, contributing to the provision of animal protein and dairy products.",
+  "Although forage crops are not final products like wheat, rice, corn, and other field crops, they represent the cornerstone for both small and large farmers and those interested in livestock production. Egypt’s achievement of self-sufficiency in dairy products and about 50% self-sufficiency in local meat did not happen by chance. It is the result of the state’s great attention to providing a wide diversity of green forages year-round and its strong commitment to reducing feed imports. Green forage also stands out for its low cost, safe and natural nutritional components, and high palatability. The Agricultural Research Center, represented by the Field Crops Research Institute, has made significant progress in this area."
+],
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "Developing high-yielding forage crop varieties with good feeding quality, disease resistance, and high nutritional value as a natural feed source for farm animals such as cattle, buffaloes, sheep, goats, and camels.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Producing foundation seeds of these varieties and supplying them to the Central Administration for Seed Production and private companies for multiplication and distribution nationwide.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "Training agricultural specialists and farmers interested in forage crops on the best agricultural practices and efficient land use.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Developing summer and winter forage crop varieties tolerant to harsh environmental conditions such as salinity and drought, and free from weed seeds.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title": "Multiplying the varieties that achieved the main goals of high productivity, high nutritional value, and good palatability for livestock in order to achieve the strategic goal of providing forage feed, reducing feed imports, and thus lowering foreign currency costs.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "6",
+    "title": "Disseminating technical recommendations for maximizing crop productivity at minimal cost through extension seminars supported with practical recommendations, applied in demonstration fields where direct interaction with farmers helps find the best smart solutions for providing green forage year-round without interruption.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Continuing Scientific Research",
+    "Sub_title": "",
+    "content": "Continuing scientific research to improve the yield and quality traits of forage crops, while developing varieties tolerant to environmental stresses such as drought and salinity, and establishing mechanisms to ensure the availability of green forage year-round to secure stable feed for livestock.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Continuing Scientific Research"
+  },
+  {
+    "id": "2",
+    "title": "Core Vision",
+    "Sub_title": "",
+    "content": "Green forages are among the fundamental factors underpinning livestock production, remaining the cheapest means of feeding animals and one of the main pillars for meeting the increasing demand for animal products. Legume forages, particularly Egyptian clover, play an essential role in sustaining soil fertility, improving its physical, chemical, and biological properties, and thus positively impacting wheat productivity, especially when wheat is planted after clover, whether perennial or short-season.",
+    "subItems": [],
+    "priority": "medium",
+    "category": "Core Vision"
+  },
+  {
+    "id": "3",
+    "title": "Increasing Productivity",
+    "Sub_title": "",
+    "content": "Boosting green forage productivity is of paramount importance, as it has both direct and indirect effects on expanding wheat cultivation areas and increasing self-sufficiency in wheat—a crop of great strategic importance for political, economic, and social stability in Egypt—thus contributing to food security.",
+    "subItems": [
+      {
+        "text": "Given the limited agricultural land and the production-consumption gap in wheat, it is unlikely that the area planted with Egyptian clover will expand in the future; in fact, it may decrease to favor wheat cultivation. However, planting newly developed, high-yielding, stress-tolerant clover varieties from the Forage Crops Research Department, in line with varietal policies, is expected to raise average clover productivity from 30 tons/feddan (according to 2022 Economic Affairs Sector statistics) to 40 tons/feddan by 2028 in areas covered with improved seeds."
+      },
+      {
+        "text": "The area under clover cultivation should be reduced in proportion to the yield increase per unit area, without affecting total clover production."
+      }
+    ],
+    "priority": "low",
+    "category": "Increasing Productivity"
+  },
+  {
+    "id": "4",
+    "title": "Summer Forage Crops",
+    "Sub_title": "",
+    "content": "Summer forage crops are crucial in bridging the feed gap during summer months, with around 286,000 feddans cultivated in summer (according to 2024 Economic Affairs Sector statistics), compared to about 1.38 million feddans of clover cultivated in winter.",
+    "subItems": [
+      {
+        "text": "The main reasons are competition from strategic cash crops such as rice, maize, and cotton, as well as lack of awareness among many farmers about the availability of multi-cut summer forage crops. This often leads breeders to rely on expensive concentrated feed or resort to practices like topping and defoliating maize, which reduces grain yield by about 30%."
+      },
+      {
+        "text": "Some farmers grow sorghum (Darawa) to feed livestock, but it is low-yielding since it produces only one cut and has poor nutritional value."
+      }
+    ],
+    "priority": "high",
+    "category": "Summer Forage Crops"
+  }
+],
   "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
   "HR_File_PDF_Path": "/pdfs/HR Data/HR_Forage.pdf",
   "Research_File_PDF_Path": "/pdfs/Research Data/Research_Forage.pdf"

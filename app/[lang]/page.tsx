@@ -66,7 +66,7 @@ export default function Home() {
         {currentLang === 'ar' ? "معهد بحوث المحاصيل الحقلية" : "Field Crops Research Institute"}
       </FuturisticHeading>
 
-      <div className="xxxs:mt-4 md:mt-10 ">
+      <div className="xxxs:mt-4 md:mt-10">
 
             <FuturisticParagraphSection
               title={t.P1_Title}
@@ -107,24 +107,24 @@ export default function Home() {
           <h3 className={clsx(
             "xxxs:py-4 sm:py-8 text-center",
             isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
-          )}>{isRTL ? "تخصصات المحاصيل" : "تخصصات المحاصيل"}</h3>
+          )}>{isRTL ? "تخصصات المحاصيل" : "Crop Specializations"}</h3>
           <ol className="grid md:grid-cols-6  xxxs:grid-cols-2 gap-2">
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الحبوب" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البقول" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الزيوت" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الالياف" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• العلف" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البصل" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الحبوب" : "• Cereals"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البقول" : "• Legumes"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الزيوت" : "• Oil Crops"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الالياف" : "• Fibers"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• العلف" :  "• Fodder"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البصل" :  "• Onion"}</li>
           </ol>
           <h3 className={clsx(
             "xxxs:py-4 sm:py-8 text-center",
             isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
-          )}>{isRTL ? "التخصصات الفنية " : ""}</h3>
+          )}>{isRTL ? "التخصصات الفنية" : "Technical Specializations"}</h3>
           <ol className="grid lg:grid-cols-4 xxs:grid-cols-2 xxxs:grid-cols-1 gap-y-2 sm:gap-x-8 xs:gap-x-1 xxs:gap-x-0 mb-10">
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• دراسة الخلية" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• فسسولوجيا المحاصيل" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• تكنولوجيا البذور" : ""}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الاصول الوراثيه" : ""}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• دراسة الخلية" : "• Cell Studies"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• فسسولوجيا المحاصيل" : "• Cell Physiology"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• تكنولوجيا البذور" : "• Seed Technology"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الاصول الوراثيه" : "• Genetic Resources"}</li>
           </ol>
         </div>
         
@@ -147,7 +147,7 @@ export default function Home() {
 <AnimatedCounter counters={myCounters}/>
 </div>
 
-    <div className="mt-10 max-width xl:max-width-lg">
+    <div className="mt-10 max-width">
       <FuturisticHeading rtl={isRTL}>
         {currentLang === 'ar' ? "نحو اصناف وهجن تتحدي التغيرات المناخية" : "Towards varieties and hybrids that challenge climate change"}
       </FuturisticHeading>
@@ -193,8 +193,11 @@ export default function Home() {
         {t.B4_Title}
       </FuturisticHeading>
 
-    <LayeredVisionList isArabic={isRTL} items={t.B4} />
+    {/* <LayeredVisionList isArabic={isRTL} items={t.B4} /> */}
 
+      <div className="xxxs:my-4 md:my-10">
+        <FuturisticParagraphSection title="" paragraphs={t.B4} rtl={isRTL}></FuturisticParagraphSection>
+      </div>
 
       {/* <div className="mt-8">
 

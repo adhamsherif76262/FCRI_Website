@@ -4,86 +4,406 @@
   "Director_Image": "/images/Departments Directors/crop_intensification.png",
   "description": "",
   "image": "",
-  "P1": [
-    "One of the most important activities of the department is providing food for humans and animals, which is a leading objective that determines the style of agricultural production in Egypt, especially in recent years. This comes in light of the increasing food gap caused by rapid population growth that is not matched by a parallel increase in agricultural production—particularly in food crops such as cereals, oil crops, sugar crops, and fodder. This is due to the limited area reclaimed annually, along with the high reclamation costs that place a heavy burden on the state budget. In addition, the limited water resources allocated to agriculture, which rely mainly on the Nile River as the primary source, are not expected to increase in the future. This makes reclaiming additional areas relying on Nile water difficult, and poses further challenges in meeting food needs, leading to increased dependence on imports.",
-    "Added to this are the impacts of climate change, which threaten the cultivation of many strategic crops, reduce their productivity, and increase their vulnerability to diseases and pests. Agricultural land is also deteriorating through salinization, pollution, and desertification.",
-    "The department also works on introducing non-traditional crops that can tolerate water stress, salinity, and climate change, such as quinoa and cassava."
+    "P1": [
+    "The Crop Intensification Research Department forms one of the solid pillars of the agricultural research system. We carry a noble mission and a national responsibility to develop the Egyptian farming system in unconventional ways, in order to increase feddan productivity and bridge the food gap of important strategic crops as well as forage crops, by intercropping them with certain vegetable crops and under non-fruit trees.",
+    "In the department, we exert continuous efforts in experimentation, development, and technology transfer. Our role is not limited to research stations; we extend into the fields, engage with farmers and agricultural extension services, to ensure that the outcomes of scientific research reach real application.",
+    "Among the most important activities of the department is providing food for humans and animals. This is one of the top priorities guiding production methods in Egypt, especially in recent times as the food gap has widened due to the huge population increase, which has not been matched by a proportional rise in agricultural production—particularly of food crops such as cereals, oils, sugar, and forages. This is due to the limited area of land reclaimed annually and the high costs of reclamation, which pose a heavy burden on the state budget, in addition to the limited water resources allocated to agriculture, mainly dependent on the Nile as the primary source. The Nile’s water supply is not expected to increase in the future, making it difficult to reclaim more land and aggravating the challenge of meeting food needs, leading to reliance on imports.",
+    "In addition, climate change threatens the cultivation of many strategic crops, reduces their productivity, and increases vulnerability to pests and diseases, along with land degradation, salinization, pollution, and desertification.",
+    "The department also works on introducing non-traditional crops that can withstand water stress, salinity, and climate change, such as quinoa and cassava.",
+    "We believe that scientific research is a long-term investment, and that the knowledge we sow today will yield tomorrow’s food security and agricultural sustainability. Our ambition knows no limits, and our goal is for the Crop Intensification Research Department to remain a scientific and practical beacon serving Egyptian agriculture and contributing to the nation’s prosperity.",
+    "We ask God for success and guidance, that our work be sincere, beneficial to people, and fruitful for our blessed land."
+  ],
+  "P2": [
+    "The Crop Intensification Research Department works tirelessly to increase output per unit area by using unconventional farming methods in Egypt. These approaches maximize productivity, raise farmers’ income, save water through ridge planting, protect against price fluctuations of crops, and withstand climate changes by providing suitable temperatures and humidity for both crops—through several key axes:"
   ],
   "Department_Achieviements": [
     {
       "id": "1",
-      "text": "The Crop Intensification Research Department has conducted numerous studies and experiments aimed at increasing agricultural production both quantitatively and qualitatively through non-traditional methods.",
+      "text": "The Crop Intensification Research Department has conducted numerous studies and research projects aimed at increasing agricultural production in both quantity and quality through unconventional methods.",
       "level": 1,
       "isExpanded": false,
       "children": []
     },
     {
       "id": "2",
-      "text": "Registration of new varieties: Quinoa Egypt 1, Cassava Egypt 1, and Chia Egypt 1.",
+      "text": "Registration of Quinoa Misr 1, Cassava Misr 1, and Chia Misr 1 varieties, with ongoing acclimatization of certain tobacco varieties under Egyptian conditions.",
       "level": 1,
       "isExpanded": false,
       "children": []
     },
     {
       "id": "3",
-      "text": "Ongoing acclimatization of some tobacco varieties under Egyptian conditions.",
+      "text": "Published pioneering research in international scientific journals, including:",
       "level": 1,
       "isExpanded": false,
-      "children": []
-    }
-  ],
-  "Department_Mission_Outer": [
-    {
-      "id": "1",
-      "title": "The Crop Intensification Research Department works on several main approaches, including intercropping in its various forms, crop rotation and cropping patterns, and improved farm management systems—these are non-traditional methods designed to increase agricultural production.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "excellence"
-    },
-    {
-      "id": "2",
-      "title": "Increasing the crop intensification rate by cultivating more than two crops per year, combining winter and summer crops, and introducing spring or autumn crops. This raises the crop intensification rate by one-third for field crops, and by even more for vegetable crops.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "innovation"
-    },
-    {
-      "id": "3",
-      "title": "These new methods help expand cultivated areas, maximize land productivity, speed up returns, and save water through ridge planting. They also help protect farmers from price fluctuations, enhance climate resilience by providing suitable temperature and humidity for both crops, and reduce pest and disease infections through root secretions (allelopathy), while preserving the dominant cropping patterns of main winter and summer crops.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "recognition"
+      "children": [
+        {
+          "id": "3.1",
+          "text": "A system for intercropping some winter crops to increase wheat area",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "3.1.1",
+              "text": "Intercropping wheat with sugar beet, sugarcane, tomatoes, or under non-fruit trees.",
+              "level": 3,
+              "parentId": "3.1"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "text": "A system for intercropping some winter crops to increase faba bean area",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "3.2.1",
+              "text": "Intercropping faba beans with sugar beet, sugarcane, tomatoes, or under non-fruit trees.",
+              "level": 3,
+              "parentId": "3.2"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "text": "A system for intercropping some summer crops to increase soybean area",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "3.3.1",
+              "text": "Intercropping soybeans with maize, sorghum, tomatoes, sugarcane, or under non-fruit trees.",
+              "level": 3,
+              "parentId": "3.3"
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "text": "A system for intercropping some summer crops to increase oil crop area",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "3.4.1",
+              "text": "Intercropping maize with tomatoes, soybeans, or under non-fruit trees.",
+              "level": 3,
+              "parentId": "3.4"
+            }
+          ]
+        },
+        {
+          "id": "3.5",
+          "text": "Intercropping certain medicinal and aromatic crops to reduce insect and disease infestations",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "3.5.1",
+              "text": "Intercropping fenugreek with faba beans to reduce broomrape infection, intercropping guar with sesame to reduce wilt disease, and studying the impact of preceding summer crops on sugar beet productivity and their relation to plant-parasitic nematodes.",
+              "level": 3,
+              "parentId": "3.5"
+            }
+          ]
+        },
+        {
+          "id": "3.6",
+          "text": "Increasing the rate of crop intensification",
+          "level": 2,
+          "parentId": "3",
+          "isExpanded": false,
+          "children": [
+            {
+              "id": "3.6.1",
+              "text": "Triple cropping by planting a catch crop (fast-growing berseem, sunflower, or a vegetable crop) between the winter wheat and summer maize crops.",
+              "level": 3,
+              "parentId": "3.6"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "4",
-      "title": "Introducing new crops into Egyptian agriculture that can be cultivated in marginal and saline lands and can withstand climate change, such as quinoa and cassava. These crops could serve as alternatives to important strategic crops like wheat, rice, potatoes, maize, and chia, which are considered of high nutritional value. The department also works on tobacco as an additional crop of interest.",
-      "description": "",
-      "metric": "",
-      "value": "",
-      "date": "",
-      "category": "growth"
+      "text": "Technology transfer and extension",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "4.1",
+          "text": "Preparing and publishing annual extension bulletins and pamphlets to raise farmer awareness.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "4.2",
+          "text": "Implementing dozens of demonstration and verification fields annually with farmer participation across the country.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "4.3",
+          "text": "Training thousands of agricultural engineers and farmers on modern farming techniques and integrated management.",
+          "level": 2,
+          "parentId": "4",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "Awards and recognitions",
+      "level": 1,
+      "isExpanded": false,
+      "children": [
+        {
+          "id": "5.1",
+          "text": "Department members won local and international scientific awards in agricultural innovation.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "5.2",
+          "text": "Department research recognized as key references in crop intensification.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        },
+        {
+          "id": "5.3",
+          "text": "Organizing workshops and training courses in intercropping and crop rotation.",
+          "level": 2,
+          "parentId": "5",
+          "isExpanded": false,
+          "children": []
+        }
+      ]
     }
   ],
-  "Department_Vision": [
+"Department_Mission_Inner" : {
+  "Array_1" : [],
+  "Array_2" : [],
+  "Array_3" : [],
+  "Array_4" : [],
+  "Array_5" : [],
+  "Array_6" : [],
+  "Array_7" : [],
+  "Array_8" : [
     {
       "id": "1",
-      "title": "Increasing Production",
-      "Sub_title": "These non-traditional approaches include:",
-      "content": "The top priority is to increase production per unit area of field crops, vegetables, medicinal and aromatic plants, and summer fodder crops—without expanding into new reclaimed lands that require additional water resources. Future expansion will increasingly depend on groundwater, which is the only available source but may be depleted over time.",
-      "subItems": [
-        { "text": "Intercropping and increasing the crop intensification rate." },
-        { "text": "Applying new technologies in Egyptian agriculture." }
-      ],
-      "priority": "high",
-      "category": "Increasing Production"
+      "title" : "Increasing land unit productivity through different intercropping systems for crops compatible with climatic requirements.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title" : "Introducing modern agricultural techniques such as ridge planting and intercropping on ridge tops and sides to conserve water use.",
+      "description": "",
+      "category": "community",
+      "connections": ["1", "4"],
+      "strength": 100
+    },
+    {
+      "id": "3",
+      "title" : "Crop rotation of some strategic crops in agricultural cycles to maintain soil fertility.",
+      "description": "",
+      "category": "support",
+      "connections": ["2", "3"],
+      "strength": 100
     }
   ],
+  "Array_9" : [
+    {
+      "id": "1",
+      "title" : "Preparing technical and extension bulletins to raise farmers’ awareness of best agricultural practices.",
+      "description": "",
+      "category": "core",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title" : "Training agricultural extension officers and farmers on the latest agricultural and production techniques.",
+      "description": "",
+      "category": "community",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ],
+  "Array_10" : [
+    {
+      "id": "1",
+      "title" : "Conducting field experiments at different research stations and farmers’ fields.",
+      "description": "",
+      "category": "innovation",
+      "connections": ["2", "3"],
+      "strength": 100
+    },
+    {
+      "id": "2",
+      "title" : "Evaluating new crops under multiple environmental and climatic conditions to ensure their success across different governorates.",
+      "description": "",
+      "category": "community",
+      "connections": ["1", "4"],
+      "strength": 100
+    }
+  ]
+},
+"Department_Mission_Outer": [
+  {
+    "id": "1",
+    "title": "The Crop Intensification Research Department has several approaches including different types of intercropping, crop rotation and cropping patterns, and non-traditional farm practices to increase agricultural production.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "2",
+    "title": "Increasing the rate of crop intensification by cultivating more than two crops per year between winter and summer crops, introducing spring or autumn crops to raise the intensification rate by one-third in field crops and more in vegetables.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "3",
+    "title": "These new methods increase cultivated area, maximize productivity per unit area, provide quick returns, save water through ridge planting, and protect against price fluctuations and climate change by ensuring optimal temperature and humidity for both crops, as well as resistance to some pests and diseases through root exudates (allelopathy), while maintaining the prevailing crop structure of major winter or summer crops.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "4",
+    "title": "Introducing new crops into Egyptian agriculture that can be cultivated in marginal and saline soils and tolerate climate change, such as quinoa and cassava, which can be alternatives to important strategic crops like wheat, rice, potatoes, maize, chia, as well as tobacco, all with high nutritional value.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "5",
+    "title":"Different types of intercropping such as mixed intercropping, row intercropping, strip intercropping, and relay intercropping to increase productivity per feddan and utilize land without disturbing crop structure.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "6",
+    "title":"Crop rotation and agricultural cycles to preserve soil fertility and increase production.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  },
+  {
+    "id": "7",
+    "title":"Using intercropping and crop rotation to resist some pest and disease infestations through root exudates (allelopathy) while maintaining the prevailing crop structure of main winter or summer crops.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "recognition"
+  },
+  {
+    "id": "8",
+    "title":"Increasing productivity per feddan.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "growth"
+  },
+  {
+    "id": "9",
+    "title":"Supporting farmers and agricultural extension services.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "excellence"
+  },
+  {
+    "id": "10",
+    "title":"Applied and experimental research.",
+    "description": "",
+    "metric": "",
+    "value": "",
+    "date": "",
+    "category": "innovation"
+  }
+],
+"Department_Vision": [
+  {
+    "id": "1",
+    "title": "Core Vision",
+    "Sub_title":"",
+    "content":"",
+    "subItems": [
+      {"text":"The Crop Intensification Research Department aims to be a leading and distinguished center in intercropping and crop rotation research, based on the firm belief in their importance in increasing productivity per unit area and raising the crop intensification rate by cultivating 3–6 crops per year instead of just two."},
+      {"text":"The department gives great importance to strengthening the role of crop intensification in achieving food security and reducing the food gap of strategic crops such as oil crops and forages, by increasing their cultivated area through intercropping without disturbing crop structure. It also works on achieving high productivity using minimal resources, thus improving land and water use efficiency. Furthermore, the department seeks to support the national economy by introducing new crops such as quinoa, cassava, and chia, which can serve as alternatives to some strategic crops, as livestock feed, and in value-added industries such as starch."}
+    ],
+    "priority": "high",
+    "category": "Core Vision"
+  },
+  {
+    "id": "2",
+    "title": "Increasing Production",
+    "Sub_title": "These non-traditional methods include:",
+    "content": "One of the top priorities is to increase productivity per unit area of field crops, vegetables, medicinal and aromatic plants, and summer forages, without requiring additional land that demands extra water resources, which in the future will rely mainly on groundwater — the only source that may be depleted over time.",
+    "subItems": [
+        {"text" : "Intercropping and increasing intensification rate"},
+        {"text" : "Applying new technologies in Egyptian agriculture."}
+    ],
+    "priority": "medium",
+    "category": "Increasing Production"
+  },
+  {
+    "id": "3",
+    "title": "Importance of Research Collaboration",
+    "Sub_title":"",
+    "content":"",
+    "subItems": [
+      {"text" : "The department works on building effective strategic partnerships with universities, research centers, and international institutions to exchange expertise and develop research infrastructure. It also emphasizes spreading knowledge and innovation through specialized training programs, organizing scientific seminars and workshops for researchers and farmers, and publishing scientific and technical materials to promote research outcomes and applications."},
+      {"text" : "Collaboration with the Cotton, Fiber, and Oil Crops Council to promote intercropping models that reduce the gap in oil crops such as soybean and sunflower by intercropping them with other crops. This includes establishing demonstration fields to educate farmers, distributing free seeds and fertilizers provided by the support fund, encouraging farmers, and selling the resulting crops through contract farming with the Ministry."}
+    ],
+    "priority": "low",
+    "category": "Importance of Research Collaboration"
+  },
+  {
+    "id": "4",
+    "title": "Adaptation to Climate Change",
+    "Sub_title":"",
+    "content":"The department actively contributes to supporting climate-smart agriculture by offering innovative solutions to efficiently manage water resources and create optimal conditions for the growth of strategic intercropped crops under changing climatic conditions.",
+    "subItems": [],
+    "priority": "high",
+    "category": "Adaptation to Climate Change"
+  }
+],
   "Department_Mission_Inner_Central" : "Main Overview Of The Department's Core Missions",
   "HR_File_PDF_Path": "/pdfs/HR Data/HR_Crop_Intensification.pdf",
   "Research_File_PDF_Path": "/pdfs/Research Data/Research_Crop_Intensification.pdf"
