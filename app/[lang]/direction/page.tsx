@@ -40,7 +40,7 @@ export default function DirectionPage() {
             <ParagraphStickyImage title={t.B1_Title} imageSrc={t.Img_Source} paragraphs={t.B1} rtl={isRTL}></ParagraphStickyImage>
         </div>
 
-        <div className="my-16 w-full max-w-8xl mx-auto">
+          <div className="my-16 w-full max-w-8xl mx-auto">
           <section className="bg_Beigse bg-green-500 bg-opacity-50 backdrop-blur-sm rounded-3xl px-4 py-8 shadow-xl">
             <div className="flex justify-center">
               {/* <EnhancedCircularImageList /> */}
