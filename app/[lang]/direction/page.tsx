@@ -2,8 +2,8 @@
 import ParagraphStickyImage from '@/components/ParagraphStickyImage';
 // import { Metadata } from 'next';
 import { usePathname } from "next/navigation";
-import enDirection from '../../../locales/en/direction_En.json';
 import arDirection from '../../../locales/ar/direction_Ar.json';
+import enDirection from '../../../locales/en/direction_En.json';
 import FuturisticHeading from '@/components/FuturisticHeading';
 import EnhancedCircularImageList from '@/components/enhanced-circular-image-list';
 // Define the expected resolved type of params
