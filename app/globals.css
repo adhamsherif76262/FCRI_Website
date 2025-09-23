@@ -184,6 +184,425 @@ body {
 
  /* Tailwind v3.4.3 Compatible CSS for Organic Plant List */
 
+
+ 
+/* Professional Image List Component Animations */
+@keyframes professional-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes professional-expand {
+  0% {
+    opacity: 0;
+    max-height: 0;
+    transform: scaleY(0);
+  }
+  100% {
+    opacity: 1;
+    max-height: 1000px;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes professional-collapse {
+  0% {
+    opacity: 1;
+    max-height: 1000px;
+    transform: scaleY(1);
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+    transform: scaleY(0);
+  }
+}
+
+@keyframes image-fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes card-hover-lift {
+  0% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+}
+
+/* Professional Animation Classes */
+.animate-professional-slide-in {
+  animation: professional-slide-in 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-professional-expand {
+  animation: professional-expand 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  transform-origin: top;
+}
+
+.animate-professional-collapse {
+  animation: professional-collapse 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) forwards;
+  transform-origin: top center;
+}
+
+.animate-image-fade-in {
+  animation: image-fade-in 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-card-hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-card-hover-lift:hover {
+  animation: card-hover-lift 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Circular Image Carousel Animations */
+@keyframes circular-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circular-counter-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes image-float {
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
+@keyframes carousel-appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes elegant-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes sophisticated-expand {
+  0% {
+    opacity: 0;
+    max-height: 0;
+    transform: scaleY(0) rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    max-height: 2000px;
+    transform: scaleY(1) rotateX(0deg);
+  }
+}
+
+@keyframes sophisticated-collapse {
+  0% {
+    opacity: 1;
+    max-height: 2000px;
+    transform: scaleY(1) rotateX(0deg);
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+    transform: scaleY(0) rotateX(-90deg);
+  }
+}
+
+@keyframes bullet-cascade {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px) rotate(-10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes title-glow {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* Enhanced Animation Classes */
+.animate-circular-orbit {
+  animation: circular-orbit 60s linear infinite;
+}
+.scale{
+  transform: scale(1.25) !important;
+}
+.animate-circular-counter-orbit {
+  animation: circular-counter-orbit 60s linear infinite;
+}
+
+.animate-image-float {
+  animation: image-float 4s ease-in-out infinite;
+}
+
+.animate-carousel-appear {
+  animation: carousel-appear 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-elegant-slide-in {
+  animation: elegant-slide-in 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-sophisticated-expand {
+  animation: sophisticated-expand 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  transform-origin: top center;
+}
+
+.animate-sophisticated-collapse {
+  animation: sophisticated-collapse 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53) forwards;
+  transform-origin: top center;
+}
+
+.animate-bullet-cascade {
+  animation: bullet-cascade 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-title-glow {
+  animation: title-glow 3s ease-in-out infinite;
+}
+
+/* Adding multiple carousel transition animations for modal */
+/* Carousel Modal Transition Animations */
+@keyframes carousel-appear-slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes carousel-appear-fade {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes carousel-appear-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes carousel-appear-flip {
+  0% {
+    opacity: 0;
+    transform: rotateY(-180deg) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+  }
+}
+
+@keyframes carousel-appear-rotate {
+  0% {
+    opacity: 0;
+    transform: rotate(-360deg) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes carousel-appear-bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px) scale(0.3);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(30px) scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Image Transition Animations */
+@keyframes image-transition-slide {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes image-transition-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes image-transition-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes image-transition-flip {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes image-transition-rotate {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes image-transition-bounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) translateY(-50px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Carousel Animation Classes */
+.animate-carousel-appear-slide {
+  animation: carousel-appear-slide 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-carousel-appear-fade {
+  animation: carousel-appear-fade 0.5s ease-out forwards;
+}
+
+.animate-carousel-appear-zoom {
+  animation: carousel-appear-zoom 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-carousel-appear-flip {
+  animation: carousel-appear-flip 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-carousel-appear-rotate {
+  animation: carousel-appear-rotate 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-carousel-appear-bounce {
+  animation: carousel-appear-bounce 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+/* Image Transition Classes */
+.animate-image-transition-slide {
+  animation: image-transition-slide 0.4s ease-out forwards;
+}
+
+.animate-image-transition-fade {
+  animation: image-transition-fade 0.3s ease-out forwards;
+}
+
+.animate-image-transition-zoom {
+  animation: image-transition-zoom 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-image-transition-flip {
+  animation: image-transition-flip 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-image-transition-rotate {
+  animation: image-transition-rotate 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.animate-image-transition-bounce {
+  animation: image-transition-bounce 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
 /* Custom animations for organic plant list */
 @keyframes plant-grow {
   0% {
@@ -775,6 +1194,9 @@ body {
     }
     .OVERFLOW-X{
       overflow-x: hidden;
+    }
+    .OVERFLOW-Y{
+      overflow-y: hidden !important;
     }
     .bg_None{
       background:  none !important;

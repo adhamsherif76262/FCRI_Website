@@ -1,0 +1,117 @@
+{
+    "Img_Source" : "/images/Deputy Directors/DR_Khaled_IMG_1.png",
+    "B1_Title" : "كلمة الأستاذ الدكتور خالد جاد وكيل الارشاد بالمعهد",
+    "B1" : [
+        "الدور الرئيسي لمركز البحوث الزراعية",
+        "أولاً:  استنباط الأصناف الجديدة ",
+        "ثانيا: إنتاج تقاوي المربي والأساس.",
+        "ثالثاً إصدار التوصيات الفنية للمحاصيل المختلفة .",
+        "رابعاً : نقل التكنولوجيا والإرشاد والتدريب بالنسبة لهذا الدور أعتقد أنه الأهم لان بدون هذا الدور لا تنجح باقي الأدوار في أداء عملها ، لان أهم رسائل المعهد تعريف المزارعين بأحدث الأصناف  عالية الجودة والإنتاجية والمتحملة للتغيرات المناخية وكذلك تعريف المزارعين بأحدث التوصيات الفنية للحصول علي أعلي إنتاجية خاصة في  ظل التغيرات المناخية . وذلك من خلال الأنشطة المختلفة، كذلك التدريب للجهاز الإرشادي بالمحافظات المختلفة لنقل المعلومات للمزارعين وكذلك تدريب شباب الباحثين بالمعهد علي أحدث التقنيات العلمية وكذلك اللغات والحاسب الآلي وغير ذلك .  "
+    ],
+    "Direction_Mission": [
+        {
+            "id": "national-campaigns",
+            "small_title":"الحملات القومية",
+            "small_titleEn":"National Campaigns",
+            "title": "الحملات القومية",
+            "titleEn": "National Campaigns",
+            "subtitle": " المحاصيل الاستراتيجية مثل : القمح – الذرة – الأرز",
+            "subtitleEn": "Strategic Crops Like : Wheat - Corn - Rice includes:",
+            "items": [
+                "زراعه حقول نموذجيه",
+                "ندوات ارشاديه",
+                "أيام حقل",
+                "أيام حصاد",
+                "حفلات تكريم للمزارعين"
+            ],
+            "itemsEn": [
+              "Model field cultivation",
+              "Extension seminars",
+              "Field days",
+              "Harvest days",
+              "Farmer recognition ceremonies"
+            ],
+            "images": [
+                "/images/Direction Page/Direction_IMG_1.jpg",
+                "/images/Direction Page/Direction_IMG_2.jpg",
+                "/images/Direction Page/Direction_IMG_3.jpg",
+                "/images/Direction Page/Direction_IMG_4.jpg",
+                "/images/Direction Page/Direction_IMG_5.jpg",
+                "/images/Direction Page/Direction_IMG_6.jpg",
+                "/images/Direction Page/Direction_IMG_7.jpg",
+                "/images/Direction Page/Direction_IMG_8.jpg",
+                "/images/Direction Page/Direction_IMG_9.jpg",
+                "/images/Direction Page/Direction_IMG_10.jpg"
+            ],
+            "color": "from-amber-400 via-yellow-500 to-orange-500",
+            "icon": "Wheat"
+        },
+        {
+            "id": "technology-innovation",
+            "small_title":"القوافل الارشاديه",
+            "small_titleEn":"Extension Caravans",
+            "title": "القوافل الارشاديه",
+            "titleEn": "Extension Caravans",
+            "subtitle": "تغطي المناطق النائيه والمحرومه من النشاط الارشادى وتشمل:",
+            "items": [
+                "أحدث الأصناف ",
+                "أفضل التوصيات ",
+                "عمل نماذج ارشاديه"
+            ],
+            "subtitleEn": "Covers remote and underserved areas of extension activities and includes:",
+            "itemsEn": [
+              "Latest varieties",
+              "Best recommendations",
+              "Developing extension models"
+            ],
+            "images": [
+                "/images/Direction Page/Direction_IMG_11.jpg",
+                "/images/Direction Page/Direction_IMG_12.jpg",
+                "/images/Direction Page/Direction_IMG_13.jpg",
+                "/images/Direction Page/Direction_IMG_14.jpg",
+                "/images/Direction Page/Direction_IMG_15.jpg",
+                "/images/Direction Page/Direction_IMG_16.jpg",
+                "/images/Direction Page/Direction_IMG_17.jpg"
+            ],
+            "color": "from-blue-400 via-cyan-500 to-indigo-500",
+            "icon": "TreePine"
+        },
+                {
+            "id": "research-programs",
+            "small_title":"الحقول الارشاديه",
+            "small_titleEn":"Demonstration Fields",
+            "title": "الحقول الارشاديه",
+            "titleEn": "Demonstration Fields",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": ["عمل حقول ارشاديه للمحاصيل التى لا يوجد لها حملات قوميه لنشر الأصناف الجديدة وتدريب المزارعين علي الحصول علي أعلي انتاجيه ومجابهه التغييرات المناخيه"],
+            "itemsEn": ["Establishing demonstration fields for crops that do not have national campaigns, in order to disseminate new varieties and train farmers on achieving the highest productivity and coping with climate change."],
+            "images": [
+                "/images/Direction Page/Direction_IMG_18.jpg",
+                "/images/Direction Page/Direction_IMG_19.jpg",
+                "/images/Direction Page/Direction_IMG_20.jpg"
+            ],
+            "color": "from-emerald-400 via-green-500 to-teal-500",
+            "icon": "Sprout"
+        },
+        {
+            "id": "sustainable-practices",
+            "title": "النشاط التدريبي للهيئه البحثيه والكوادر الشبابيه والجهاز الارشادى",
+            "small_title":"النشاط التدريبي",
+            "titleEn": "Training activities for the research body, young cadres, and the extension system",
+            "small_titleEn":"Training Activities",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": ["عمل دورات تدريبيه لشباب الباحثين حول أحدث التقنيات الزراعيه وكذلك تدريب شباب الباحثين علي أحدث البرامج الاحصائيه وتدريب شباب الباحثين في عدد من الكورسات الحاسب الألى واللغات"],
+            "itemsEn": ["Conducting training courses for young researchers on the latest agricultural technologies, as well as training them on the latest statistical programs, computer courses, and languages."],
+            "images": [
+                "/images/Direction Page/Direction_IMG_21.jpg",
+                "/images/Direction Page/Direction_IMG_22.png",
+                "/images/Direction Page/Direction_IMG_23.jpg",
+                "/images/Direction Page/Direction_IMG_24.jpg"
+            ],
+            "color": "from-teal-400 via-emerald-500 to-green-500",
+            "icon": "Apple"
+        }
+    ]
+}
