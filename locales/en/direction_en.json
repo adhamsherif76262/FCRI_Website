@@ -110,8 +110,8 @@
                 "/images/Direction Page/Direction_IMG_23.jpg",
                 "/images/Direction Page/Direction_IMG_24.jpg"
             ],
-            "color": "from-teal-400 via-emerald-500 to-green-500",
-            "icon": "Apple"
+            "color": "from-purple-400 via-pink-500 to-rose-500",
+            "icon": "Flower2"
         }
     ]
 }
