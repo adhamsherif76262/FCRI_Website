@@ -56,7 +56,19 @@ export default function DirectionPage() {
           {currentLang === 'ar' ? "فيديو يوم الحقل للقمح" : "The Field Day Of Wheat Video"}
         </FuturisticHeading>
         <div className="my-8 w-full max-w-8xl mx-auto">
-          <video className='mx-auto' width={1200} src={t.Wheat_Day_Video} preload='none' controls playsInline loop muted autoPlay ></video>
+          <div className='pt-[50%] pb-0 px-0 relative'>
+            <iframe className='absolute top-0 left-0 w-full h-full' loading='lazy' src="https://player.vimeo.com/video/1123489285?badge=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerPolicy="strict-origin-when-cross-origin" title="The Wheat Field Day Video"></iframe>
+            </div>
+        </div>
+        <FuturisticHeading rtl={isRTL}>
+          {currentLang === 'ar' ? "اللقاء التليفزيوني لدكتور خالد جاد في يوم الفلاح" : "Dr. Khaled Gad's TV Interview On The Farmer's Day"}
+        </FuturisticHeading>
+        <div className="my-8 w-full max-w-8xl mx-auto">
+          <div className='pt-[45%] pb-0 px-0 relative'>
+            <iframe className='absolute top-0 left-0 w-[98%] h-full mx-[1%]' loading='lazy' src="https://www.youtube.com/embed/Vz5NRqDhn78?si=pcY6fh17mcZYi3sy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen;" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
+          {/* <video className='mx-auto' width={1200} src="https://player.vimeo.com/video/1123489285?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" preload='none' controls playsInline loop muted autoPlay ></video> */}
         </div>
     </main>
   )
