@@ -56,7 +56,7 @@ export default function DirectionPage() {
           {currentLang === 'ar' ? "فيديو يوم الحقل للقمح" : "The Field Day Of Wheat Video"}
         </FuturisticHeading>
         <div className="my-8 w-full max-w-8xl mx-auto">
-          <video className='mx-auto' width={1200} src={t.Wheat_Day_Video} preload='none' controls playsInline loop muted autoPlay></video>
+          {/* <video className='mx-auto' width={1200} src={t.Wheat_Day_Video} preload='none' controls playsInline loop muted autoPlay ></video> */}
         </div>
     </main>
   )
