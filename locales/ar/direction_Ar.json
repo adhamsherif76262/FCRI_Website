@@ -89,7 +89,14 @@
             "images": [
                 "/images/Direction Page/Direction_IMG_18.jpg",
                 "/images/Direction Page/Direction_IMG_19.jpg",
-                "/images/Direction Page/Direction_IMG_20.jpg"
+                "/images/Direction Page/Direction_IMG_20.jpg",
+                "/images/Direction Page/Ershadya_1.jpg",
+                "/images/Direction Page/Ershadya_2.jpg",
+                "/images/Direction Page/Ershadya_3.jpg",
+                "/images/Direction Page/Ershadya_4.jpg",
+                "/images/Direction Page/Ershadya_5.jpg",
+                "/images/Direction Page/Ershadya_6.jpg",
+                "/images/Direction Page/Ershadya_7.jpg"
             ],
             "color": "from-emerald-400 via-green-500 to-teal-500",
             "icon": "Sprout"
@@ -108,10 +115,15 @@
                 "/images/Direction Page/Direction_IMG_21.jpg",
                 "/images/Direction Page/Direction_IMG_22.png",
                 "/images/Direction Page/Direction_IMG_23.jpg",
-                "/images/Direction Page/Direction_IMG_24.jpg"
+                "/images/Direction Page/Direction_IMG_24.jpg",
+                "/images/Direction Page/Nashat_1.jpg",
+                "/images/Direction Page/Nashat_2.jpg",
+                "/images/Direction Page/Nashat_3.jpg",
+                "/images/Direction Page/Nashat_4.jpg"
             ],
             "color": "from-purple-400 via-pink-500 to-rose-500",
             "icon": "Flower2"
         }
-    ]
+    ],
+    "Wheat_Day_Video" : "/Videos/Direction_Page_Field_Wheat_Day.mp4"
 }
