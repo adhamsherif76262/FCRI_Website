@@ -9,24 +9,6 @@ import EnhancedCircularImageList from '@/components/enhanced-circular-image-list
 import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
 // import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
 
-// Define the expected resolved type of params
-// interface PageParams {
-//   lang: 'en' | 'ar';
-// }
-
-// // Update the type of params in your component props
-// interface PageProps {
-//   params: Promise<PageParams>; // params is now a Promise
-// }
-// export async function generateMetadata({params,}: PageProps): Promise<Metadata> {
-//     const resolvedParams = await params;
-//   const { lang } = resolvedParams;
-//   const isArabic = lang === 'ar';
-
-//   return {
-//     title: isArabic ? 'صفحة الارشاد' : 'Direction Page',
-//   };
-// }
 export default function DirectionPage() {
     const pathname = usePathname();
     const currentLang = pathname?.split('/')[1] === 'ar' ? 'ar' : 'en';
