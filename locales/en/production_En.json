@@ -1,0 +1,193 @@
+{
+    "Img_Source" : "/images/Temp/Temp (7).jpg",
+    "B1_Title": "Professor Dr. Khaled Gad's Speech, Deputy Director of the Production Sector of the Institute",
+    "B1": [
+        "I am pleased to affirm that the Field Crops Research Institute is one of the pillars carrying a great national responsibility represented in developing the productivity of strategic crops and providing improved high-quality varieties that meet the needs of both farmers and consumers alike.",
+        "In the production sector, we pay great attention to transforming scientific research results into practical reality in the fields, through the production and distribution of certified seeds, following up on breeding and genetic improvement programs, in addition to working on developing varieties that withstand climate change and harsh environmental conditions, ensuring the sustainability of agricultural production.",
+        "We are also keen to support farmers through extension programs and transferring modern technology to them, believing that increased productivity and improved quality can only be achieved by integrating the efforts of the researcher and the farmer.",
+        "Finally, we emphasize that our main goal is to make an effective contribution to achieving food security for Egypt and enhancing the state’s ability to face agricultural and economic challenges, which will positively impact the farmer, society, and the national economy."
+    ],
+    "Production_Mission": [
+        {
+            "id": "national-campaigns",
+            "title": "زيادة الإنتاجية الزراعية",
+            "titleEn": "Increasing Agricultural Productivity",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "تطوير ونشر الأصناف الجديدة عالية الإنتاجية والمقاومة للأمراض والظروف البيئية الصعبة.",
+                "تحسين معاملات الإنتاج الزراعي بما يرفع من كفاءة استغلال وحدة الأرض والمياه."
+            ],
+            "itemsEn": [
+                "Developing and disseminating new high-yielding varieties resistant to diseases and harsh environmental conditions.",
+                "Improving agricultural production practices to enhance the efficiency of land and water use."
+            ],
+            "images":[],
+            "color": "from-amber-400 via-yellow-500 to-orange-500",
+            "icon": "Wheat"
+        },
+        {
+            "id": "technology-innovation",
+            "title": "دعم الأمن الغذائي",
+            "titleEn": "Supporting Food Security",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "المساهمة في سد الفجوة الغذائية من المحاصيل الأساسية مثل القمح، الذرة، الأرز، والفول.",
+                "توفير تقاوي محسّنة ومعتمدة للمزارعين تسهم في استقرار الإنتاج الغذائي."
+   
+            ],
+            "itemsEn": [
+                "Contributing to bridging the food gap of staple crops such as wheat, maize, rice, and fava beans.",
+                "Providing improved and certified seeds to farmers that contribute to the stability of food production."
+            ],
+            "images":[],
+            "color": "from-black via-gray-200 to-red-500",
+            "icon": "TreePine"
+        },
+        {
+            "id": "research-programs",
+            "title": "خدمة المزارعين والمجتمع",
+            "titleEn": "Serving Farmers and Society",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "نقل التكنولوجيا الحديثة والتوصيات الفنية من الباحث إلى الحقل مباشرة.",
+                "رفع وعي المزارع بأهمية الممارسات الزراعية السليمة لتحسين العائد الاقتصادي."    
+            ],
+            "itemsEn": [
+                "Transferring modern technologies and technical recommendations from researchers directly to the field.",
+                "Raising farmers’ awareness of the importance of proper agricultural practices to improve economic returns."
+            ],
+            "images":[],
+            "color": "from-emerald-400 via-green-500 to-teal-500",
+            "icon": "Sprout"
+        },
+        {
+            "id": "sustainable-practices",
+            "title": "الاستدامة الزراعية",
+            "titleEn": "Agricultural Sustainability",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "الاهتمام بتطوير نظم زراعية متكاملة تراعي الحفاظ على الموارد الطبيعية.",
+                "التركيز على الأصناف الموفرة للمياه والمتحملة للملوحة والجفاف والحرارة."
+            ],
+            "itemsEn": [
+                "Focusing on developing integrated agricultural systems that preserve natural resources.",
+                "Prioritizing water-saving varieties tolerant to salinity, drought, and heat."
+            ],
+            "images":[],
+            "color": "from-purple-400 via-pink-500 to-rose-500",
+            "icon": "Flower2"
+        },
+        {
+            "id": "Any_ID_1",
+            "title": "البحث العلمي والتطوير",
+            "titleEn": "Scientific Research & Development",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "تنفيذ بحوث تطبيقية تواكب متطلبات المرحلة الحالية والمستقبلية.",
+                "التعاون مع الجامعات والمؤسسات الدولية لتبادل الخبرات ودعم برامج التربية والتحسين الوراثي."
+            ],
+            "itemsEn": [
+                "Conducting applied research that meets the requirements of the current and future stages.",
+                "Collaborating with universities and international institutions to exchange expertise and support breeding and genetic improvement programs."
+            ],
+            "images":[],
+            "color": "from-blue-400 via-cyan-500 to-indigo-500",
+            "icon": "Leaf"
+        },
+        {
+            "id": "Any_ID_2",
+            "title": "التأثير الاقتصادي والاجتماعي",
+            "titleEn": "Economic and Social Impact",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                " دعم الاقتصاد الوطني من خلال تقليل الاستيراد وزيادة فرص التصدير.",
+                "رفع مستوى المعيشة للمزارعين عبر زيادة دخلهم وتحسين جودة المنتجات"
+            ],
+            "itemsEn": [
+                "Supporting the national economy by reducing imports and increasing export opportunities.",
+                "Improving farmers’ livelihoods by raising their income and enhancing product quality."
+            ],
+            "images":[],
+            "color": "from-black via-gray-100 to-gray-500",
+            "icon": "Tractor"
+        }
+    ],
+    "Futuristic_Vision_Array": [
+        {
+            "id": "1",
+            "title": "Enhancing Productivity and Quality",
+            "description": "",
+            "details": [
+                "Breeding and developing high-yielding varieties with high nutritional quality that tolerate unfavorable environmental conditions such as drought, salinity, and high temperatures.",
+                "Focusing on the production of strategic crops such as wheat, maize, oil crops, and legumes to achieve self-sufficiency and reduce the import gap."
+            ],
+            "type": "leaf",
+            "priority": "high"
+        },
+        {
+            "id": "2",
+            "title": "Expanding the Use of Modern Technology",
+            "description": "",
+            "details": [
+                "Applying precision agriculture techniques to manage agricultural operations with high efficiency.",
+                "Using artificial intelligence tools and remote sensing to monitor crop growth and predict yield.",
+                "Expanding smart farming practices that reduce water and fertilizer consumption while increasing productivity."
+            ],
+            "type": "branch",
+            "priority": "medium"
+        },
+        {
+            "id": "3",
+            "title": "Integration Between Research and Application",
+            "description": "",
+            "details": [
+                "Strengthening partnerships with farmers through extension and training programs that directly transfer research results to the field.",
+                "Collaborating with the private sector in seed production and crop processing to increase added value."
+            ],
+            "type": "leaf",
+            "priority": "low"
+        },
+        {
+            "id": "4",
+            "title": "Environmental and Economic Sustainability",
+            "description": "",
+            "details": [
+                "Adopting environmentally friendly agricultural systems based on Good Agricultural Practices (GAP).",
+                "Reducing dependence on imported inputs by developing sustainable local alternatives for fertilizers and pesticides."
+            ],
+            "type": "branch",
+            "priority": "high"
+        },
+        {
+            "id": "5",
+            "title": "Regional and International Dimension",
+            "description": "",
+            "details": [
+                "Engaging with regional and international research centers to exchange expertise and participate in joint research projects.",
+                "Positioning Egypt as a leading regional hub in field crop research and the production of high-quality seeds."
+            ],
+            "type": "leaf",
+            "priority": "medium"
+        }
+    ],
+    "Main_Title": "The Futuristic Vision of the Deputy Director for Production",
+    "Sub_Title": "The futuristic vision of the Field Crops Research Institute in the field of production is based on creating a qualitative leap in the efficiency of utilizing available agricultural resources and enhancing the competitiveness of Egyptian agricultural production, thereby ensuring national food security and supporting sustainable development. This vision is built on several key pillars:"
+}

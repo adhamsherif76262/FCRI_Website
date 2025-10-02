@@ -722,7 +722,7 @@ body {
 
 /* Custom color utilities for Tailwind v3.4.3 */
 .bg-plant-primary {
-  background-color: #4a8d3a;
+  background-color: black;
 }
 
 .bg-plant-secondary {
@@ -738,7 +738,7 @@ body {
 }
 
 .border-plant-primary {
-  border-color: #4a8d3a;
+  border-color: black;
 }
 
 /* Custom gradient backgrounds for each list item */
@@ -1197,6 +1197,9 @@ body {
     }
     .OVERFLOW-Y{
       overflow-y: hidden !important;
+    }
+    .Overflow-Y{
+      overflow-y: auto !important;
     }
     .bg_None{
       background:  none !important;

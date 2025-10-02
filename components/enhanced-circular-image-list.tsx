@@ -15,8 +15,11 @@ import {
   TreePine,
   Apple,
   Flower2,
+  Leaf,
+  Tractor,
   X,
 } from "lucide-react"
+import clsx from "clsx"
 
 interface ListItem {
   id: string
@@ -38,6 +41,8 @@ interface StandaloneEnhancedCircularImageListProps {
   data?: ListItem[]
   language?: "ar" | "en"
   className?: string
+  Title?:string
+  Description?:string
 }
 
 interface ModalCarouselState {
@@ -310,6 +315,8 @@ const iconMap: Record<string, React.ElementType> = {
   TreePine,
   Apple,
   Flower2,
+  Leaf,
+  Tractor,
 };
 
 export function getIcon(iconName: string, className = "w-7 h-7"):ReactNode {
@@ -322,6 +329,8 @@ export default function StandaloneEnhancedCircularImageList({
   data = sampleData,
   language = "ar",
   className = "",
+  Title = "",
+  Description = "",
 }: StandaloneEnhancedCircularImageListProps) {
   const [expandedItems, setExpandedItems] = useState<Set<string>>(new Set())
   const [closingItems, setClosingItems] = useState<Set<string>>(new Set())
@@ -454,13 +463,19 @@ export default function StandaloneEnhancedCircularImageList({
     <div className={`w-full max-w-7xl mx-auto p-0 space-y-8 ${className}`} dir={isRTL ? "rtl" : "ltr"}>
       <div className="text-center mb-12">
         <h1 className={`font-bold text-gray-900 mb-4 animate-title-glow ${isRTL ? "xxxs:text-3xl xxs:text-4xl" : "xxxs:text-2xl xxs:text-3xl sm:text-4xl"}`}>
-          {isRTL ? "اهم مهام النشاط الارشادى للمعهد" : "The most important tasks of the institute's extension activities"}
+          {Title}
         </h1>
-        {/* <p className={`text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed ${isRTL ? "font-arabic" : ""}`}>
-          {isRTL
-            ? "استكشف المحتوى الزراعي المتطور من خلال معارض دائرية تفاعلية مع صور عالية الجودة وتجربة بصرية مميزة"
-            : "Explore advanced agricultural content through interactive circular galleries with high-quality images and distinctive visual experience"}
-        </p> */}
+        {
+          Description.length > 0 && (
+            <p className={clsx(
+              `text-gray-600 w-full mx-auto pt-4`,
+              language === "ar" ? "lg:text-3xl md:text-2xl xxxs:text-xl xxxs:leading-loose md:leading-relaxed lg:leading-relaxed font-black" 
+              : "lg:text-2xl md:text-xl xxxs:text-lg xxxs:leading-relaxed md:leading-relaxed lg:leading-relaxed font-semibold"
+            )}>
+              {Description}            
+            </p>
+          )
+        }
       </div>
 
       <div className="space-y-8">
@@ -537,7 +552,7 @@ export default function StandaloneEnhancedCircularImageList({
               >
                 <div className="mb-8">
                   <h3
-                    className={`text-lg font-semibold text-gray-900 mb-6 ${isRTL ? "font-arabic text-right" : "text-left"}`}
+                    className={`text-2xl font-black text-gray-900 my-6 text-center`}
                   >
                     {isRTL ? "المحتويات الرئيسية:" : "Main Contents:"}
                   </h3>
@@ -559,7 +574,7 @@ export default function StandaloneEnhancedCircularImageList({
                         `}
                           style={{ animationDelay: `${itemIndex * 0.2}s` }}
                         />
-                        <span className={`${isRTL ? "font-arabic" : ""} leading-relaxed text-gray-800 font-medium`}>
+                        <span className={`${isRTL ? "font-arabic" : ""} leading-relaxed text-gray-800 font-black text-xl`}>
                           {listItem}
                         </span>
                       </div>
@@ -567,7 +582,9 @@ export default function StandaloneEnhancedCircularImageList({
                   </div>
                 </div>
 
-                <div className="relative">
+              {
+                item.images.length > 0  && (
+                    <div className="relative">
                   <div className="flex items-center justify-between mb-6">
                     <h3 className={`text-lg font-semibold text-gray-900 ${isRTL ? "font-arabic" : ""}`}>
                       {isRTL ? "معرض الصور التفاعلي:" : "Interactive Image Gallery:"}
@@ -683,7 +700,9 @@ export default function StandaloneEnhancedCircularImageList({
                       ))}
                     </div>
                   </div>
-                </div>
+                    </div>
+                 )
+              }
               </CardContent>
             )}
           </Card>

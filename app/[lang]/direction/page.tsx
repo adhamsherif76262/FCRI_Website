@@ -7,6 +7,7 @@ import enDirection from '../../../locales/en/direction_En.json';
 import FuturisticHeading from '@/components/FuturisticHeading';
 import EnhancedCircularImageList from '@/components/enhanced-circular-image-list';
 import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
+// import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
 
 // Define the expected resolved type of params
 // interface PageParams {
@@ -34,9 +35,9 @@ export default function DirectionPage() {
   return (
 
     <main className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 dark:bg-gray-900 transition-colors duration-1000 xxxs:OVERFLOW-X xl:overflow-x-visible">
-      <OrganicPlantListV3Compatible></OrganicPlantListV3Compatible>
+      {/* <OrganicPlantListV3Compatible data={[]} language={currentLang}></OrganicPlantListV3Compatible> */}
         <FuturisticHeading rtl={isRTL}>
-          {currentLang === 'ar' ? "التريب و الارشاد الزراعي بالمعهد" : "The Institute’s Agricultural Training & Extension"}
+          {currentLang === 'ar' ? "التريب و الارشاد الزراعي بالمعهد" : "The Institute’s Agricultural Training & Extension Sector"}
         </FuturisticHeading>
 
         <div className="mt-10 xxxs:min-w-[100%] mb-10">
@@ -47,7 +48,7 @@ export default function DirectionPage() {
           <section className="bg_Beigse bg-green-500 bg-opacity-50 backdrop-blur-sm rounded-3xl px-4 py-8 shadow-xl">
             <div className="flex justify-center">
               {/* <EnhancedCircularImageList /> */}
-              <EnhancedCircularImageList data={t.Direction_Mission} language={currentLang}></EnhancedCircularImageList>
+              <EnhancedCircularImageList Title={isRTL ? "اهم مهام النشاط الارشادى للمعهد" : "The most important tasks of the institute's extension activities"} data={t.Direction_Mission} language={currentLang}></EnhancedCircularImageList>
             </div>
           </section>
         </div>
@@ -70,6 +71,7 @@ export default function DirectionPage() {
           {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
           {/* <video className='mx-auto' width={1200} src="https://player.vimeo.com/video/1123489285?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" preload='none' controls playsInline loop muted autoPlay ></video> */}
         </div>
+        <OrganicPlantListV3Compatible data={t.Futuristic_Vision_Array} language={currentLang} Main_Title={t.Main_Title} Sub_Title={t.Sub_Title}></OrganicPlantListV3Compatible>
     </main>
   )
 }

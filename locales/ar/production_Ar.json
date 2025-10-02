@@ -1,0 +1,193 @@
+{
+    "Img_Source" : "/images/Temp/Temp (8).png",
+    "B1_Title" : "كلمة الأستاذ الدكتور خالد جاد وكيل الانتاج بالمعهد",
+    "B1" :[
+        "يسعدني أن أؤكد أن معهد بحوث المحاصيل الحقلية يعد أحد الركائز يضطلع بمسؤولية وطنية كبيرة تتمثل في تطوير إنتاجية المحاصيل الإستراتيجية، وتوفير الأصناف المحسّنة عالية الجودة التي تلبي احتياجات المزارع والمستهلك على حد سواء.",
+        "إننا في قطاع الإنتاج نولي اهتماماً بالغاً بتحويل نتائج البحوث العلمية إلى واقع تطبيقي في الحقول، من خلال إنتاج وتوزيع التقاوي المعتمدة، ومتابعة برامج التربية والتحسين الوراثي، بالإضافة إلى العمل على تطوير أصناف تتحمل التغيرات المناخية والظروف البيئية الصعبة، بما يضمن استدامة الإنتاج الزراعي.",
+        "كما نحرص على دعم المزارعين من خلال البرامج الإرشادية ونقل التكنولوجيا الحديثة إليهم، إيماناً بأن زيادة الإنتاجية وتحسين الجودة لا يتحققان إلا بتكامل الجهود بين الباحث والمزارع.",
+        "وختاماً، فإننا نؤكد أن هدفنا الأساسي هو المساهمة الفاعلة في تحقيق الأمن الغذائي لمصر، وتعزيز قدرة الدولة على مواجهة التحديات الزراعية والاقتصادية، بما ينعكس إيجاباً على المزارع والمجتمع والاقتصاد الوطني."
+    ],
+    "Production_Mission": [
+        {
+            "id": "national-campaigns",
+            "title": "زيادة الإنتاجية الزراعية",
+            "titleEn": "Increasing Agricultural Productivity",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "تطوير ونشر الأصناف الجديدة عالية الإنتاجية والمقاومة للأمراض والظروف البيئية الصعبة.",
+                "تحسين معاملات الإنتاج الزراعي بما يرفع من كفاءة استغلال وحدة الأرض والمياه."
+            ],
+            "itemsEn": [
+                "Developing and disseminating new high-yielding varieties resistant to diseases and harsh environmental conditions.",
+                "Improving agricultural production practices to enhance the efficiency of land and water use."
+            ],
+            "images":[],
+            "color": "from-amber-400 via-yellow-500 to-orange-500",
+            "icon": "Wheat"
+        },
+        {
+            "id": "technology-innovation",
+            "title": "دعم الأمن الغذائي",
+            "titleEn": "Supporting Food Security",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "المساهمة في سد الفجوة الغذائية من المحاصيل الأساسية مثل القمح، الذرة، الأرز، والفول.",
+                "توفير تقاوي محسّنة ومعتمدة للمزارعين تسهم في استقرار الإنتاج الغذائي."
+   
+            ],
+            "itemsEn": [
+                "Contributing to bridging the food gap of staple crops such as wheat, maize, rice, and fava beans.",
+                "Providing improved and certified seeds to farmers that contribute to the stability of food production."
+            ],
+            "images":[],
+            "color": "from-black via-gray-200 to-red-500",
+            "icon": "TreePine"
+        },
+        {
+            "id": "research-programs",
+            "title": "خدمة المزارعين والمجتمع",
+            "titleEn": "Serving Farmers and Society",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "نقل التكنولوجيا الحديثة والتوصيات الفنية من الباحث إلى الحقل مباشرة.",
+                "رفع وعي المزارع بأهمية الممارسات الزراعية السليمة لتحسين العائد الاقتصادي."    
+            ],
+            "itemsEn": [
+                "Transferring modern technologies and technical recommendations from researchers directly to the field.",
+                "Raising farmers’ awareness of the importance of proper agricultural practices to improve economic returns."
+            ],
+            "images":[],
+            "color": "from-emerald-400 via-green-500 to-teal-500",
+            "icon": "Sprout"
+        },
+        {
+            "id": "sustainable-practices",
+            "title": "الاستدامة الزراعية",
+            "titleEn": "Agricultural Sustainability",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "الاهتمام بتطوير نظم زراعية متكاملة تراعي الحفاظ على الموارد الطبيعية.",
+                "التركيز على الأصناف الموفرة للمياه والمتحملة للملوحة والجفاف والحرارة."
+            ],
+            "itemsEn": [
+                "Focusing on developing integrated agricultural systems that preserve natural resources.",
+                "Prioritizing water-saving varieties tolerant to salinity, drought, and heat."
+            ],
+            "images":[],
+            "color": "from-purple-400 via-pink-500 to-rose-500",
+            "icon": "Flower2"
+        },
+        {
+            "id": "Any_ID_1",
+            "title": "البحث العلمي والتطوير",
+            "titleEn": "Scientific Research & Development",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                "تنفيذ بحوث تطبيقية تواكب متطلبات المرحلة الحالية والمستقبلية.",
+                "التعاون مع الجامعات والمؤسسات الدولية لتبادل الخبرات ودعم برامج التربية والتحسين الوراثي."
+            ],
+            "itemsEn": [
+                "Conducting applied research that meets the requirements of the current and future stages.",
+                "Collaborating with universities and international institutions to exchange expertise and support breeding and genetic improvement programs."
+            ],
+            "images":[],
+            "color": "from-blue-400 via-cyan-500 to-indigo-500",
+            "icon": "Leaf"
+        },
+        {
+            "id": "Any_ID_2",
+            "title": "التأثير الاقتصادي والاجتماعي",
+            "titleEn": "Economic and Social Impact",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items": [
+                " دعم الاقتصاد الوطني من خلال تقليل الاستيراد وزيادة فرص التصدير.",
+                "رفع مستوى المعيشة للمزارعين عبر زيادة دخلهم وتحسين جودة المنتجات"
+            ],
+            "itemsEn": [
+                "Supporting the national economy by reducing imports and increasing export opportunities.",
+                "Improving farmers’ livelihoods by raising their income and enhancing product quality."
+            ],
+            "images":[],
+            "color": "from-black via-gray-100 to-gray-500",
+            "icon": "Tractor"
+        }
+    ],
+    "Futuristic_Vision_Array" : [
+        {
+            "id": "1",
+            "title": "الارتقاء بالإنتاجية والجودة",
+            "description": "",
+            "details": [
+                "استنباط وتطوير أصناف عالية المحصول وذات جودة غذائية مرتفعة، تتحمل الظروف البيئية غير المواتية مثل الجفاف، الملوحة ودرجات الحرارة المرتفعة.",
+                "التركيز على إنتاج محاصيل استراتيجية كالقمح والذرة والمحاصيل الزيتية والبقولية لتحقيق الاكتفاء   الذاتي وتقليل فجوة الاستيراد."
+            ],
+            "type": "leaf",
+            "priority": "high"
+        },
+        {
+            "id": "2",
+            "title": "التوسع في استخدام التكنولوجيا الحديثة",
+            "description": "",
+            "details": [
+                "تطبيق تقنيات الزراعة الدقيقة لإدارة العمليات الزراعية بكفاءة عالية.",
+                "استخدام أدوات الذكاء الاصطناعي والاستشعار عن بُعد في متابعة نمو المحاصيل والتنبؤ بالإنتاج.",
+                "التوسع في الزراعة الذكية التي تقلل من استهلاك المياه والأسمدة مع رفع الإنتاجية."
+            ],
+            "type": "branch",
+            "priority": "medium"
+        },
+        {
+            "id": "3",
+            "title": "التكامل بين البحث والتطبيق",
+            "description": "",
+            "details": [
+                "تعزيز الشراكة مع المزارعين من خلال برامج إرشادية وتدريبية تنقل نتائج البحوث إلى الحقل مباشرة.",
+                "التعاون مع القطاع الخاص في مجالات إنتاج التقاوي وتصنيع المحاصيل لزيادة القيمة المضافة."
+            ],
+            "type": "leaf",
+            "priority": "low"
+        },
+        {
+            "id": "4",
+            "title": "الاستدامة البيئية والاقتصادية",
+            "description": "",
+            "details": [
+                "تبني أنظمة زراعية صديقة للبيئة تعتمد على الممارسات الزراعية الجيدة (GAP).",
+                "تقليل الاعتماد على المدخلات المستوردة عبر تطوير بدائل محلية مستدامة للأسمدة والمبيدات."
+            ],
+            "type": "branch",
+            "priority": "high"
+        },
+        {
+            "id": "5",
+            "title": "البعد الإقليمي والدولي",
+            "description": "",
+            "details": [
+                "الانفتاح على المراكز البحثية الإقليمية والدولية لتبادل الخبرات والمشاركة في مشروعات بحثية مشتركة.",
+                "العمل على وضع مصر كمركز إقليمي رائد في بحوث المحاصيل الحقلية وإنتاج التقاوي عالية الجودة"
+            ],
+            "type": "leaf",
+            "priority": "medium"
+        }
+    ],
+    "Main_Title" : "الرؤية المستقبلية لوكيل المعهد للإنتاج",
+    "Sub_Title" : "إن الرؤية المستقبلية لمعهد بحوث المحاصيل الحقلية في مجال الإنتاج ترتكز على إحداث نقلة نوعية في كفاءة استغلال الموارد الزراعية المتاحة، ورفع القدرة التنافسية للإنتاج الزراعي المصري، بما يضمن الأمن الغذائي الوطني ويدعم التنمية المستدامة. وتقوم هذه الرؤية على عدة محاور أساسية:"
+}

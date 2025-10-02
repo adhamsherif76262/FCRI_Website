@@ -1,6 +1,6 @@
 {
     "Img_Source" : "/images/Deputy Directors/DR_Khaled_IMG_1.png",
-    "B1_Title": "Prof. Dr. Khaled Gad's Speech , Deputy Director for Extension at the Institute",
+    "B1_Title": "Prof. Dr. Khaled Gad's Speech , Deputy Director for The Extension & Training Sector of the Institute",
     "B1": [
       "The primary role of the Agricultural Research Center",
       "First: Development of new crop varieties.",
@@ -125,6 +125,66 @@
             "icon": "Flower2"
         }
     ],
+    "Futuristic_Vision_Array": [
+        {
+        "id": "1",
+        "title": "Enhancing the Role of Agricultural Extension as a Bridge Between Research and Application",
+        "description": "",
+        "details": [
+            "Transforming research outputs into simplified extension messages accessible to farmers at all levels.",
+            "Using innovative communication methods such as digital platforms, mobile applications, explanatory videos, and demonstration fields."
+        ],
+        "type": "leaf",
+        "priority": "high"
+        },
+        {
+        "id": "2",
+        "title": "Developing the Agricultural Training System",
+        "description": "",
+        "details": [
+            "Preparing specialized training programs targeting researchers, agricultural engineers, and farmers.",
+            "Focusing on practical field training that enables trainees to apply the latest agricultural technologies in real conditions.",
+            "Integrating traditional training with digital training (distance learning, interactive platforms)."
+        ],
+        "type": "leaf",
+        "priority": "medium"
+        },
+        {
+        "id": "3",
+        "title": "Investing in Building Human Capacity",
+        "description": "",
+        "details": [
+            "Preparing research and extension cadres capable of leading change in the agricultural sector.",
+            "Providing training programs aligned with developments in smart agriculture, water management, and biotechnology."
+        ],
+        "type": "leaf",
+        "priority": "low"
+        },
+        {
+        "id": "4",
+        "title": "Expanding Local and International Partnerships and Cooperation",
+        "description": "",
+        "details": [
+            "Strengthening cooperation with Egyptian, Arab, and international research centers and universities.",
+            "Benefiting from global expertise to develop extension and training programs that enhance human resource efficiency."
+        ],
+        "type": "leaf",
+        "priority": "high"
+        },
+        {
+        "id": "5",
+        "title": "Promoting a Culture of Sustainable Agricultural Development",
+        "description": "",
+        "details": [
+            "Focusing on sound agricultural practices and efficient management of natural resources.",
+            "Supporting food security programs by training farmers in sustainable production methods."
+        ],
+        "type": "leaf",
+        "priority": "medium"
+        }
+    ],
+    "Main_Title" : "The Future Vision of the Deputy Director of the Institute for Extension and Training",
+    "Sub_Title" : "The future vision for extension and training at the Field Crops Research Institute aims to build an integrated extension and training system based on the results of modern scientific research, keeping pace with the rapid technological development in the agricultural field. The vision is for the Institute to become a leading and distinguished platform in disseminating applied agricultural knowledge and building human capacities in line with the requirements of sustainable agricultural development, increasing productivity, and improving crop quality. The features of this vision are as follows:",
     "Wheat_Day_Video" : "/Videos/Direction_Page_Field_Wheat_Day.mp4"
 
 }

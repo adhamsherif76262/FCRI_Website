@@ -13,7 +13,7 @@ import AnimatedCounter, { CounterData } from "@/components/AnimatedCounters";
 import HexagonalMissionList from "@/components/hexagonal-mission-list";
 // import CircularNetworkList from "@/components/circular-network-list";
 import LayeredVisionList from "@/components/layered-vision-list";
-// import TimeLineList from "@/components/timeline-list";
+import TimeLineList from "@/components/timeline-list";
 // import OrganicPlantList from "@/components/organic-plant-list";
 import clsx from "clsx";
 // import TreeBranchHirarchyList from "@/components/tree-branch-hierarchy-list";
@@ -59,7 +59,7 @@ export default function Home() {
     {/* <CircularNetworkList items={[]} centerTitle="أهداف القسم" lang={currentLang}/> */}
     {/* <FlowingAchievementsList items={[]} lang={currentLang === 'ar' ? "ar" : "en"} Tree={true} Circular_Design_CenterTitle="Hello From Home Page Now now" Circular_Design_Items={Department_Mission_Inner}/> */}
     {/* <OrganicPlantList language={currentLang}/> */}
-    {/* <TimeLineList items={[]} /> */}
+    <TimeLineList items={[]} />
     {/* <TreeBranchHirarchyList items={[]} /> */}
 
       <FuturisticHeading rtl={isRTL}>

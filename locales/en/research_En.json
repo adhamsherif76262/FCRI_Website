@@ -1,0 +1,141 @@
+{
+    "Img_Source" : "/images/Temp/Temp (1).jpg",
+    "B1_Title": "Professor Dr. Khaled Gad's Speech, Deputy Director of The Research Sector of the Institute",
+    "B1": [
+        "The Field Crops Research Institute represents one of the main pillars supporting the agricultural sector in Egypt, as the institute is dedicated to developing and modernizing the agricultural research system in line with the requirements of food security and contemporary environmental and economic challenges.",
+        "From this perspective, the role of research at the institute is not limited to the academic or theoretical side, but extends to include practical application that directly contributes to increasing productivity, improving crop quality, and developing new varieties that are more capable of adapting to difficult climatic conditions.",
+        "In the research sector, we believe that scientific research is the main driver of sustainable agricultural development, and therefore we focus our efforts on:",
+        "• Developing integrated research programs that connect scientists, farmers, and decision-makers.",
+        "• Utilizing modern biotechnologies in managing and preserving genetic resources.",
+        "• Conducting applied studies aimed at improving the efficiency of natural resource use, such as water and soil, to achieve the highest productive and economic returns.",
+        "• Strengthening scientific cooperation with research centers and universities locally and internationally to exchange expertise and knowledge.",
+        "Believing in the importance of disseminating research results, we always strive to translate research outputs into practical recommendations and guidelines that benefit farmers in the fields, contributing to bridging the food gap and increasing the competitiveness of Egyptian agricultural products.",
+        "We keep in mind that our core mission is to transform scientific knowledge into tangible economic and social value, and to always be at the forefront of institutions leading the path of agricultural innovation in service of the nation and society."
+    ],
+    "Research_Mission": [
+        {
+            "id": "national-campaigns",
+            "title":"إنتاج أصناف محسّنة",
+            "titleEn": "Producing Improved Varieties",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "items": ["إنتاج أصناف محسّنة من المحاصيل الحقلية تمتاز بقدرتها على تحقيق إنتاجية عالية، ومقاومة للأمراض، وأكثر تحملاً للتغيرات المناخية."],
+            "itemsEn": ["Producing improved varieties of field crops characterized by their ability to achieve high productivity, resistance to diseases, and greater tolerance to climate change."],
+            "images":[],
+            "color": "from-amber-400 via-yellow-500 to-orange-500",
+            "icon": "Wheat"
+        },
+        {
+            "id": "technology-innovation",
+            "title":"إدارة الأصول الوراثية النباتية",
+            "titleEn": "Management of Plant Genetic Resources",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items":["إدارة الأصول الوراثية النباتية والمحافظة عليها باعتبارها ثروة قومية لا تقدر بثمن، وضمان الاستفادة منها للأجيال القادمة."],
+            "itemsEn": ["Managing and preserving plant genetic resources as a priceless national treasure, ensuring their utilization for future generations."],
+            "images":[],
+            "color": "from-black via-gray-200 to-red-500",
+            "icon": "TreePine"
+        },
+                {
+            "id": "research-programs",
+            "title":"رفع كفاءة استخدام الموارد الطبيعية",
+            "titleEn": "Enhancing the Efficiency of Natural Resource Use",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "itemsEn": ["Improving the efficiency of using natural resources such as soil and water through precise scientific research that keeps pace with the challenges facing Egyptian agriculture."],
+            "items": ["رفع كفاءة استخدام الموارد الطبيعية من تربة ومياه، عبر بحوث علمية دقيقة تواكب التحديات التي تواجه الزراعة المصرية."],
+            "images":[],
+            "color": "from-emerald-400 via-green-500 to-teal-500",
+            "icon": "Sprout"
+        },
+        {
+            "id": "sustainable-practices",
+            "title":"الربط بين البحوث والتطبيق",
+            "titleEn": "Linking Research and Application",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "itemsEn": ["Linking research with application by providing farmers with direct recommendations from an applied scientific perspective, thereby enhancing the transfer of modern technology to the fields."],
+            "items": ["الربط بين البحوث والتطبيق من خلال تقديم التوصيات المباشرة للمزارعين من منظور علمي تطبيقي، بما يعزز من نقل التكنولوجيا الحديثة إلى الحقول."],
+            "images":[],
+            "color": "from-purple-400 via-pink-500 to-rose-500",
+            "icon": "Flower2"
+        },
+        {
+            "id": "Any_ID_1",
+            "title":"تعزيز التعاون العلمي الدولي والمحلي",
+            "titleEn": "Strengthening International and Local Scientific Cooperation",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "itemsEn": ["Strengthening international and local scientific cooperation to exchange scientific and practical expertise, and building effective partnerships that contribute to crop development and expanding the knowledge base."],
+            "items": ["تعزيز التعاون العلمي الدولي والمحلي لتبادل الخبرات العلمية والتطبيقية وبناء شراكات فاعلة تساهم في تطوير المحاصيل وتوسيع قاعدة المعرفة."],            
+            "images":[],
+            "color": "from-blue-400 via-cyan-500 to-indigo-500",
+            "icon": "Leaf"
+        }
+    ],
+    "Futuristic_Vision_Array": [
+        {
+        "id": "1",
+        "title": "Enhancing the Quality of Scientific Research",
+        "description": "",
+        "details": ["Through developing integrated research plans that address modern agricultural challenges, relying on biotechnology and molecular analysis tools."],
+        "type": "leaf",
+        "priority": "high"
+        },
+        {
+        "id": "2",
+        "title": "Producing Strategic Varieties",
+        "description": "",
+        "details": ["Breeding new crops capable of resisting diseases, adapting to climate change, and providing the highest possible productivity at the lowest costs."],
+        "type": "branch",
+        "priority": "medium"
+        },
+        {
+        "id": "3",
+        "title": "Sustainability in Resource Utilization",
+        "description": "",
+        "details": ["Directing research towards rationalizing the use of water, fertilizers, and energy, ensuring high productivity without harming the environment."],
+        "type": "leaf",
+        "priority": "low"
+        },
+        {
+        "id": "4",
+        "title": "Expanding Scientific Partnerships",
+        "description": "",
+        "details": ["Strengthening cooperation with local and international research centers to exchange expertise and build research networks that support innovation and development."],
+        "type": "branch",
+        "priority": "high"
+        },
+        {
+        "id": "5",
+        "title": "Preparing a New Generation of Researchers",
+        "description": "",
+        "details": ["Investing in developing young research cadres and equipping them with modern scientific and technical skills to be capable of leading the future."],
+        "type": "leaf",
+        "priority": "medium"
+        },
+        {
+        "id": "6",
+        "title": "Strengthening the Link Between Research and Application",
+        "description": "",
+        "details": ["Transforming research results into practical recommendations that directly serve farmers, contribute to increasing production, and reduce the food gap."],
+        "type": "branch",
+        "priority": "low"
+        }
+    ],
+    "Projects_File_PDF_Path": "/pdfs/Projects.pdf",
+    "Description": "The Field Crops Research Institute represents a national center of expertise that constantly strives to employ modern scientific research tools to improve agricultural production, actively contribute to reducing the food gap, and support the national economy. It is considered one of the strategic pillars of the Agricultural Research Center due to its pivotal role in supporting national food security and achieving sustainable agricultural development. This scientific institution is not limited to being a research entity only, but also serves as a vital link between scientific research and practical application in the fields, where the results of studies and scientific research are translated into real crop varieties and agricultural solutions that benefit both farmers and the state alike. The importance of the institute lies in several main aspects:",
+    "Main_Title": "The Future Vision of the Deputy Director for Research",
+    "Sub_Title": "Our future vision is based on integrating science with application, and achieving a balance between innovation and societal needs, ensuring Egypt’s sustainable food security and an advanced global position in the agricultural field. At the Field Crops Research Institute, we aim to be a leading research center locally, regionally, and internationally, founded on innovation and excellence in agricultural research, working to transform scientific knowledge into practical solutions that contribute to achieving food security and sustainable development. Therefore, the future vision is embodied in:"
+}

@@ -2,14 +2,15 @@
 
 import { useState } from "react"
 import { ChevronDown, ChevronRight, X, Sprout, TreePine, Leaf, Wheat, Apple, Flower2 } from "lucide-react"
+import clsx from "clsx"
 
 interface PlantItem {
   id: string
   title: string
   description: string
   details: string[]
-  type: "root" | "branch" | "leaf"
-  priority: "high" | "medium" | "low"
+  type: string
+  priority: string
 }
 
 const defaultPlantData: PlantItem[] = [
@@ -23,7 +24,7 @@ const defaultPlantData: PlantItem[] = [
       "الابتكار العلمي والتقنيات الحيوية المتقدمة",
       "أن يصبح القسم مرجعية علمية رائدة",
     ],
-    type: "root",
+    type: "leaf",
     priority: "high",
   },
   {
@@ -82,12 +83,16 @@ const defaultPlantData: PlantItem[] = [
 
 interface OrganicPlantListProps {
   data?: PlantItem[]
-  language?: "ar" | "en"
+  language?: "ar" | "en",
+  Main_Title?: string,
+  Sub_Title?: string
 }
 
 export default function OrganicPlantListV3Compatible({
   data = defaultPlantData,
   language = "ar",
+  Main_Title,
+  Sub_Title
 }: OrganicPlantListProps) {
   const [expandedItems, setExpandedItems] = useState<Set<string>>(new Set())
   const [selectedItem, setSelectedItem] = useState<PlantItem | null>(null)
@@ -126,12 +131,12 @@ export default function OrganicPlantListV3Compatible({
 
   const openModal = (item: PlantItem) => {
     setSelectedItem(item)
-    document.body.style.overflow = "hidden"
+    document.body.style.overflowX = "hidden"
   }
 
   const closeModal = () => {
     setSelectedItem(null)
-    document.body.style.overflow = "unset"
+    document.body.style.overflowX = "unset"
   }
 
   const getPlantIcon = (itemId: string) => {
@@ -156,8 +161,8 @@ export default function OrganicPlantListV3Compatible({
       "bg-plant-gradient-1", // Deep green
       "bg-plant-gradient-2", // Teal
       "bg-plant-gradient-3", // Green
-      "bg-plant-gradient-4", // Lime
-      "bg-plant-gradient-5", // Cyan
+      "bg-plant-gradient-5", // Lime
+      "bg-plant-gradient-4", // Cyan
     ]
     return colorClasses[index % colorClasses.length]
   }
@@ -167,32 +172,39 @@ export default function OrganicPlantListV3Compatible({
   }
 
   return (
-    <div className="w-full max-w-xs sm:max-w-2xl lg:max-w-4xl mx-auto plant-container p-3 sm:p-6 bg-gradient-to-br from-white via-gray-50 to-gray-100 rounded-xl sm:rounded-2xl shadow-lg">
-      <div className={`text-center mb-6 sm:mb-8 ${language === "ar" ? "text-right" : "text-left"}`}>
-        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-plant-primary mb-2">
-          {getText("قائمة النمو العضوي", "Organic Growth List")}
+    <div className="my-16 w-full max-w-[90rem] mx-auto plant-container p-6 sm:p-8 rounded-2xl shadow-lg backdrop-blur-md bg-gray-200 bg-opacity-25" dir={language === "ar" ? "rtl" : "ltr"}>
+      <div className={`text-center mb-6 sm:mb-8 mt-0`}>
+        <h2 className={clsx(
+          "text-xl font-black text-plant-primary text-center",
+          language === "ar" ? "xs:text-4xl xxxs:text-3xl mb-8" : "xs:text-3xl xxxs:text-2xl mb-4"
+        )}>
+          {Main_Title ? Main_Title : getText("قائمة النمو العضوي", "Organic Growth List")}
         </h2>
-        <p className="text-sm sm:text-base text-gray-600">
-          {getText(
+        <p className={clsx(
+          "text-gray-600 text-center",
+          language === "ar" ? "font-black xs:text-3xl xxxs:text-xl xxs:text-2xl xs:leading-relaxed xxxs:leading-relaxed xxs:leading-relaxed" 
+          : "xs:text-2xl xxxs:text-lg xxs:text-xl xs:leading-normal xxxs:leading-tight xxs:leading-snug"
+        )}>
+          { Sub_Title ? Sub_Title : getText(
             "استكشف رؤية القسم من خلال هيكل نباتي تفاعلي",
             "Explore the department's vision through an interactive plant structure",
           )}
         </p>
       </div>
 
-      <div className="relative">
+      <div className="relative" dir={language === "ar" ? "rtl" : "ltr"}>
         {/* Main plant stem */}
-        <div className="absolute left-4 sm:left-8 top-0 w-0.5 sm:w-1 h-full bg-gradient-to-b from-green-600 via-green-500 to-green-400 rounded-full opacity-60"></div>
+        <div className="absolute left-4 sm:left-8 top-0 w-0.5 sm:w-1 h-full bg-gradient-to-b bg-black rounded-full bg-opacity-50"></div>
 
         {data.map((item, index) => (
           <div key={item.id} className="relative mb-6 sm:mb-8 group">
             {/* Connector branch */}
             {index > 0 && (
-              <div className="absolute left-4 sm:left-8 top-6 sm:top-8 w-0.5 h-16 sm:h-20 bg-gradient-to-b from-green-500 to-green-400 animate-branch-extend"></div>
+              <div className="absolute left-4 sm:left-8 top-6 sm:top-8 w-0.5 h-12 bg-gradient-to-b from-black via-gray-500 to-white animate-branch-extend"></div>
             )}
 
             {/* Horizontal branch to item */}
-            <div className="absolute left-4 sm:left-8 top-6 sm:top-8 w-8 sm:w-12 h-0.5 bg-gradient-to-r from-green-500 to-green-400 animate-branch-extend"></div>
+            <div className="absolute left-4 sm:left-8 top-6 sm:top-8 w-8 sm:w-12 h-0.5 bg-gradient-to-r bg-black animate-branch-extend"></div>
 
             {/* Plant item */}
             <div
@@ -206,12 +218,19 @@ export default function OrganicPlantListV3Compatible({
               onClick={() => openModal(item)}
             >
               {/* Plant icon */}
-              <div className="absolute -left-3 sm:-left-4 top-4 sm:top-6 p-1.5 sm:p-2 rounded-full bg-plant-primary text-white shadow-lg">
+              <div className={clsx(
+                "rounded-full bg-plant-primary text-white shadow-lg",
+                language === "ar" ? "absolute -right-3 sm:-right-4 top-4 sm:top-6 p-1.5 sm:p-2" : "absolute -left-3 sm:-left-4 top-4 sm:top-6 p-1.5 sm:p-2"
+              )} dir={language === "ar" ? "rtl" : "ltr"}>
                 {getPlantIcon(item.id)}
               </div>
 
-              <div className={language === "ar" ? "text-right" : "text-left"}>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">{item.title}</h3>
+              {/* <div className={language === "ar" ? "text-right" : "text-left"}> */}
+              <div className="text-center">
+                <h3 className={clsx(
+                  "text-lg font-bold text-white mb-2",
+                  language === "ar" ? "xs:text-3xl xxxs:text-2xl xxxs:leading-relaxed px-2" : "px-2 xs:text-xl xxxs:text-lg xxxs:leading-normal"
+                )}>{item.title}</h3>
                 <p className="text-white/90 text-xs sm:text-sm leading-relaxed">{item.description}</p>
 
                 {/* Expandable details */}
@@ -221,14 +240,19 @@ export default function OrganicPlantListV3Compatible({
                       e.stopPropagation()
                       toggleExpand(item.id)
                     }}
-                    className="flex items-center gap-2 text-white/80 hover:text-white transition-colors hover:scale-105"
+                    className={clsx(
+                      "text-black hover:text-white transition-colors hover:scale-105",
+                      language === "ar" ? "flex items-center gap-2 flex-row-reverse" : "flex items-center gap-2"
+                    )}
                   >
                     {expandedItems.has(item.id) ? (
                       <ChevronDown className="w-3 h-3 sm:w-4 sm:h-4" />
                     ) : (
                       <ChevronRight className="w-3 h-3 sm:w-4 sm:h-4" />
                     )}
-                    <span className="text-xs sm:text-sm">{getText("التفاصيل", "Details")}</span>
+                    <span className={clsx(
+                                language === "ar" ? "text-lg sm:text-xl" : "text-md sm:text-lg"
+                    )}>{getText("التفاصيل", "Details")}</span>
                   </button>
 
                   {(expandedItems.has(item.id) || closingItems.has(item.id)) && (
@@ -251,7 +275,11 @@ export default function OrganicPlantListV3Compatible({
                           }}
                         >
                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-plant-secondary mt-1.5 sm:mt-2 flex-shrink-0 animate-pulse"></div>
-                          <p className="text-white/90 text-xs sm:text-sm leading-relaxed">{detail}</p>
+                          <p className={clsx(
+                            "text-white/90",
+                            language === "ar" ? "text-xl xs:text-2xl xs:leading-relaxed xxxs:leading-normal" 
+                            : "text-lg xs:text-xl xs:leading-snug xxxs:leading-tight"
+                          )}>{detail}</p>
                         </div>
                       ))}
                     </div>
@@ -260,7 +288,10 @@ export default function OrganicPlantListV3Compatible({
               </div>
 
               {/* Growth indicator */}
-              <div className="absolute top-1 sm:top-2 left-1 sm:left-2 w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-plant-secondary animate-pulse"></div>
+              <div className={clsx(
+                "w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-plant-secondary animate-pulse",
+                language === "ar" ? "absolute top-1 sm:top-2 right-1 sm:right-2" : "absolute top-1 sm:top-2 left-1 sm:left-2"
+              )}></div>
             </div>
           </div>
         ))}
@@ -268,30 +299,34 @@ export default function OrganicPlantListV3Compatible({
 
       {selectedItem && (
         <div
+        dir={language === "ar" ? "rtl" : "ltr"} 
           className="fixed inset-0 modal-backdrop flex items-center justify-center p-2 sm:p-4 z-50"
-          style={{ minHeight: "100vh", minWidth: "100vw" }}
+          style={{ minHeight: "100vh" }}
           onClick={closeModal}
         >
           <div
-            className="plant-modal bg-white rounded-xl sm:rounded-2xl p-4 sm:p-8 w-full max-w-xs sm:max-w-2xl 
-                       max-h-[85vh] sm:max-h-[90vh] overflow-y-auto shadow-2xl animate-modal-appear
+            className="plant-modal bg-white rounded-xl sm:rounded-2xl p-4 sm:p-8 w-full  xxxs:max-w-xs xs:max-w-sm sm:max-w-xl md:max-w-2xl  
+                       overflow-y-auto shadow-2xl animate-modal-appear
                        my-auto mx-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div
-              className={`flex justify-between items-start mb-4 sm:mb-6 ${language === "ar" ? "flex-row-reverse" : "flex-row"}`}
+              className={`flex justify-between items-start mb-4 sm:mb-6`}
             >
               <div
-                className={`flex items-center gap-2 sm:gap-3 ${language === "ar" ? "flex-row-reverse" : "flex-row"}`}
+                className={`flex items-center gap-2 sm:gap-3`}
               >
                 <div className="p-2 sm:p-3 rounded-full bg-plant-primary text-white">
                   {getPlantIcon(selectedItem.id)}
                 </div>
                 <div className={language === "ar" ? "text-right" : "text-left"}>
-                  <h3 className="text-lg sm:text-2xl font-bold text-plant-primary">{selectedItem.title}</h3>
-                  <span className="text-xs sm:text-sm text-gray-500 capitalize">
+                  <h3 className={clsx(
+                    "font-bold text-plant-primary",
+                    language === "ar" ? "text-xl sm:text-3xl xxs:text-2xl leading-relaxed" : "text-lg sm:text-2xl xxs:text-xl leading-normal"
+                  )}>{selectedItem.title}</h3>
+                  {/* <span className="text-xs sm:text-sm text-gray-500 capitalize">
                     {selectedItem.type} • {selectedItem.priority} priority
-                  </span>
+                  </span> */}
                 </div>
               </div>
               <button
@@ -307,7 +342,7 @@ export default function OrganicPlantListV3Compatible({
               <p className="text-gray-800 leading-relaxed text-sm sm:text-lg">{selectedItem.description}</p>
 
               <div>
-                <h4 className="text-base sm:text-lg font-semibold text-plant-primary mb-3 sm:mb-4">
+                <h4 className="text-lg sm:text-xl font-semibold text-plant-primary mb-3 sm:mb-4">
                   {getText("التفاصيل الكاملة:", "Full Details:")}
                 </h4>
                 <div className="space-y-2 sm:space-y-3">
@@ -319,7 +354,10 @@ export default function OrganicPlantListV3Compatible({
                       style={{ animationDelay: `${index * 0.1}s` }}
                     >
                       <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-plant-secondary mt-1 sm:mt-2 flex-shrink-0 animate-pulse"></div>
-                      <p className="text-gray-800 leading-relaxed text-xs sm:text-base">{detail}</p>
+                      <p className={clsx(
+                        "text-gray-800 leading-relaxed",
+                        language === "ar" ? "text-xl sm:text-2xl" : "text-lg sm:text-xl"
+                      )}>{detail}</p>
                     </div>
                   ))}
                 </div>

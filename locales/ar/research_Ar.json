@@ -1,0 +1,144 @@
+{
+    "Img_Source" : "/images/Temp/Temp (10).jpg",
+    "B1_Title" : "كلمة الأستاذ الدكتور خالد جاد وكيل البحوث بالمعهد",
+    "B1" :[
+        "معهد بحوث المحاصيل الحقلية يمثل أحد الأعمدة الرئيسية الداعمة للقطاع الزراعي في مصر، حيث يهتم المعهد بتتطوير وتحديث منظومة البحوث الزراعية بما يتماشى مع متطلبات الأمن الغذائي والتحديات البيئية والاقتصادية المعاصرة. ",
+        "ومن هذا المنطلق، فإن دور البحوث في المعهد لا يقتصر على الجانب الأكاديمي أو النظري، بل يمتد ليشمل التطبيق العملي الذي ينعكس مباشرة على زيادة الإنتاجية وتحسين جودة المحاصيل وتطوير أصناف جديدة أكثر قدرة على التكيف مع الظروف المناخية الصعبة.",
+        "نحن في قطاع البحوث نؤمن أن البحث العلمي هو المحرك الأساسي للتنمية الزراعية المستدامة، لذا نركز جهودنا على:",
+        "•تطوير برامج بحثية متكاملة تربط بين العلماء والمزارعين وصناع القرار.",
+        "•الاستفادة من التقنيات الحيوية الحديثة في إدارة الأصول الوراثية والحفاظ عليها.",
+        "•إجراء دراسات تطبيقية تهدف إلى رفع كفاءة استخدام الموارد الطبيعية من مياه وتربة، بما يحقق أعلى عائد إنتاجي واقتصادي.",
+        "•تعزيز التعاون العلمي مع المراكز البحثية والجامعات محليًا ودوليًا لتبادل الخبرات والمعرفة.",
+        "وإيمانًا بأهمية نشر نتائج البحوث، نحرص دائمًا على ترجمة مخرجات العمل البحثي إلى توصيات وإرشادات عملية يستفيد منها المزارعون في الحقول، وبما يسهم في سد الفجوة الغذائية وزيادة القدرة التنافسية للمنتجات الزراعية المصرية.",
+        "إننا نضع نصب أعيننا أن رسالتنا الأساسية هي تحويل المعرفة العلمية إلى قيمة اقتصادية واجتماعية ملموسة، وأن نكون دائمًا في طليعة المؤسسات التي تقود مسيرة الابتكار الزراعي لخدمة الوطن والمجتمع."
+    ],
+    "Research_Mission": [
+        {
+            "id": "national-campaigns",
+            "title":"إنتاج أصناف محسّنة",
+            "titleEn": "Producing Improved Varieties",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "items": ["إنتاج أصناف محسّنة من المحاصيل الحقلية تمتاز بقدرتها على تحقيق إنتاجية عالية، ومقاومة للأمراض، وأكثر تحملاً للتغيرات المناخية."],
+            "itemsEn": ["Producing improved varieties of field crops characterized by their ability to achieve high productivity, resistance to diseases, and greater tolerance to climate change."],
+            "images":[],
+            "color": "from-amber-400 via-yellow-500 to-orange-500",
+            "icon": "Wheat"
+        },
+        {
+            "id": "technology-innovation",
+            "title":"إدارة الأصول الوراثية النباتية",
+            "titleEn": "Management of Plant Genetic Resources",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn": "",
+            "items":["إدارة الأصول الوراثية النباتية والمحافظة عليها باعتبارها ثروة قومية لا تقدر بثمن، وضمان الاستفادة منها للأجيال القادمة."],
+            "itemsEn": ["Managing and preserving plant genetic resources as a priceless national treasure, ensuring their utilization for future generations."],
+            "images":[],
+            "color": "from-black via-gray-200 to-red-500",
+            "icon": "TreePine"
+        },
+                {
+            "id": "research-programs",
+            "title":"رفع كفاءة استخدام الموارد الطبيعية",
+            "titleEn": "Enhancing the Efficiency of Natural Resource Use",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "itemsEn": ["Improving the efficiency of using natural resources such as soil and water through precise scientific research that keeps pace with the challenges facing Egyptian agriculture."],
+            "items": ["رفع كفاءة استخدام الموارد الطبيعية من تربة ومياه، عبر بحوث علمية دقيقة تواكب التحديات التي تواجه الزراعة المصرية."],
+            "images":[],
+            "color": "from-emerald-400 via-green-500 to-teal-500",
+            "icon": "Sprout"
+        },
+        {
+            "id": "sustainable-practices",
+            "title":"الربط بين البحوث والتطبيق",
+            "titleEn": "Linking Research and Application",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "itemsEn": ["Linking research with application by providing farmers with direct recommendations from an applied scientific perspective, thereby enhancing the transfer of modern technology to the fields."],
+            "items": ["الربط بين البحوث والتطبيق من خلال تقديم التوصيات المباشرة للمزارعين من منظور علمي تطبيقي، بما يعزز من نقل التكنولوجيا الحديثة إلى الحقول."],
+            "images":[],
+            "color": "from-purple-400 via-pink-500 to-rose-500",
+            "icon": "Flower2"
+        },
+        {
+            "id": "Any_ID_1",
+            "title":"تعزيز التعاون العلمي الدولي والمحلي",
+            "titleEn": "Strengthening International and Local Scientific Cooperation",
+            "small_title":"",
+            "small_titleEn":"",
+            "subtitle": "",
+            "subtitleEn":"",
+            "itemsEn": ["Strengthening international and local scientific cooperation to exchange scientific and practical expertise, and building effective partnerships that contribute to crop development and expanding the knowledge base."],
+            "items": ["تعزيز التعاون العلمي الدولي والمحلي لتبادل الخبرات العلمية والتطبيقية وبناء شراكات فاعلة تساهم في تطوير المحاصيل وتوسيع قاعدة المعرفة."],            
+            "images":[],
+            "color": "from-blue-400 via-cyan-500 to-indigo-500",
+            "icon": "Leaf"
+        }
+    ],
+    "Futuristic_Vision_Array" : [
+        {
+            "id": "1",
+            "title" : "الارتقاء بجودة البحث العلمي",
+            "description": "",
+            "details": ["من خلال وضع خطط بحثية متكاملة تواكب التحديات الزراعية الحديثة، وتعتمد على استخدام التكنولوجيا الحيوية وأدوات التحليل الجزيئي."],
+            "type": "leaf",
+            "priority": "high"
+        },
+        {
+            "id": "2",
+            "title" : "إنتاج أصناف استراتيجية",
+            "description": "",
+            "details": ["استنباط محاصيل جديدة قادرة على مقاومة الأمراض، والتكيف مع التغيرات المناخية، وتوفير أعلى إنتاجية ممكنة بأقل التكاليف."],
+            "type": "branch",
+            "priority": "medium"
+        },
+        {
+            "id": "3",
+            "title" : "الاستدامة في استخدام الموارد",
+            "description": "",
+            "details": ["توجيه البحوث نحو ترشيد استخدام المياه والأسمدة والطاقة، بما يضمن تحقيق إنتاجية عالية دون الإضرار بالبيئة."],
+            "type": "leaf",
+            "priority": "low"
+        },
+        {
+            "id": "4",
+            "title" : "الانفتاح على الشراكات العلمية",
+            "description": "",
+            "details": ["تعزيز التعاون مع المراكز البحثية المحلية والدولية لتبادل الخبرات، وبناء شبكات بحثية تدعم الابتكار والتطوير."],
+            "type": "branch",
+            "priority": "high"
+        },
+        {
+            "id": "5",
+            "title" : "تأهيل جيل جديد من الباحثين",
+            "description": "",
+            "details": ["الاستثمار في تنمية الكوادر البحثية الشابة، وتزويدها بالمهارات العلمية والتقنية الحديثة لتكون قادرة على قيادة المستقبل."],
+            "type": "leaf",
+            "priority": "medium"
+        },
+        {
+            "id": "6",
+            "title" : "تعزيز الربط بين البحث والتطبيق",
+            "description": "",
+            "details": ["تحويل نتائج الأبحاث إلى توصيات عملية تخدم المزارع بشكل مباشر، وتساهم في زيادة الإنتاج وتقليص الفجوة الغذائية."],
+            "type": "branch",
+            "priority": "low"
+        }
+    ],
+    "Projects_File_PDF_Path": "/pdfs/Projects.pdf",
+    "Description" : "إن معهد بحوث المحاصيل الحقلية يمثل بيت خبرة وطني، يسعى دائمًا لتوظيف أدوات البحث العلمي الحديث من أجل تحسين الإنتاج الزراعي، والمساهمة الفاعلة في تقليص الفجوة الغذائية، ودعم الاقتصاد القومي. حيث يعد أحد الركائز الاستراتيجية لمركز البحوث الزراعية، لما له من دور محوري في دعم الأمن الغذائي القومي وتحقيق التنمية الزراعية المستدامة. حيث أن هذا الصرح العلمي لا يقتصر على كونه جهة بحثية فقط، بل يكمن في كونه حلقة الوصل بين البحث العلمي والتطبيق العملي في الحقول، بحيث تترجم نتائج الدراسات والابحاث العلمية إلى أصناف وحلول زراعية واقعية يستفيد منها المزارع والدولة على حد سواء.تكمن أهمية المعهد في عدة محاور رئيسية:",
+    "Main_Title" : "الرؤية المستقبلية لوكيل المعهد للبحوث",
+    "Sub_Title" : "إن رؤيتنا المستقبلية تقوم على دمج العلم بالتطبيق، وتحقيق التوازن بين الابتكار والاحتياجات المجتمعية، بما يضمن لمصر أمنًا غذائيًا مستدامًا ومكانة متقدمة في المجال الزراعي عالميًا.نسعى في معهد بحوث المحاصيل الحقلية إلى أن نكون مركزًا بحثيًا رائدًا محليًا وإقليميًا ودوليًا، يقوم على الابتكار والتميز في مجال البحوث الزراعية، ويعمل على تحويل المعرفة العلمية إلى حلول عملية تسهم في تحقيق الأمن الغذائي والتنمية المستدامة.ولذا فإن الرؤية المستقبلية تتجسد في:"
+}
+
+
+
