@@ -6,6 +6,7 @@ import enProduction from '../../../locales/en/production_En.json';
 import FuturisticHeading from '@/components/FuturisticHeading';
 import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
 import EnhancedCircularImageList from '@/components/enhanced-circular-image-list';
+import ClientPDFSection from '@/components/ClientPDFSection';
 
 export default function ProductionPage() {
     const pathname = usePathname();
@@ -30,6 +31,15 @@ export default function ProductionPage() {
         </section>
       </div>
       <OrganicPlantListV3Compatible data={t.Futuristic_Vision_Array} language={currentLang} Main_Title={t.Main_Title} Sub_Title={t.Sub_Title}></OrganicPlantListV3Compatible>
+      <div className='space-y-10 py-6 xxxs:overflow-hidden xxs:overflow-visible'>
+        <ClientPDFSection
+          title={isRTL ? 'كتاب الأصناف' : 'Varaities Book'}
+          pdf={t.Production_File_PDF_Path}
+          isArabic={isRTL}
+          animation="rotate-in-blur"
+          // preMeta={projectsMeta}
+          />
+      </div>
     </main>
   )
 }

@@ -7,6 +7,7 @@ import enDirection from '../../../locales/en/direction_En.json';
 import FuturisticHeading from '@/components/FuturisticHeading';
 import EnhancedCircularImageList from '@/components/enhanced-circular-image-list';
 import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
+import CinematicVideoGallery from '@/components/cinematic-video-gallery';
 // import OrganicPlantListV3Compatible from '@/components/organic-plant-list';
 
 export default function DirectionPage() {
@@ -35,7 +36,7 @@ export default function DirectionPage() {
           </section>
         </div>
         
-        <FuturisticHeading rtl={isRTL}>
+        {/* <FuturisticHeading rtl={isRTL}>
           {currentLang === 'ar' ? "فيديو يوم الحقل للقمح" : "The Field Day Of Wheat Video"}
         </FuturisticHeading>
         <div className="my-8 w-full max-w-8xl mx-auto">
@@ -50,10 +51,11 @@ export default function DirectionPage() {
           <div className='pt-[45%] pb-0 px-0 relative'>
             <iframe className='absolute top-0 left-0 w-[98%] h-full mx-[1%]' loading='lazy' src="https://www.youtube.com/embed/Vz5NRqDhn78?si=pcY6fh17mcZYi3sy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen;" referrerPolicy="strict-origin-when-cross-origin"></iframe>
           </div>
+        </div> */}
           {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
           {/* <video className='mx-auto' width={1200} src="https://player.vimeo.com/video/1123489285?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" preload='none' controls playsInline loop muted autoPlay ></video> */}
-        </div>
         <OrganicPlantListV3Compatible data={t.Futuristic_Vision_Array} language={currentLang} Main_Title={t.Main_Title} Sub_Title={t.Sub_Title}></OrganicPlantListV3Compatible>
+        <CinematicVideoGallery Title={t.Video_Gallery_Main_Title} Sub_Title={t.Video_Gallery_Sub_Title} videos={t.Video_Gallery_Array} language={currentLang}/>
     </main>
   )
 }

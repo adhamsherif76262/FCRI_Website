@@ -183,6 +183,87 @@
         "priority": "medium"
         }
     ],
+    "Video_Gallery_Array" : [
+        {
+            "id": "1",
+            "title": "Dr. Khaled Gad's TV Interview On The Farmer's Day",
+            "titleAr": "اللقاء التليفزيوني لدكتور خالد جاد في يوم الفلاح",
+            "embedUrl": "https://www.youtube.com/embed/Vz5NRqDhn78?si=pcY6fh17mcZYi3sy"
+        },
+        {
+            "id": "2",
+            "title": "How can Egypt achieve self-sufficiency in wheat? Practical solutions",
+            "titleAr": "كيف تحقق مصر الاكتفاء الذاتي من القمح؟ حلول عملية",
+            "embedUrl": "https://www.youtube.com/embed/jwOQg77nZFI"
+        },
+        {
+            "id": "3",
+            "title": "Wheat cultivation on raised beds: Cut costs and increase profits with numbers",
+            "titleAr": "زراعة القمح على مصاطب.. وفر تكاليفك وزود أرباحك بالأرقام",
+            "embedUrl": "https://www.youtube.com/embed/e-FpwrhHh8E"
+        },
+        {
+            "id": "4",
+            "title": "Proper wheat cultivation: The secret to abundant production and high profit",
+            "titleAr": "زراعة القمح الصحيحة.. سر الإنتاج الوفير والربح العالي",
+            "embedUrl": "https://www.youtube.com/embed/PpMo6WLXo50"
+        },
+        {
+            "id": "5",
+            "title": "The best barley seeds currently available at the Agricultural Research Center",
+            "titleAr": "أفضل تقاوي شعير متاحة الآن في مركز البحوث الزراعية",
+            "embedUrl": "https://www.youtube.com/embed/5-fz6L0Ogio"
+        },
+        {
+            "id": "6",
+            "title": "The great Arab national scientist Prof. Dr. Hamdy El-Mouafi and the latest modern technologies for the rice crop Super 203",
+            "titleAr": "العالم العربي الوطني الجليل الأستاذ الدكتور حمدي الموافي وأحدث التقنيات الحديثة لمحصول الأرز سوبر203",
+            "embedUrl": "https://www.youtube.com/embed/hXzw7FBTCSc"
+        },
+        {
+            "id": "7",
+            "title": "Prof. Dr. Adel El-Garhy and Dr. Atef Abdel-Galil with the most important recommendations for the soybean crop",
+            "titleAr": "الأستاذ الدكتور عادل الجارحي والدكتور عاطف عبد الجليل واهم التوصيات الضروريه لمحصول فول الصويا",
+            "embedUrl": "https://www.youtube.com/embed/9EruV8xHnrQ"
+        },
+        {
+            "id": "8",
+            "title": "From desert to global tables… Egyptian rice makes a strong comeback with new water-saving varieties",
+            "titleAr": "من الصحراء إلى المائدة العالمية... الأرز المصري يعود بقوة بفضل سلالات جديدة موفرة للمياه",
+            "embedUrl": "/Videos/Extention_Video.mp4",
+            "thumbnail" : "/images/Direction Page/Thumbnails/Thumbnail (5).png"
+        },
+        {
+            "id": "9",
+            "title": "Prof. Dr. Sobhy Abdel-Dayem: Wheat cultivation on raised beds achieves the highest yield and saves 30% of irrigation water",
+            "titleAr": "الأستاذ الدكتور صبحي عبدالدايم وزراعة القمح على مصاطب يحقق أعلي إنتاج ويوفر 30%من مياه الري",
+            "embedUrl": "https://www.youtube.com/embed/PomKnKj_p9c",
+            "thumbnail" : "/images/Direction Page/Thumbnails/Thumbnail (4).png"
+        },
+        {
+            "id": "10",
+            "title": "Agricultural guide: Preparations for wheat cultivation in the new winter season",
+            "titleAr": "المرشد الزراعى الاستعدادات لزراعة القمح بالموسم الشتوى الجديد",
+            "embedUrl": "https://www.youtube.com/embed/IJFriHjXx1U",
+            "thumbnail" : "/images/Direction Page/Thumbnails/Thumbnail (3).png"
+        },
+        {
+            "id": "11",
+            "title": "Agricultural guide: Key practices for soybean maturity and harvest, and preparation for faba bean planting",
+            "titleAr": "المرشد الزراعى أهم عمليات نضج وحصاد فول الصويا واستقبال زراعة الفول البلدى",
+            "embedUrl": "https://www.youtube.com/embed/EI20PckVkuE",
+            "thumbnail" : "/images/Direction Page/Thumbnails/Thumbnail (2).png"
+        },
+        {
+            "id": "12",
+            "title": "The Field Day Of Wheat Video",
+            "titleAr": "فيديو يوم الحقل للقمح",
+            "embedUrl": "https://player.vimeo.com/video/1123489285?badge=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1",
+            "thumbnail" : "/images/Direction Page/Thumbnails/Thumbnail (5).png"
+        }
+    ],
+    "Video_Gallery_Main_Title" : "A collection of videos on agricultural training and extension",
+    "Video_Gallery_Sub_Title" : "",
     "Main_Title" : "The Future Vision of the Deputy Director of the Institute for Extension and Training",
     "Sub_Title" : "The future vision for extension and training at the Field Crops Research Institute aims to build an integrated extension and training system based on the results of modern scientific research, keeping pace with the rapid technological development in the agricultural field. The vision is for the Institute to become a leading and distinguished platform in disseminating applied agricultural knowledge and building human capacities in line with the requirements of sustainable agricultural development, increasing productivity, and improving crop quality. The features of this vision are as follows:",
     "Wheat_Day_Video" : "/Videos/Direction_Page_Field_Wheat_Day.mp4"

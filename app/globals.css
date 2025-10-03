@@ -799,6 +799,114 @@ body {
 }
 
 
+/* Cinematic Video Gallery Animations */
+@keyframes video-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes theater-open {
+  0% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+}
+
+@keyframes video-hover-scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+/* Video Playing Animations */
+@keyframes video-playing {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+}
+
+@keyframes sound-wave-1 {
+  0%,
+  100% {
+    height: 0.5rem;
+  }
+  50% {
+    height: 1rem;
+  }
+}
+
+@keyframes sound-wave-2 {
+  0%,
+  100% {
+    height: 0.75rem;
+  }
+  50% {
+    height: 1.25rem;
+  }
+}
+
+@keyframes sound-wave-3 {
+  0%,
+  100% {
+    height: 0.5rem;
+  }
+  50% {
+    height: 1rem;
+  }
+}
+
+/* Video Gallery Animation Classes */
+.animate-video-fade-in {
+  animation: video-fade-in 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-theater-open {
+  animation: theater-open 0.3s ease-out forwards;
+}
+
+.animate-video-hover-scale {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-video-hover-scale:hover {
+  animation: video-hover-scale 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Video Playing Animation Classes */
+.animate-video-playing {
+  animation: video-playing 2s ease-in-out infinite;
+}
+
+.animate-sound-wave-1 {
+  animation: sound-wave-1 0.8s ease-in-out infinite;
+}
+
+.animate-sound-wave-2 {
+  animation: sound-wave-2 0.8s ease-in-out infinite 0.1s;
+}
+
+.animate-sound-wave-3 {
+  animation: sound-wave-3 0.8s ease-in-out infinite 0.2s;
+}
 
  /** Futuristic Navbar **/
 
