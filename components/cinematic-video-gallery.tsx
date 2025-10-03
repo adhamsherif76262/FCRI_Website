@@ -372,7 +372,6 @@ export default function CinematicVideoGallery({ videos = defaultVideos, language
               </div>
             </div>
           </div>
-
           <div className="mt-8 lg:mt-12">
             <h3 className="text-xl sm:text-2xl font-bold mb-6" style={{ direction: isRTL ? "rtl" : "ltr" }}>
               {isRTL ? "المزيد من الفيديوهات" : "More Videos"}
