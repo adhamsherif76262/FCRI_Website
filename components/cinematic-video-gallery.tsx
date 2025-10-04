@@ -446,21 +446,21 @@ export default function CinematicVideoGallery({ videos = defaultVideos, language
             <div className="flex items-center justify-between mb-6 gap-4">
               <button
                 onClick={isRTL ? nextVideo : previousVideo}
-                className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-all duration-200 hover:scale-110 flex-shrink-0"
+                className="w-12 h-12 rounded-full bg-white hover:text-white hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-all duration-200 hover:scale-110 flex-shrink-0"
                 aria-label="Previous video"
               >
                 {isRTL ? <ChevronRight className="w-6 h-6" /> : <ChevronLeft className="w-6 h-6" />}
               </button>
 
               <div className="flex-1 text-center px-4">
-                <p className="text-sm text-slate-400">
+                <p className="text-lg text-white">
                   {currentTheaterIndex + 1} / {videos.length}
                 </p>
               </div>
 
               <button
                 onClick={isRTL ? previousVideo : nextVideo}
-                className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-all duration-200 hover:scale-110 flex-shrink-0"
+                className="w-12 h-12 rounded-full bg-white hover:text-white hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-all duration-200 hover:scale-110 flex-shrink-0"
                 aria-label="Next video"
               >
                 {isRTL ? <ChevronLeft className="w-6 h-6" /> : <ChevronRight className="w-6 h-6" />}
@@ -468,7 +468,7 @@ export default function CinematicVideoGallery({ videos = defaultVideos, language
 
               <button
                 onClick={closeTheater}
-                className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-colors duration-200 flex-shrink-0"
+                className="w-12 h-12 rounded-full bg-white hover:text-white hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-colors duration-200 flex-shrink-0"
                 aria-label="Close theater mode"
               >
                 <X className="w-6 h-6" />
