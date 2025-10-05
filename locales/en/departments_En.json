@@ -3,7 +3,7 @@
   { "slug": "forage_En", "name": "Forage Research Department", "image": "/images/departments/Forage.png", "footerName" : "Forage"},
   { "slug": "sorghum_En", "name": "Grain Sorghum Research Department", "image": "/images/departments/Sorghum_2.png", "footerName" : "Sorghum"},
   { "slug": "seed-technology_En", "name": "Seed Technology Research Department", "image": "/images/departments/Seed_Technology.png", "footerName" : "Seed Technology"},
-  { "slug": "crop-physiology_En", "name": "Crop Physiology Research Department", "image": "/images/departments/crop physiology .png", "footerName" : "Crop Physiology"},
+  { "slug": "crop-physiology_En", "name": "Crop Physiology Research Department", "image": "/images/departments/Crop_Physiology_1.jpeg", "footerName" : "Crop Physiology"},
   { "slug": "genetic-resources_En", "name": "Genetic Resources Research Department", "image": "/images/departments/genetic resources .png", "footerName" : "Genetic Resources"},
   { "slug": "onion_En", "name": "Onion Research Department", "image": "/images/departments/onion.png", "footerName" : "Onion"},
   { "slug": "fibers_En", "name": "Fibers Research Department", "image": "/images/departments/fibers.png", "footerName" : "Fibers"},
