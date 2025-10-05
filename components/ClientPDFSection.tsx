@@ -155,8 +155,8 @@ function PDFCard({ fileUrl, lang, onPreview, animation, preMeta }: PDFCardProps)
           </p>
           <p className="flex flex-col">
             {lang === 'ar'
-              ? <><span>حجم الملف:</span><span dir="ltr" className="mt-3">{pathname.includes("research") ? "0.42 MB" : pathname.includes("production") ? "16.25 MB" : meta.size}</span></>
-              : <><span> File Size:</span><span className="mt-3">{pathname.includes("research") ? "0.42 MB" : pathname.includes("production") ? "16.25 MB" : meta.size}</span></>
+              ? <><span>حجم الملف:</span><span dir="ltr" className="mt-3">{pathname.includes("research") ? "0.42 MB" : pathname.includes("production") ? "20.8 MB" : meta.size}</span></>
+              : <><span> File Size:</span><span className="mt-3">{pathname.includes("research") ? "0.42 MB" : pathname.includes("production") ? "19.25 MB" : meta.size}</span></>
             }
           </p>
         </div>
