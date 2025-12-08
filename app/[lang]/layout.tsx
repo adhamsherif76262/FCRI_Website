@@ -15,9 +15,10 @@ import { Geist} from 'next/font/google';
 import clsx from 'clsx';
 // import { Tajawal } from 'next/font/google';
 import { Amiri } from 'next/font/google';
-import { Metadata } from 'next';
+// import { Metadata } from 'next';
 import MobileNavbar from '@/components/MobileNavbar';
 import FuturisticFooter from '@/components/FuturisticFooter';
+// import { use } from "react";
 
 const metadataMap = {
   en: {
@@ -60,6 +61,10 @@ const amiri = Amiri({
   variable: '--font-arabic',
   weight: ['400', '700'], // You can customize weights as needed
 });
+const geist = Geist({
+  subsets: ['latin'],
+  variable: '--font-geist-sans',
+});
 
 // const tajawal = Tajawal({
 //   subsets: ['arabic'],
@@ -73,10 +78,6 @@ const amiri = Amiri({
 //   weight: ['400', '600', '700'],
 // });
 
-const geist = Geist({
-  subsets: ['latin'],
-  variable: '--font-geist-sans',
-});
 
 // const geistMono = Geist_Mono({
 //   subsets: ['latin'],
@@ -89,30 +90,33 @@ const geist = Geist({
 // };
 
 // export default async function RootLayout({children,params,}:LayoutProps<{ lang: string }>) 
-export default async function RootLayout({
+// export default async function RootLayout({children,params,}:LayoutProps) 
+export  default async function RootLayout({
   children,
   params,
 }: {
   children: ReactNode;
-  params: { lang: string };
-}) 
-{
+  params: Promise<{ lang: string }>;
+}){
     // ✅ Await anything (Next.js now considers params "safe")
   // await Promise.resolve();
   // const dir = (await params).lang === 'ar' ? 'rtl' : 'ltr';
   // const dir =  params.lang === 'ar' ? 'rtl' : 'ltr';
-  const dir =  params.lang === 'ar' ? 'rtl' : 'ltr';
+  // const {lang} = params
+  // const lang = params.lang
+  const lang = (await params).lang;
+  const dir = lang === 'ar' ? 'rtl' : 'ltr';
 
   return (
     // <html lang={params.lang} dir={dir}>
-    <html lang={params.lang} dir={dir}>
+    <html lang={lang} dir={dir}>
       <body  className={clsx(
         // cairo.variable,                // 👈 Arabic font variable
         // tajawal.variable,         // 👈 Arabic font
         amiri.variable,         // 👈 Arabic font
 
         geist.variable,                // 👈 Your existing font variable
-        params.lang === 'ar' ? 'font-arabic' : 'font-sans',  // 👈 Conditional font class
+        lang === 'ar' ? 'font-arabic' : 'font-sans',  // 👈 Conditional font class
         "bg_Body text-black bg-white transition-colors duration-300 overflow-x-hidden"
         )}
 
@@ -144,20 +148,25 @@ style={{
   );
 }
 
-export async function generateStaticParams() {
+export async function  generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'ar' }];
 }
 
-export async function generateMetadata(  {params,}: {params: { lang: string };
-}): Promise<Metadata> {
-  const lang = params.lang === 'ar' ? 'ar' : 'en';
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+    const lang = (await params).lang === 'ar' ? 'ar' : 'en';
+
+  // const lang = params.lang === 'ar' ? 'ar' : 'en';
   // const path = typeof window !== 'undefined'
     //  ? window.location.pathname.split('/')[2] || 'home'
   //   : 'home' ; 
     const path = 'home'; // You can customize based on route segment if needed
 
     {
-    console.log('[Metadata] lang:', params.lang); // 🔍 confirm it's running
+    console.log('[Metadata] lang:', lang); // 🔍 confirm it's running
 
   return {
     title: metadataMap[lang].title[path as keyof typeof metadataMap['en']['title']],
@@ -177,87 +186,62 @@ export async function generateMetadata(  {params,}: {params: { lang: string };
 }
 
 
-
-// // app/[lang]/layout.tsx
-// import '../globals.css';
-// import type { ReactNode } from 'react';
-// import { Geist } from 'next/font/google';
-// import { Amiri } from 'next/font/google';
-// import clsx from 'clsx';
-// import Container from '@/components/ui/Container';
-// import NavbarFuturistic from '@/components/NavbarFuturistic';
-// import MobileNavbar from '@/components/MobileNavbar';
-// import FuturisticFooter from '@/components/FuturisticFooter';
-// import { Metadata } from 'next';
-
-// const geist = Geist({ subsets: ['latin'], variable: '--font-geist-sans' });
-// const amiri = Amiri({ subsets: ['arabic'], variable: '--font-arabic', weight: ['400', '700'] });
-
-// export default function RootLayout({
+// export default async function RootLayout({
 //   children,
 //   params,
 // }: {
 //   children: ReactNode;
-//   params: { lang: string };
-// }) {
-//   const dir = params.lang === 'ar' ? 'rtl' : 'ltr';
+//   params: Promise<{ lang: string }>;
+// }){
+//   // const lang = params.lang === 'ar' ? 'ar' : 'en';
+//   const lang = (await params).lang;
+
+//   const dir = lang === 'ar' ? 'rtl' : 'ltr';
 
 //   return (
-//     <html lang={params.lang} dir={dir}>
+//     <html lang={lang} dir={dir}>
 //       <body
 //         className={clsx(
 //           amiri.variable,
 //           geist.variable,
-//           params.lang === 'ar' ? 'font-arabic' : 'font-sans',
-//           'bg-white text-black dark:bg-zinc-950 dark:text-white transition-colors duration-300'
+//           lang === 'ar' ? 'font-arabic' : 'font-sans',
+//           'bg-white text-black transition-colors duration-300 overflow-x-hidden'
 //         )}
 //       >
 //         <div className="hidden md:block">
 //           <NavbarFuturistic />
 //         </div>
+
 //         <div className="block md:hidden">
 //           <MobileNavbar />
 //         </div>
+
 //         <main className="flex-grow">
 //           <Container>{children}</Container>
 //         </main>
-//         <FuturisticFooter />
+
+//         <FuturisticFooter rtl={dir === 'rtl'} />
 //       </body>
 //     </html>
 //   );
 // }
 
-// // Optional — good practice for SSG
-// export async function generateStaticParams() {
+
+// Must remain synchronous
+
+// export function generateStaticParams() {
 //   return [{ lang: 'en' }, { lang: 'ar' }];
 // }
 
-// // ✅ Must match the latest Metadata type
+// Must remain synchronous — NO async, NO await, NO Promise in params
 // export async function generateMetadata({
-//   params,
+//   params
 // }: {
-//   params: { lang: string };
-// }): Promise<Metadata> {
-//   const lang = params.lang === 'ar' ? 'ar' : 'en';
-//   const path = 'home'; // Static fallback
-//   const metadataMap = {
-//     en: {
-//       title: {
-//         home: 'Home',
-//       },
-//       description: {
-//         home: 'Welcome to the Field Crops Research Institute.',
-//       },
-//     },
-//     ar: {
-//       title: {
-//         home: 'الرئيسية',
-//       },
-//       description: {
-//         home: 'مرحبًا بكم في معهد بحوث المحاصيل الحقلية.',
-//       },
-//     },
-//   };
+//   params: Promise<{ lang: string }>;
+// }) {
+//   // const lang = params.lang === 'ar' ? 'ar' : 'en';
+//   const lang = (await params).lang === 'ar' ? 'ar' : 'en';
+//   const path = 'home';
 
 //   return {
 //     title: metadataMap[lang].title[path],
@@ -268,27 +252,3 @@ export async function generateMetadata(  {params,}: {params: { lang: string };
 //     },
 //   };
 // }
-
-
-// // @ts-expect-error
-// // app/[lang]/layout.tsx
-// import type { ReactNode } from 'react';
-
-// export const metadata = {
-//   title: 'Default Title',
-// };
-
-// export default function Layout({
-//   children,
-//   params,
-// }: {
-//   children: ReactNode;
-//   params: { lang: string };
-// }) {
-//   return (
-//     <html lang={params.lang} dir={params.lang === 'ar' ? 'rtl' : 'ltr'}>
-//       <body>{children}</body>
-//     </html>
-//   );
-// }
-
