@@ -6,7 +6,7 @@
   "P2": "The Institute comprises 15 specialized departments covering all strategic field crops important to Egypt, including rice, wheat, maize (yellow and white), legumes, oilseed crops, barley, onions, forage crops, fiber crops, and crop physiology. It also includes departments for genetic engineering and crop intensification.",
   "P3_Title": "Key Research and Practical Achievements",
   "P3": "The Institute has successfully developed and registered over 300 varieties and hybrids of various crops, achieving 100% coverage of maize cultivation areas with resistant hybrids. It has also introduced superior varieties of onion, peanut, wheat, faba bean, soybean, and Egyptian clover. Additionally, it continuously updates technical recommendations in cooperation with the Agricultural Extension Service.",
-  "P5_Title": "Director of the Institute Prof. Dr. Alaa Khalil's Speech",
+  "P5_Title": "Director of the Institute Prof. Dr. Megahed Ammar's Speech",
   "P5": [
     "The Field Crops Research Institute is the beating heart of the Agricultural Research Center and plays a significant role in safeguarding Egypt’s food security and promoting sustainable agricultural development. The Institute comprises fifteen scientific departments responsible for its diverse activities. Research on various field crops began under the Plant Breeding Section between 1903 and 1959, later becoming the Field Crops Research Directorate (1959–1972), and eventually the FCRI in 1973. Throughout its history, the Institute has developed more than 350 high-yielding, stress-tolerant, climate-resilient, and high-quality varieties and hybrids.",
     "Among its most notable achievements is the widespread cultivation of high-yielding, rust-resistant wheat varieties, especially against yellow rust, along with the development of black rust-resistant varieties. The Institute has also promoted wheat ridge planting, saving 25% of irrigation water and increasing seed and land use efficiency. It has introduced early-maturing, high-yielding, and water-efficient rice varieties, maintaining total production from smaller areas to conserve irrigation water for horizontal expansion projects and other summer crops.",
@@ -42,7 +42,7 @@
     "id": "1",
     "title": "Development and registration of nearly 360 varieties and hybrids of different field crops.",
     "description": "",
-    "priority": "high",
+    "priority": "low",
     "icon": "zap"
   },
   {
@@ -56,7 +56,7 @@
     "id": "3",
     "title": "Implementation of nearly 100,000 demonstration fields and around 3,000 farmer field schools across the country.",
     "description": "",
-    "priority": "low",
+    "priority": "medium",
     "icon": "award"
   },
   {
@@ -70,14 +70,14 @@
     "id": "5",
     "title": "The institute publishes more than 200 international and local research papers annually.",
     "description": "",
-    "priority": "medium",
+    "priority": "low",
     "icon": "zap"
   },
   {
     "id": "6",
     "title": "The institute has implemented nearly 30 academic research projects in collaboration with international and local entities.",
     "description": "",
-    "priority": "high",
+    "priority": "medium",
     "icon": "users"
   }
 ],

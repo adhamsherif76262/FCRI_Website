@@ -21,6 +21,29 @@
 //   WandSparkles
 // } from 'lucide-react';
 
+// const iconMap = {
+//   check: <CheckCircle2 className="text-cyan-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   dot: <Dot className="text-cyan-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   star: <Star className="text-yellow-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   bolt: <Zap className="text-indigo-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   circle: <Circle className="text-gray-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   trophy: <Trophy className="text-amber-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   arrowRight: <ArrowRight className="text-teal-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   arrowLeft: <ArrowLeft className="text-teal-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   flame: <Flame className="text-red-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   alertTriangle: <AlertTriangle className="text-orange-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   info: <Info className="text-blue-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   shieldCheck: <ShieldCheck className="text-emerald-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   lightbulb: <Lightbulb className="text-yellow-300 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   hammer: <Hammer className="text-gray-300 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   beaker: <Beaker className="text-purple-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   bookOpen: <BookOpen className="text-indigo-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   leaf: <Leaf className="text-green-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   globe: <Globe className="text-sky-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
+//   wandSparkles: <WandSparkles className="text-fuchsia-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />
+// };
+
+
 import clsx from "clsx";
 
 type Props = {
@@ -52,27 +75,6 @@ type Props = {
   |"wandSparkles"
 };
 
-// const iconMap = {
-//   check: <CheckCircle2 className="text-cyan-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   dot: <Dot className="text-cyan-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   star: <Star className="text-yellow-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   bolt: <Zap className="text-indigo-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   circle: <Circle className="text-gray-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   trophy: <Trophy className="text-amber-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   arrowRight: <ArrowRight className="text-teal-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   arrowLeft: <ArrowLeft className="text-teal-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   flame: <Flame className="text-red-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   alertTriangle: <AlertTriangle className="text-orange-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   info: <Info className="text-blue-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   shieldCheck: <ShieldCheck className="text-emerald-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   lightbulb: <Lightbulb className="text-yellow-300 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   hammer: <Hammer className="text-gray-300 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   beaker: <Beaker className="text-purple-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   bookOpen: <BookOpen className="text-indigo-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   leaf: <Leaf className="text-green-500 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   globe: <Globe className="text-sky-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />,
-//   wandSparkles: <WandSparkles className="text-fuchsia-400 sm:mt-5 xxxs:mt-2 shrink-0 xs:w-7  xs:h-7 xxxs:h-5 xxxs:w-5" />
-// };
 
 // export default function FuturisticBulletSection({ title, bullets, rtl = false , icon = 'check',grid = false}: Props) {
 export default function FuturisticBulletSection({ title, bullets, rtl = false}: Props) {
@@ -81,7 +83,7 @@ export default function FuturisticBulletSection({ title, bullets, rtl = false}: 
     return (
     <section
       dir={rtl ? 'rtl' : 'ltr'}
-      className="w-full px-4 sm:px-6 lg:px-12 py-12 rounded-3xl shadow-2xl xl:min-width mx-auto bg_Beige font-black"
+      className="w-full px-4 sm:px-6 lg:px-12 py-12 rounded-3xl shadow-2xl xl:min-wsidth mx-auto bg_Beige font-black"
     >
       <h2 className={clsx(
         "font-black text-cyan-400 mb-6 tracking-wider text-center bg_Green",

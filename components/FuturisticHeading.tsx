@@ -7,7 +7,7 @@ type Props = {
 
 export default function FuturisticHeading({ children, rtl = false, center = true }: Props) {
   return (
-      <div className="bg-white rounded-3xl shadow-2xl h-a mt-6">
+      <div className="bg-gray-100 bg_Bseige rounded-3xl shadow-2xl h-a mt-6 max-w-fit mx-auto">
             <h1
             dir={rtl ? 'rtl' : 'ltr'}
             className={`

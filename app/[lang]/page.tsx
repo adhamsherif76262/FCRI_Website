@@ -4,18 +4,19 @@
 import { usePathname } from "next/navigation";
 import enHome from '@/locales/en/Home_En.json';
 import arHome from '@/locales/ar/Home_Ar.json';
-import FuturisticBulletSection from "@/components/FuturisticBulletSection";
+// import FuturisticBulletSection from "@/components/FuturisticBulletSection";
 import FuturisticParagraphSection from "@/components/FuturisticParagraphSection";
 import FuturisticHeading from "@/components/FuturisticHeading";
 import ParagraphStickyImage from "@/components/ParagraphStickyImage";
 import Marquee3D from "@/components/Marquee3D";
 import AnimatedCounter, { CounterData } from "@/components/AnimatedCounters";
-import HexagonalMissionList from "@/components/hexagonal-mission-list";
+// import HexagonalMissionList from "@/components/hexagonal-mission-list";
 // import CircularNetworkList from "@/components/circular-network-list";
-import LayeredVisionList from "@/components/layered-vision-list";
+// import LayeredVisionList from "@/components/layered-vision-list";
 // import TimeLineList from "@/components/timeline-list";
 // import OrganicPlantList from "@/components/organic-plant-list";
-import clsx from "clsx";
+// import clsx from "clsx";
+import UnifiedTabsSection from "@/components/UnifiedTabsSection";
 // import TreeBranchHirarchyList from "@/components/tree-branch-hierarchy-list";
 // import FlowingAchievementsList from "@/components/flowing-achievements-list";
 // import {Department_Mission_Inner} from "@/locales/ar/departments/cell-biology_Ar.json"
@@ -61,7 +62,7 @@ export default function Home() {
     {/* <OrganicPlantList language={currentLang}/> */}
     {/* <TimeLineList items={[]} /> */}
     {/* <TreeBranchHirarchyList items={[]} /> */}
-
+    
       <FuturisticHeading rtl={isRTL}>
         {currentLang === 'ar' ? "معهد بحوث المحاصيل الحقلية" : "Field Crops Research Institute"}
       </FuturisticHeading>
@@ -74,78 +75,6 @@ export default function Home() {
               rtl={isRTL}
             />
       </div>
-
-      <div className="mt-8">
-      <FuturisticBulletSection
-                title={t.B2_Title}
-                bullets={t.B2}
-                grid ={true}
-                icon="bookOpen" // or "dot", "star", "bolt", etc.
-                rtl={isRTL}
-              />
-      </div>
-      
-          <FuturisticHeading rtl={isRTL}>
-            {t.B6_Title}
-          </FuturisticHeading>
-          <LayeredVisionList isArabic={isRTL} items={t.B6} />
-
-      {/* <div className="mt-8">
-
-            <FuturisticParagraphSection
-              title={t.P2_Title}
-              paragraphs={[t.P2]}
-              rtl={isRTL}
-            />
-      </div> */}
-
-
-      <FuturisticHeading rtl={isRTL}>
-        {t.B5_Title}
-      </FuturisticHeading>
-        <div className="font-black w-full mt-12 rounded-3xl shadow-2xl border border-cyan-700/40 xl:min-width bg_Beige">
-          <h3 className={clsx(
-            "xxxs:py-4 sm:py-8 text-center",
-            isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
-          )}>{isRTL ? "تخصصات المحاصيل" : "Crop Specializations"}</h3>
-          <ol className="grid md:grid-cols-6  xxxs:grid-cols-2 gap-2">
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الحبوب" : "• Cereals"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البقول" : "• Legumes"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الزيوت" : "• Oil Crops"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الالياف" : "• Fibers"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• العلف" :  "• Fodder"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البصل" :  "• Onion"}</li>
-          </ol>
-          <h3 className={clsx(
-            "xxxs:py-4 sm:py-8 text-center",
-            isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
-          )}>{isRTL ? "التخصصات الفنية" : "Technical Specializations"}</h3>
-          <ol className="grid lg:grid-cols-4 xxs:grid-cols-2 xxxs:grid-cols-1 gap-y-2 sm:gap-x-8 xs:gap-x-1 xxs:gap-x-0 mb-10">
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• دراسة الخلية" : "• Cell Studies"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• فسسولوجيا المحاصيل" : "• Cell Physiology"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• تكنولوجيا البذور" : "• Seed Technology"}</li>
-            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الاصول الوراثيه" : "• Genetic Resources"}</li>
-          </ol>
-        </div>
-        
-      <FuturisticHeading rtl={isRTL}>
-        {t.B3_Title}
-      </FuturisticHeading>
-
-    <HexagonalMissionList isArabic={isRTL} items={t.B3}></HexagonalMissionList>
-
-      {/* <div className="mt-8">
-
-            <FuturisticParagraphSection
-              title={t.P3_Title}
-              paragraphs={[t.P3]}
-              rtl={isRTL}
-            />
-      </div> */}
-<div className="xxxs:min-w-[100%]">
-  
-<AnimatedCounter counters={myCounters}/>
-</div>
 
     <div className="mt-10 max-width">
       <FuturisticHeading rtl={isRTL}>
@@ -178,6 +107,111 @@ export default function Home() {
       />
     </div>
 
+    
+{/* 
+      <div className="mt-8">
+      <FuturisticBulletSection
+                title={t.B2_Title}
+                bullets={t.B2}
+                grid ={true}
+                icon="bookOpen" // or "dot", "star", "bolt", etc.
+                rtl={isRTL}
+              />
+      </div> */}
+      
+          {/* <FuturisticHeading rtl={isRTL}>
+            {t.B6_Title}
+          </FuturisticHeading>
+          <LayeredVisionList isArabic={isRTL} items={t.B6} /> */}
+
+      {/* <div className="mt-8">
+
+            <FuturisticParagraphSection
+              title={t.P2_Title}
+              paragraphs={[t.P2]}
+              rtl={isRTL}
+            />
+      </div> */}
+
+
+      {/* <FuturisticHeading rtl={isRTL}>
+        {t.B5_Title}
+      </FuturisticHeading>
+        <div className="font-black w-full mt-12 rounded-3xl shadow-2xl border border-cyan-700/40 xl:min-width bg_Beige">
+          <h3 className={clsx(
+            "xxxs:py-4 sm:py-8 text-center",
+            isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
+          )}>{isRTL ? "تخصصات المحاصيل" : "Crop Specializations"}</h3>
+          <ol className="grid md:grid-cols-6  xxxs:grid-cols-2 gap-2">
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الحبوب" : "• Cereals"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البقول" : "• Legumes"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الزيوت" : "• Oil Crops"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الالياف" : "• Fibers"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• العلف" :  "• Fodder"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• البصل" :  "• Onion"}</li>
+          </ol>
+          <h3 className={clsx(
+            "xxxs:py-4 sm:py-8 text-center",
+            isRTL ? "xxxs:text-3xl xs:text-3xl sm:text-4xl" : "xxxs:text-xl xxs:text-2xl md:text-2xl lg:text-3xl"
+          )}>{isRTL ? "التخصصات الفنية" : "Technical Specializations"}</h3>
+          <ol className="grid lg:grid-cols-4 xxs:grid-cols-2 xxxs:grid-cols-1 gap-y-2 sm:gap-x-8 xs:gap-x-1 xxs:gap-x-0 mb-10">
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• دراسة الخلية" : "• Cell Studies"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• فسسولوجيا المحاصيل" : "• Cell Physiology"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• تكنولوجيا البذور" : "• Seed Technology"}</li>
+            <li className={`bg_Gray hover:text-black ${isRTL ? "sm:text-3xl xxxs:text-2xl"  : "xxs:text-xl xxxs:text-md"}`}>{isRTL ? "• الاصول الوراثيه" : "• Genetic Resources"}</li>
+          </ol>
+        </div>
+        
+      <FuturisticHeading rtl={isRTL}>
+        {t.B3_Title}
+      </FuturisticHeading>
+
+    <HexagonalMissionList isArabic={isRTL} items={t.B3}></HexagonalMissionList> */}
+
+      {/* <div className="mt-8">
+
+            <FuturisticParagraphSection
+              title={t.P3_Title}
+              paragraphs={[t.P3]}
+              rtl={isRTL}
+            />
+      </div> */}
+<div className="xxxs:min-w-[100%]">
+  
+<AnimatedCounter counters={myCounters}/>
+</div>
+
+    {/* <div className="mt-10 max-width">
+      <FuturisticHeading rtl={isRTL}>
+        {currentLang === 'ar' ? "نحو اصناف وهجن تتحدي التغيرات المناخية" : "Towards varieties and hybrids that challenge climate change"}
+      </FuturisticHeading>
+      <Marquee3D 
+        // isRTL={isRTL}
+        images={[
+          "/images/Home Hybrids/hybrid_1.jpg",
+          "/images/Home Hybrids/hybrid_2.jpg",
+          "/images/Home Hybrids/hybrid_3.png",
+          "/images/Home Hybrids/hybrid_4.jpg",
+          "/images/Home Hybrids/hybrid_5.png",
+          "/images/Home Hybrids/hybrid_6.png",
+          "/images/Home Hybrids/hybrid_7.png",
+          "/images/Home Hybrids/hybrid_8.png",
+          "/images/Home Hybrids/hybrid_9.png",
+          "/images/Home Hybrids/hybrid_10.png",
+          "/images/Home Hybrids/hybrid_11.jpg",
+          "/images/Home Hybrids/hybrid_12.jpg",
+          "/images/Home Hybrids/hybrid_13.jpg",
+          "/images/Home Hybrids/hybrid_14.jpg",
+          "/images/Home Hybrids/hybrid_15.png",
+          "/images/Home Hybrids/hybrid_16.png",
+          "/images/Home Hybrids/hybrid_17.png",
+          "/images/Home Hybrids/hybrid_18.jpg",
+          "/images/Home Hybrids/hybrid_19.jpg",
+          "/images/Home Hybrids/hybrid_20.jpg"
+        ]}
+      />
+    </div> */}
+
 
 
     <div className="mt-10 xxxs:min-w-[100%] mb-10">
@@ -189,6 +223,7 @@ export default function Home() {
        rtl={isRTL}/>
     </div>
 
+    <UnifiedTabsSection t={t} isArabic={isRTL}></UnifiedTabsSection>
 
       <FuturisticHeading rtl={isRTL}>
         {t.B4_Title}

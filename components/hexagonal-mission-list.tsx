@@ -244,7 +244,7 @@ export default function HexagonalMissionList({ items = [] , isArabic}: Hexagonal
   }
 
   return (
-    <div className="relative p-2 sm:p-4 lg:p-8 mt-12" dir={isArabic ? "rtl" : "ltr"}>
+    <div className="relative p-2 sm:p-4 lg:p-8" dir={isArabic ? "rtl" : "ltr"}>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div
@@ -281,7 +281,7 @@ export default function HexagonalMissionList({ items = [] , isArabic}: Hexagonal
                   {/* Title */}
                   <h3 className={clsx(
                     "font-black px-8 mb-2 sm:mb-3 group-hover:scale-105 transition-transform duration-1000",
-                    isArabic ? "xxxs:text-xl sm:text-2xl" : "sm:text-lg xxxs:text-md"
+                    isArabic ? "xxxs:text-xl sm:text-2xl" : "xxxs:text-md"
                   )}>
                     {item.title}
                   </h3>
@@ -309,7 +309,9 @@ export default function HexagonalMissionList({ items = [] , isArabic}: Hexagonal
             {/* Priority Indicator */}
             <div className="absolute top-2 right-2 sm:top-4 sm:right-4 z-10">
               <div
-                className={`px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs font-semibold text-white bg-gradient-to-r ${getPriorityColors(item.priority)}`}
+                className={`px-2 py-1 sm:px-3 sm:py-1 rounded-full text-md font-semibold text-white bg-gradient-to-r bg-black 
+                  //${getPriorityColors(item.priority)}
+                `}
               >
                 {/* {item.priority === "high" ? "عالية" : item.priority === "medium" ? "متوسطة" : "منخفضة"} */}
                 {item.id}

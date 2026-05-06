@@ -1388,6 +1388,11 @@ body {
       background-color: rgb(0, 0, 97);
     }
     .bg_Body{
+      background-color: white;
+      /* background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXk3MXpjZWt3bW5ydmUyMXdxNGZ4aTVkd282bmt1bXY2N2o4ajRjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZnKdSM5piRLDW/giphy.gif');
+      background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXRqdnprcWd5b2lic2t6YWk1eHZ5c3Q5Mmc4bjBwdTBzNHQ5dXpyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aRZ4vTsHnyW6A/giphy.gif');
+      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xVn3ZmKrKIOLS/giphy.gif'); */
+      /* background-color: rgb(0, 0, 0); */
       /* background-color: rgb(0, 0, 0); */
       /* background-position: center;
       background-repeat: repeat;
@@ -1395,27 +1400,24 @@ body {
       /* height: 100vh; */
       /* width: 100vw; */
       /* background-image: url(''); */
-      /* background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXk3MXpjZWt3bW5ydmUyMXdxNGZ4aTVkd282bmt1bXY2N2o4ajRjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZnKdSM5piRLDW/giphy.gif');
-      background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXRqdnprcWd5b2lic2t6YWk1eHZ5c3Q5Mmc4bjBwdTBzNHQ5dXpyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aRZ4vTsHnyW6A/giphy.gif');
-      background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2hvYW1lNjE1emNnY2pvd3ozZTBqMTR6Mm12Y3lmMWc4Z2Z5c3d6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OK5LK5zLFfdm/giphy.gif');
-      background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamp2b3cxNmt0d2pod3RlcmJkMmJ0Mmc2amxwcTBpenJhb2k4Znl0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif');
-      background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZrbGl6bzR6eWU3bmFyZHdmNzN5ZzdvejFrcjU2bjh6dTN0dHdnYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hh9sPYeSWhAUx6NDBM/giphy.gif');
-      background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExajhjaDIwcDRzbndyMGlkazVubGo1a3B0dHhmb2lneHR0cWJnMTB3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/73WrT6n6yoVfq/giphy.gif');
-      background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3lnZWJldWg4cnIwcndscGZ6djB0cHo1cmoxb2VrNHgwZDVoYTJ4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DvyxIpxw9cCuQ/giphy.gif');
-      background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3I4a2hvNnZiZHgwa2dkbWt6NW9zcWhzeGF3NDY0cHlmNHoxZTIyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgkiK459Cvd5tIs/giphy.gif');
-      background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTBmMzViemJ0ODZheWhuOWl6aW44bXY1ZHZkb3FkM2dweTI1a290YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YGSpb7oIhENa/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bm1iNTJ6ZnpqZWN2bnN4dTl2ZTVzcDd6ZWcyZnFzejR4NjZnN3cyYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xfujpOBMPamGCDs3QR/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Mzhnc3o3bzlmdmZ4c3QwdjNpbGt2NTBycmYwMDhxZDg3OWJudG1hNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6fIPKZvhaCEZ7xTi/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xVn3ZmKrKIOLS/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dWxnaG52cmZlanhqMTYxdGFvaW9jMGtnZnowM2gwdTh0OG5nemR6ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2Yd20hCO1XE9YBAUJw/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YkU3itFsLRZ8EE/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xUOxeSTrDP4vsF2TXq/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kYwJl2ri9cvc7r0vdo/giphy.gif');
-      background-image: url('../public/images/abstract-uv-ultraviolet-light-composition.jpg');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JoVV55m3KZHdxlpFZ6/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fSRQtBAzrPokPCItuu/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3V6MG5pdXp0dGJnMWZ5Y21zcW9teHBreGl1dGo2YWFkeGpkZWVqYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l9sRvKO1UThHSCZr3T/giphy.gif');
-      background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MjJ5eGUxb2Z4Ym0xOXB5NWYxZGZrMmhmM3NsY2x5c3kxM29sZ3FndiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5FM34bwCph7q4lnuhZ/giphy.gif'); */
+      /* background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2hvYW1lNjE1emNnY2pvd3ozZTBqMTR6Mm12Y3lmMWc4Z2Z5c3d6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OK5LK5zLFfdm/giphy.gif'); */
+      /* background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamp2b3cxNmt0d2pod3RlcmJkMmJ0Mmc2amxwcTBpenJhb2k4Znl0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif'); */
+      /* background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZrbGl6bzR6eWU3bmFyZHdmNzN5ZzdvejFrcjU2bjh6dTN0dHdnYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hh9sPYeSWhAUx6NDBM/giphy.gif'); */
+      /* background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExajhjaDIwcDRzbndyMGlkazVubGo1a3B0dHhmb2lneHR0cWJnMTB3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/73WrT6n6yoVfq/giphy.gif'); */
+      /* background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3lnZWJldWg4cnIwcndscGZ6djB0cHo1cmoxb2VrNHgwZDVoYTJ4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DvyxIpxw9cCuQ/giphy.gif'); */
+      /* background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3I4a2hvNnZiZHgwa2dkbWt6NW9zcWhzeGF3NDY0cHlmNHoxZTIyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgkiK459Cvd5tIs/giphy.gif'); */
+      /* background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTBmMzViemJ0ODZheWhuOWl6aW44bXY1ZHZkb3FkM2dweTI1a290YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YGSpb7oIhENa/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bm1iNTJ6ZnpqZWN2bnN4dTl2ZTVzcDd6ZWcyZnFzejR4NjZnN3cyYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xfujpOBMPamGCDs3QR/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Mzhnc3o3bzlmdmZ4c3QwdjNpbGt2NTBycmYwMDhxZDg3OWJudG1hNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6fIPKZvhaCEZ7xTi/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dWxnaG52cmZlanhqMTYxdGFvaW9jMGtnZnowM2gwdTh0OG5nemR6ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2Yd20hCO1XE9YBAUJw/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l41YkU3itFsLRZ8EE/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xUOxeSTrDP4vsF2TXq/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kYwJl2ri9cvc7r0vdo/giphy.gif'); */
+      /* background-image: url('../public/images/abstract-uv-ultraviolet-light-composition.jpg'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JoVV55m3KZHdxlpFZ6/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdxOHo0NmZsdnhhN2dtcDZkbnR4bGw1eDg3MHkzNHVjcGM5dW91dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fSRQtBAzrPokPCItuu/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3V6MG5pdXp0dGJnMWZ5Y21zcW9teHBreGl1dGo2YWFkeGpkZWVqYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l9sRvKO1UThHSCZr3T/giphy.gif'); */
+      /* background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MjJ5eGUxb2Z4Ym0xOXB5NWYxZGZrMmhmM3NsY2x5c3kxM29sZ3FndiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5FM34bwCph7q4lnuhZ/giphy.gif'); */
       /* background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzc5MnZvemI0ZjMzcGJ4Mzg2bWE1MGF0dTYxb3oxbG5wbWRrcWsxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ql4RdCMLHEsBAfcIY1/giphy.gif');
       background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MjJ5eGUxb2Z4Ym0xOXB5NWYxZGZrMmhmM3NsY2x5c3kxM29sZ3FndiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lHAZSr1czyJzXJFgVo/giphy.gif');
       background-image: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MjJ5eGUxb2Z4Ym0xOXB5NWYxZGZrMmhmM3NsY2x5c3kxM29sZ3FndiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LLYMoDblVhhjvjRBtj/giphy.gif');
