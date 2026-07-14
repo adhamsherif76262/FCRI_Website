@@ -47,13 +47,13 @@ export default function NavbarFuturistic() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-green-300 bg-black shadow-xl backdrop-blur-lg">
+    <header className="sticky top-0 z-50 w-full border-b border-green-300 bg-black bg_Beiges shadow-xl backdrop-blur-lg">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="relative group w-[100px] h-[100px] cursor-pointer">
           <div className="relative w-full h-full rounded-full ring-4 ring-green-300 group-hover:ring-green-300 dark:invert shadow-md transition-all duration-700 group-hover:ring-[12px] group-hover:shadow-cyan-500/40 animate-ripple-fade-in">
             <Image
-              src="/images/logos/FCRI_Logo.jpg"
+              src="/images/logos/FCRI_LOGO.jpg"
               alt="FCRI Logo"
               width={100}
               height={100}

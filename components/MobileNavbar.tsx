@@ -82,7 +82,7 @@ useEffect(() => {
             )}>
                   <div className="relative w-full h-full rounded-full ring-4 ring-black group-hover:ring-black dark:invert shadow-md transition-all duration-700 group-hover:ring-[12px] group-hover:shadow-cyan-500/40 animate-ripple-fade-in">
                     <Image
-                      src="/images/logos/FCRI_Logo.jpg"
+                      src="/images/logos/FCRI_LOGO.jpg"
                       alt="FCRI Logo"
                       width={100}
                       height={100}
